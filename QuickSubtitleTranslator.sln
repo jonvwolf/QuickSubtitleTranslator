@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSubtitleTranslator", "QuickSubtitleTranslator\QuickSubtitleTranslator.csproj", "{1C075EFB-86E4-42A0-ABA4-65EF105D0542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.GoogleApi", "QuickSubtitleTranslator.GoogleApi\QuickSubtitleTranslator.GoogleApi.csproj", "{EB31B682-6188-4535-9A79-9767BECB98E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.MicrosoftApi", "QuickSubtitleTranslator.MicrosoftApi\QuickSubtitleTranslator.MicrosoftApi.csproj", "{085CD292-D872-4C9C-9FE4-FDDA8410C565}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C075EFB-86E4-42A0-ABA4-65EF105D0542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C075EFB-86E4-42A0-ABA4-65EF105D0542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C075EFB-86E4-42A0-ABA4-65EF105D0542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C075EFB-86E4-42A0-ABA4-65EF105D0542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB31B682-6188-4535-9A79-9767BECB98E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB31B682-6188-4535-9A79-9767BECB98E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB31B682-6188-4535-9A79-9767BECB98E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB31B682-6188-4535-9A79-9767BECB98E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{085CD292-D872-4C9C-9FE4-FDDA8410C565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{085CD292-D872-4C9C-9FE4-FDDA8410C565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{085CD292-D872-4C9C-9FE4-FDDA8410C565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{085CD292-D872-4C9C-9FE4-FDDA8410C565}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1492AD5-C4AA-4C4F-9190-29E6FFD5D161}
+	EndGlobalSection
+EndGlobal
