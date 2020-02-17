@@ -7,7 +7,7 @@ namespace QuickSubtitleTranslator.MicrosoftApi
 {
     public class MicrosoftTranslator : ITranslationService
     {
-        public string[] Translate(string from, string to, string[] lines)
+        public IList<string> Translate(string from, string to, IList<string> lines)
         {
             return null;
         }

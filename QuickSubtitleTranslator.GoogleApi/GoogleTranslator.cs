@@ -7,8 +7,9 @@ namespace QuickSubtitleTranslator.GoogleApi
 {
     public class GoogleTranslator : ITranslationService
     {
-        public string[] Translate(string from, string to, string[] lines)
+        public IList<string> Translate(string from, string to, IList<string> lines)
         {
+            //TODO add delay/sleep
             return null;
         }
     }
