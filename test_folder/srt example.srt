@@ -9,3 +9,15 @@ This is a subtitle in American English
 3
 00:00:10,000 --> 00:00:14,000
 Adding subtitles is very easy to do
+
+4
+00:00:15,000 --> 00:00:16,000
+Adding Iñtërnâtiônàlizætiøn will it work?
+Hola
+
+5
+00:00:17,000 --> 00:00:20,000
+<b>Adding Iñtërnâtiônàlizætiøn will it work?</b>
+Hola
+
+This is another line

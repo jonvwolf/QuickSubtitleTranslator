@@ -1,11 +1,20 @@
+# A quick subtitle file translator
+A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, etc.) using Google and Microsoft APIs translator services.
+
 # Instructions
 
 ## Setup language translator services
 
-### Google API
-Free 500k characters
+### Google API steps
+- Create a Google cloud account
+- Create a project
+- Enable Cloud Translation API
+- Create API key or Google JSON credentials
+
+**Note**: Free 500k characters
+
 ### Microsoft API
-Free 2 million characters
+**Note**: Free 2 million characters
 
 ## Command line
 --path "folder_that_has_subtitles" --output-folder "folder_that_will_have_translated_files" --from-lang "en" --to-lang "es" --api "Google"
@@ -20,7 +29,6 @@ Free 2 million characters
 
 ### Optional
 `overwrite`: Default true. Overwrite translated subtitles files
-`frameRateForMicroDvd`: Needed to translate microdvd (.sub) files. Framerate of subtitle files
 
 # Supported files
 - srt (SubRip)
@@ -31,5 +39,5 @@ Free 2 million characters
 - xml (youtube subtitle)
 (It uses library https://github.com/AlexPoint/SubtitlesParser to parse)
 
-# This work uses:
+# This work uses
 https://github.com/AlexPoint/SubtitlesParser to parse subtitle files (MIT License)

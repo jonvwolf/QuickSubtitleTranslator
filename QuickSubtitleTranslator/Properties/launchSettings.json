@@ -1,8 +1,7 @@
 {
   "profiles": {
     "QuickSubtitleTranslator": {
-      "commandName": "Project",
-      "commandLineArgs": "--path \"..\\..\\..\\..\\test_folder\" --output-folder \"sub_output\" --from-lang \"en\" --to-lang \"es\" --api \"Google\""
+      "commandName": "Project"
     }
   }
 }

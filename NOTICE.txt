@@ -1,0 +1,5 @@
+This product contains work from:
+
+--------------------------------------------------------------------
+https://github.com/AlexPoint/SubtitlesParser to parse subtitle files (MIT License)
+--------------------------------------------------------------------

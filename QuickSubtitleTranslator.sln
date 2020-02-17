@@ -5,9 +5,18 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSubtitleTranslator", "QuickSubtitleTranslator\QuickSubtitleTranslator.csproj", "{1C075EFB-86E4-42A0-ABA4-65EF105D0542}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.GoogleApi", "QuickSubtitleTranslator.GoogleApi\QuickSubtitleTranslator.GoogleApi.csproj", "{EB31B682-6188-4535-9A79-9767BECB98E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSubtitleTranslator.GoogleApi", "QuickSubtitleTranslator.GoogleApi\QuickSubtitleTranslator.GoogleApi.csproj", "{EB31B682-6188-4535-9A79-9767BECB98E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.MicrosoftApi", "QuickSubtitleTranslator.MicrosoftApi\QuickSubtitleTranslator.MicrosoftApi.csproj", "{085CD292-D872-4C9C-9FE4-FDDA8410C565}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSubtitleTranslator.MicrosoftApi", "QuickSubtitleTranslator.MicrosoftApi\QuickSubtitleTranslator.MicrosoftApi.csproj", "{085CD292-D872-4C9C-9FE4-FDDA8410C565}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CF4FEF7E-A16B-4834-9D6C-31C4FF223172}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.IntegrationTests", "QuickSubtitleTranslator.IntegrationTests\QuickSubtitleTranslator.IntegrationTests.csproj", "{DB18B324-30EB-4C77-B99F-32CA9471A570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.Common", "QuickSubtitleTranslator.Common\QuickSubtitleTranslator.Common.csproj", "{A3E2CF7B-52D3-4FED-B6EC-E30A18D4B6DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +36,14 @@ Global
 		{085CD292-D872-4C9C-9FE4-FDDA8410C565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{085CD292-D872-4C9C-9FE4-FDDA8410C565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{085CD292-D872-4C9C-9FE4-FDDA8410C565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB18B324-30EB-4C77-B99F-32CA9471A570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB18B324-30EB-4C77-B99F-32CA9471A570}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB18B324-30EB-4C77-B99F-32CA9471A570}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB18B324-30EB-4C77-B99F-32CA9471A570}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3E2CF7B-52D3-4FED-B6EC-E30A18D4B6DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E2CF7B-52D3-4FED-B6EC-E30A18D4B6DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E2CF7B-52D3-4FED-B6EC-E30A18D4B6DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E2CF7B-52D3-4FED-B6EC-E30A18D4B6DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
