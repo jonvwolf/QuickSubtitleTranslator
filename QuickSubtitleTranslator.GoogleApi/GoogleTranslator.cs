@@ -30,7 +30,7 @@ namespace QuickSubtitleTranslator.GoogleApi
                         Console.WriteLine("Translating using Google API... chunks of 128 blocks...");
                         Console.WriteLine("Text peek: " + tempBlocks.Last());
                         var resp = client.TranslateText(tempBlocks, to, from, TranslationModel.NeuralMachineTranslation);
-                        result.AddRange(resp.Select(x => x.TranslatedText).ToList());
+                        result.AddRange(resp.Select(x => x.TranslatedText));
                         Console.WriteLine("Translated text peek: " + result.Last());
                         blocks = 0;
                         tempBlocks.Clear();

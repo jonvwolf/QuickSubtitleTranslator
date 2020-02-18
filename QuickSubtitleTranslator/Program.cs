@@ -93,7 +93,13 @@ namespace QuickSubtitleTranslator
         public static void Main(string path, string outputFolder, string fromLang, string toLang, APIType api, string apiKey, bool overwrite = true)
         {
             ShowNotice();
-            
+
+            Console.WriteLine("Version v1-alpha");
+            Console.WriteLine("Github url: https://github.com/jonwolfdev/QuickSubtitleTranslator");
+            Console.WriteLine("License: MIT License (read License.txt file)");
+            Console.WriteLine("This app contains work from (read NOTICE.txt file): https://github.com/AlexPoint/SubtitlesParser");
+            Console.WriteLine();
+
             Console.WriteLine($"Path = {path}");
             Console.WriteLine($"Output = {outputFolder}");
             Console.WriteLine($"From language = {fromLang}");
@@ -215,6 +221,9 @@ namespace QuickSubtitleTranslator
 
                         Console.WriteLine($"Writing to a new SRT file... {fullPathNewFile}");
                         File.WriteAllText(fullPathNewFile, sb.ToString());
+                        Console.WriteLine("End");
+                        Console.WriteLine("=============================================================");
+                        Console.WriteLine();
                     }
                     catch (FormatException ex)
                     {

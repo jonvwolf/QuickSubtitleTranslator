@@ -9,14 +9,26 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - Create a Google cloud account
 - Create a project
 - Enable Cloud Translation API
-- Create API key or Google JSON credentials
-
+- Create API key
+- (For testing only) Create system environment variable:
+    - name: qsubtranslator_google_key
+    - value: value#api_key_value_goes_here
 - Set your limits based on your subtitles files
 
 **Note**: Free 500k characters
 
 ### Microsoft API
+- Create azure account
+- Create cognitive translator text resource
+- Copy Api Key
+- (For testing only) Create system environment variable:
+    - name: qsubtranslator_microsoft_key
+    - value: value#api_key_value_goes_here
+
 **Note**: Free 2 million characters
+
+## Remarks
+This application needs polishing. Code was rushed so it needs refactoring. There are several improvements to be done but for now, it gets the job done.
 
 ## Command line
 --path "folder_that_has_subtitles" --output-folder "folder_that_will_have_translated_files" --from-lang "en" --to-lang "es" --api "Google"
@@ -39,6 +51,7 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - ttml (timed text markup language)
 - vtt (webvtt subtitle)
 - xml (youtube subtitle)
+
 (It uses library https://github.com/AlexPoint/SubtitlesParser to parse)
 
 # This work uses
