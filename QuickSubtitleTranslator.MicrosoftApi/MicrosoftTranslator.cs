@@ -7,8 +7,10 @@ namespace QuickSubtitleTranslator.MicrosoftApi
 {
     public class MicrosoftTranslator : ITranslationService
     {
-        public IList<string> Translate(string from, string to, IList<string> lines)
+        public IList<string> Translate(string from, string to, IList<string> lines, string apiKey)
         {
+            //TODO delay
+            //TODO see limits per api request
             return null;
         }
     }

@@ -88,8 +88,9 @@ namespace QuickSubtitleTranslator
         /// <param name="fromLang">Source language</param>
         /// <param name="toLang">Translate to</param>
         /// <param name="api">Which service provider to use</param>
+        /// <param name="apiKey">API key for service provider</param>
         /// <param name="overwrite">Overwrite output subtitles folder</param>
-        public static void Main(string path, string outputFolder, string fromLang, string toLang, APIType api, bool overwrite = true)
+        public static void Main(string path, string outputFolder, string fromLang, string toLang, APIType api, string apiKey, bool overwrite = true)
         {
             ShowNotice();
             
@@ -160,7 +161,7 @@ namespace QuickSubtitleTranslator
 
                         Console.WriteLine($"Total characters to send: {fileCharacters}");
                         Console.WriteLine("Calling service provider...");
-                        var translatedItems = TranslationService.Translate(fromLang, toLang, lines);
+                        var translatedItems = TranslationService.Translate(fromLang, toLang, lines, apiKey);
 
                         Console.WriteLine($"Source text lines: {totalLines}");
                         Console.WriteLine($"Translated text lines: {translatedItems.Count}");

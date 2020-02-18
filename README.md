@@ -11,6 +11,8 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - Enable Cloud Translation API
 - Create API key or Google JSON credentials
 
+- Set your limits based on your subtitles files
+
 **Note**: Free 500k characters
 
 ### Microsoft API
