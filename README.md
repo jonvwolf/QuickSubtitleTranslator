@@ -4,6 +4,17 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 # Screenshot (Translating using Microsoft API)
 ![alt text](https://raw.githubusercontent.com/jonwolfdev/QuickSubtitleTranslator/master/microsoft_screenshot.jpg)
 
+## Improvements to be made:
+- Graceful failures (internet disconnected, rate exceeded, etc.)
+- Fix `overwrite` param
+- Better limit control (quotas)
+- Improve Amazon API implementation (it's slow)
+- Remove hardcoded delays
+- Ability to pause/stop processing
+- Validation after each translated SRT file (make sure times are exact, etc.)
+- Logs
+- Configurable options (delays, limit control, etc.)
+
 ## Setup language translator services
 Supported APIs: Google, Microsoft, Amazon, IBM
 
@@ -32,13 +43,20 @@ Supported APIs: Google, Microsoft, Amazon, IBM
 - Create IAM user with read only permission to translate text
 - Generate access key and secret access key
 - (For testing only) Create system environment variable:
-    - name: qsubtranslator_microsoft_key
+    - name: qsubtranslator_amazon_key
     - value: value#access_key||1||secret_access_key
 
 **Note**: Free 2 million characters per month per 12 months
+
 **To be improved**: Of all services, this is picky in terms of quota. This is slower compared to other services. (TODO item to improve this slowness)
 
 ### IBM API
+- Create an IBM Cloud account
+- Create Language Translator Service
+- Copy api key and url
+- (For testing only) Create system environment variable:
+    - name: qsubtranslator_ibm_key
+    - value: value#api_key||1||url
 
 **Note**: Free 1 million character per month (account gets deleted for inactivity after 30 days)
 
@@ -53,12 +71,14 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 `api`: Translator API (Google and Microsoft supported only)
 `api-key`: APi Key for the service provider
 - For Amazon `api-key` must follow the following format: `access_key||1||secret_access_key`. In other words: `string.Format("{0}||1||{1}", accessKey, secretAccessKey)`
+- For IBM `api-key` must follow the following format: `api_key||1||url`. In other words: `string.Format("{0}||1||{1}", apiKey, url)`
 
 `from-lang` and `to-lang` must match the supported language from translator provider
  - Google: https://cloud.google.com/translate/docs/languages
  - Microsoft: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
- - IBM: https://www.ibm.com/cloud/blog/announcements/document-translation-made-easy-with-watson-language-translator
+ - IBM: https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-translation-models
  - Amazon: https://docs.aws.amazon.com/translate/latest/dg/what-is.html
+
 
 ### Optional
 `overwrite`: (DOES NOT CURRENTLY WORK) Default true. Overwrite translated subtitles files

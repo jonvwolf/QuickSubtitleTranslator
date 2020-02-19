@@ -32,9 +32,10 @@ namespace QuickSubtitleTranslator.AmazonApi
             //TODO : not sure which one to believe...
             // Limits (says utf8 5k bytes): https://docs.aws.amazon.com/translate/latest/dg/what-is-limits.html
             //quota in aws says 10k bytes per 10 seconds: https://us-east-2.console.aws.amazon.com/servicequotas/home?region=us-east-2#!/services/translate/quotas
-            
-            //TODO: with the default quota values.. this is the most reliable (2000 bytes per 10.5 seconds)
-            int maxBytes = 2000;
+
+            //TODO: with the default quota values.. this is the most reliable (1920 bytes per 10.5 seconds)
+            //Answer: https://stackoverflow.com/questions/33889673/translate-api-user-rate-limit-exceeded-403-without-reason
+            int maxBytes = 1920;
             //Characters to add because of JSON request = {"SourceLanguageCode": "en","TargetLanguageCode": "es","TerminologyNames": null,"Text": ""}
             int addedBytes = 113;
             char delimiter = '\n';

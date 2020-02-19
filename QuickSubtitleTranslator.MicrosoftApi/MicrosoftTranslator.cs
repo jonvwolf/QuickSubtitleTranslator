@@ -30,8 +30,6 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                     tempBlocks.Add(new { Text = lines[i] });
                     if (blocks >= maxPerRequest || i + 1 >= lines.Count)
                     {
-                        //TODO improve this
-                        Thread.Sleep(3500);
                         Console.WriteLine("Translating using Microsoft API... chunks of 100 blocks...");
                         Console.WriteLine("\tText peek: " + tempBlocks.Last().Text);
 
