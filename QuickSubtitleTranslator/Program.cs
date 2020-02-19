@@ -131,7 +131,7 @@ namespace QuickSubtitleTranslator
             ShowNotice();
 
             Console.WriteLine("README.md has some information on how to use this app. Any bugs raise a bug in github");
-            Console.WriteLine("Version v1-alpha");
+            Console.WriteLine("Version v2-alpha");
             Console.WriteLine("Github url: https://github.com/jonwolfdev/QuickSubtitleTranslator");
             Console.WriteLine("License: MIT License (read License.txt file)");
             Console.WriteLine("This app contains work from (read NOTICE.txt file): https://github.com/AlexPoint/SubtitlesParser");
