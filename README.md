@@ -1,5 +1,5 @@
 # A quick subtitle file translator
-A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, etc.) using Google and Microsoft APIs translator services.
+A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, etc.) using external translation services.
 
 # Screenshot (Translating using Microsoft API)
 ![alt text](https://raw.githubusercontent.com/jonwolfdev/QuickSubtitleTranslator/master/microsoft_screenshot.jpg)
@@ -7,7 +7,7 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 ## Setup language translator services
 Supported APIs: Google, Microsoft, Amazon, IBM
 
-### Google API steps
+### Google API
 - Create a Google cloud account
 - Create a project
 - Enable Cloud Translation API
@@ -15,7 +15,6 @@ Supported APIs: Google, Microsoft, Amazon, IBM
 - (For testing only) Create system environment variable:
     - name: qsubtranslator_google_key
     - value: value#api_key_value_goes_here
-- Set your limits based on your subtitles files
 
 **Note**: Free 500k characters per month
 
@@ -37,6 +36,7 @@ Supported APIs: Google, Microsoft, Amazon, IBM
     - value: value#access_key||1||secret_access_key
 
 **Note**: Free 2 million characters per month per 12 months
+**To be improved**: Of all services, this is picky in terms of quota. This is slower compared to other services. (TODO item to improve this slowness)
 
 ### IBM API
 
@@ -52,6 +52,7 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 `to-lang`: Translate subtitiles files to this language
 `api`: Translator API (Google and Microsoft supported only)
 `api-key`: APi Key for the service provider
+- For Amazon `api-key` must follow the following format: `access_key||1||secret_access_key`. In other words: `string.Format("{0}||1||{1}", accessKey, secretAccessKey)`
 
 `from-lang` and `to-lang` must match the supported language from translator provider
  - Google: https://cloud.google.com/translate/docs/languages

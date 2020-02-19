@@ -29,39 +29,46 @@ namespace QuickSubtitleTranslator.AmazonApi
                 throw;
             }
 
-            //Limits: https://docs.aws.amazon.com/translate/latest/dg/what-is-limits.html
-            //max len: 3000~ (actually is 5k bytes)
-            int maxTextLength = 2500;
+            //TODO : not sure which one to believe...
+            // Limits (says utf8 5k bytes): https://docs.aws.amazon.com/translate/latest/dg/what-is-limits.html
+            //quota in aws says 10k bytes per 10 seconds: https://us-east-2.console.aws.amazon.com/servicequotas/home?region=us-east-2#!/services/translate/quotas
+            
+            //TODO: with the default quota values.. this is the most reliable (2000 bytes per 10.5 seconds)
+            int maxBytes = 2000;
+            //Characters to add because of JSON request = {"SourceLanguageCode": "en","TargetLanguageCode": "es","TerminologyNames": null,"Text": ""}
+            int addedBytes = 113;
             char delimiter = '\n';
             List<string> result = new List<string>(lines.Count);
             using(var service = new AmazonTranslateClient(accessKey, secretKey, RegionEndpoint.USEast2))
             {
-                int currentLength = 0;
-                StringBuilder sb = new StringBuilder(maxTextLength);
+                int currentBytes = 0;
+                StringBuilder sb = new StringBuilder(maxBytes);
                 for(int i = 0; i < lines.Count; i++)
                 {
                     string line = lines[i];
-                    //Do not count with StringInfo as amazon limit is 5k bytes
-                    currentLength += line.Length;
+                    //TODO: fix this...
+                    //TODO: add delimiter char
+                    currentBytes += Encoding.UTF8.GetByteCount(line) + 1; //1 = delimiter char
                     sb.Append(line);
 
-                    if(currentLength >= maxTextLength || i + 1 >= lines.Count)
+                    if(currentBytes + addedBytes >= maxBytes || i + 1 >= lines.Count)
                     {
                         var request = new TranslateTextRequest();
                         request.Text = sb.ToString();
                         request.SourceLanguageCode = from;
                         request.TargetLanguageCode = to;
+                        
                         //todo improve this
-                        Thread.Sleep(3500);
-                        Console.WriteLine($"Translating using Amazon API... sending {currentLength} characters...");
+                        Thread.Sleep(10500);
+                        Console.WriteLine($"Translating using Amazon API... sending {Encoding.UTF8.GetByteCount(request.Text) + addedBytes} bytes (UTF8)... Length: {request.Text.Length + addedBytes}...");
                         Console.WriteLine("\tText peek: " + line);
                         var response = service.TranslateTextAsync(request).Result;
-
+                        
                         //save results
                         result.AddRange(response.TranslatedText.Split(delimiter));
                         Console.WriteLine("\tTranslated text peek: " + result.Last());
 
-                        currentLength = 0;
+                        currentBytes = 0;
                         sb.Clear();
                     }
                     else
