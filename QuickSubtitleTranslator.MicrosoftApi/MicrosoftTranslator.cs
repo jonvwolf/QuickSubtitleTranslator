@@ -33,7 +33,7 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                         //TODO improve this
                         Thread.Sleep(3500);
                         Console.WriteLine("Translating using Microsoft API... chunks of 100 blocks...");
-                        Console.WriteLine("Text peek: " + tempBlocks.Last().Text);
+                        Console.WriteLine("\tText peek: " + tempBlocks.Last().Text);
 
                         using (var request = new HttpRequestMessage())
                         {
@@ -64,7 +64,7 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                              */
                         }
 
-                        Console.WriteLine("Translated text peek: " + result.Last());
+                        Console.WriteLine("\tTranslated text peek: " + result.Last());
                         blocks = 0;
                         tempBlocks.Clear();
                     }

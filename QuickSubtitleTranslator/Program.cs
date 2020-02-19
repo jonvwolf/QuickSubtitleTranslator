@@ -26,7 +26,15 @@ namespace QuickSubtitleTranslator
             /// <summary>
             /// Microsoft API
             /// </summary>
-            Microsoft
+            Microsoft,
+            /// <summary>
+            /// IBM API
+            /// </summary>
+            IBM,
+            /// <summary>
+            /// Amazon API
+            /// </summary>
+            Amazon,
         }
         /// <summary>
         /// This property helps to override the default service providers
@@ -39,8 +47,8 @@ namespace QuickSubtitleTranslator
                 Console.WriteLine("WARNING! Read please");
                 Console.WriteLine("This application is under MIT license. Please read LICENSE.txt file");
                 Console.WriteLine("Using a service provider may incur charges to your billing account.");
-                Console.WriteLine("Even though, Google and Microsoft offer free X amount of translated characters, you must monitor and set up a limit in your Google/Microsoft account");
-                Console.WriteLine("Make sure you understand their billing and set up proper budget limits so you don't get unexpected charges");
+                Console.WriteLine("Even though, Google and Microsoft/etc. offer free X amount of translated characters, you must monitor and set up resource limits in your Google/Microsoft/etc. account");
+                Console.WriteLine("Make sure you understand their billing and set up proper budget alerts/API resource caps and limits so you don't get unexpected charges");
                 Console.WriteLine("Do you understand this is your own responsability? [Yes] [No]");
                 string answer = Console.ReadLine();
                 if (answer.Equals("Yes", StringComparison.OrdinalIgnoreCase))
@@ -80,6 +88,34 @@ namespace QuickSubtitleTranslator
             }
             return files;
         }
+        
+        static void SetService(APIType api)
+        {
+            if (TranslationService == null)
+            {
+                if (api == APIType.Google)
+                {
+                    TranslationService = new GoogleApi.GoogleTranslator();
+                }
+                else if (api == APIType.Microsoft)
+                {
+                    TranslationService = new MicrosoftApi.MicrosoftTranslator();
+                }
+                else if (api == APIType.Amazon)
+                {
+                    TranslationService = new AmazonApi.AmazonTranslator();
+                }
+                else if (api == APIType.IBM)
+                {
+                    TranslationService = new IBMApi.IBMTranslator();
+                }
+                else
+                {
+                    throw new InvalidOperationException($"Invalid API type: {api.ToString()}");
+                }
+            }
+        }
+
         /// <summary>
         /// Main Entry
         /// </summary>
@@ -112,21 +148,7 @@ namespace QuickSubtitleTranslator
 
             CreateAndCheckOutputFolder(outputFolder);
 
-            if (TranslationService == null)
-            {
-                if (api == APIType.Google)
-                {
-                    TranslationService = new GoogleApi.GoogleTranslator();
-                }
-                else if (api == APIType.Microsoft)
-                {
-                    TranslationService = new MicrosoftApi.MicrosoftTranslator();
-                }
-                else
-                {
-                    throw new InvalidOperationException($"Invalid API type: {api.ToString()}");
-                }
-            }
+            SetService(api);
 
             int totalCharacters = 0;
             var files = GetFiles(path);

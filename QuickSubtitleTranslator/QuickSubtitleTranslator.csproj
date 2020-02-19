@@ -32,8 +32,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\QuickSubtitleTranslator.AmazonApi\QuickSubtitleTranslator.AmazonApi.csproj" />
     <ProjectReference Include="..\QuickSubtitleTranslator.Common\QuickSubtitleTranslator.Common.csproj" />
     <ProjectReference Include="..\QuickSubtitleTranslator.GoogleApi\QuickSubtitleTranslator.GoogleApi.csproj" />
+    <ProjectReference Include="..\QuickSubtitleTranslator.IBMApi\QuickSubtitleTranslator.IBMApi.csproj" />
     <ProjectReference Include="..\QuickSubtitleTranslator.MicrosoftApi\QuickSubtitleTranslator.MicrosoftApi.csproj" />
   </ItemGroup>
 

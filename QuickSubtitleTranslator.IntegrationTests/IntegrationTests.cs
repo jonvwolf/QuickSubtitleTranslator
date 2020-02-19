@@ -31,7 +31,20 @@ namespace QuickSubtitleTranslator.IntegrationTests
             {
                 env = Environment.GetEnvironmentVariable("qsubtranslator_microsoft_key");
             }
+            else if (api == APIType.IBM)
+            {
+                env = Environment.GetEnvironmentVariable("qsubtranslator_ibm_key");
+            }
+            else if (api == APIType.Amazon)
+            {
+                env = Environment.GetEnvironmentVariable("qsubtranslator_amazon_key");
+            }
             else { throw new InvalidOperationException("Unkown api type: " + api.ToString()); }
+
+            if (string.IsNullOrEmpty(env))
+            {
+                throw new InvalidOperationException("Environment key is not set.");
+            }
 
             string[] parts = env.Split("#");
             if (parts[0].Equals("file", StringComparison.OrdinalIgnoreCase))
@@ -140,6 +153,34 @@ namespace QuickSubtitleTranslator.IntegrationTests
             Assert.Contains("excusas", contents);
 
             string file2 = @"sub_output_translate_microsoft\" + "Scrubs.S02E08.srt";
+            string contents2 = File.ReadAllText(file2, Encoding.UTF8);
+            Assert.Contains("00:00:01,360 --> 00:00:04,079", contents2);
+            Assert.Contains("bien", contents2);
+            Assert.Contains("00:12:33,720 --> 00:12:36,473", contents2);
+            Assert.Contains("ambulancia", contents2);
+            Assert.Contains("00:20:21,920 --> 00:20:24,354", contents2);
+            Assert.Contains("lugar.", contents2);
+        }
+
+        [Fact]
+        public void OutputSubtitle_ShouldBe_TranslatedBy_Amazon()
+        {
+            string path = @"..\..\..\..\test_folder_google";
+            string outputFolder = "sub_output_translate_amazon";
+            string fromLang = "en";
+            string toLang = "es";
+            APIType api = APIType.Amazon;
+
+            Program.Main(path, outputFolder, fromLang, toLang, api, GetApiKey(api));
+
+            string file = @"sub_output_translate_amazon\" + "srt example.srt";
+            string contents = File.ReadAllText(file, Encoding.UTF8);
+            Assert.Contains("Añadir", contents);
+            Assert.Contains("00:00:01,600 --> 00:00:04,200", contents);
+            Assert.Contains("subtítulos", contents);
+            Assert.Contains("excusas", contents);
+
+            string file2 = @"sub_output_translate_amazon\" + "Scrubs.S02E08.srt";
             string contents2 = File.ReadAllText(file2, Encoding.UTF8);
             Assert.Contains("00:00:01,360 --> 00:00:04,079", contents2);
             Assert.Contains("bien", contents2);
