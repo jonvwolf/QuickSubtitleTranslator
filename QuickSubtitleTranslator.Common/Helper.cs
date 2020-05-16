@@ -13,7 +13,7 @@ namespace QuickSubtitleTranslator.Common
     {
         static IList<string> TrySend(IReadOnlyList<string> subset,  int sleep, int tries, Func<IReadOnlyList<string>, IList<string>> SendAction)
         {
-            while (tries <= 0)
+            while (tries > 0)
             {
                 try
                 {
@@ -42,25 +42,20 @@ namespace QuickSubtitleTranslator.Common
             int totalCharactersUsed = 0;
             int currentArrayCount = 0;
             int currentCharacterCount = 0;
-            int remaining = combinedLines.Count;
-
+            
             var subset = new List<CombinedLine>(data.MaxArrayItemsPerReq);
             foreach (var combinedLine in combinedLines)
             {
                 bool send = false;
-                if (currentArrayCount + 1 >= data.MaxArrayItemsPerReq)
+                if (currentArrayCount + 1 > data.MaxArrayItemsPerReq)
                     send = true;
 
-                if (currentCharacterCount + combinedLine.CharacterCount >= data.MaxCharactersPerRequest)
-                    send = true;
-
-                if (remaining - 1 < 0)
+                if (currentCharacterCount + combinedLine.CharacterCount > data.MaxCharactersPerRequest)
                     send = true;
 
                 if (send)
                 {
-                    currentArrayCount = 0;
-                    currentCharacterCount = 0;
+                    //COPIED CODE
                     var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
 
                     Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
@@ -72,17 +67,32 @@ namespace QuickSubtitleTranslator.Common
                     Console.WriteLine($"Peek: {translatedLines.Last()}");
 
                     subset.Clear();
+                    currentArrayCount = 0;
+                    currentCharacterCount = 0;
                 }
 
                 currentArrayCount++;
-                remaining--;
-
+                
                 totalCharactersUsed += combinedLine.CharacterCount;
                 currentCharacterCount += combinedLine.CharacterCount;
                 subset.Add(combinedLine);
             }
+
             if (subset.Count > 0)
-                throw new Exception($"Bug. {nameof(subset)} still has items...");
+            {
+                //COPIED CODE
+                var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
+
+                Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
+                Console.WriteLine($"Peek: {stringListToSend.Last()}");
+
+                var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction);
+                items.AddRange(Helper.Convert(translatedLines.ToImmutableList(), subset.ToImmutableList()));
+
+                Console.WriteLine($"Peek: {translatedLines.Last()}");
+
+                subset.Clear();
+            }
 
             return new MyTranslateResult(items, totalCharactersUsed);
         }
@@ -93,7 +103,7 @@ namespace QuickSubtitleTranslator.Common
 
             var list = new List<MySubtitleItem>(subset.Count);
 
-            for (int index = 0; index < translatedLines.Count; index--)
+            for (int index = 0; index < translatedLines.Count; index++)
             {
                 list.Add(
                     new MySubtitleItem(
@@ -106,11 +116,11 @@ namespace QuickSubtitleTranslator.Common
             return list;
         }
 
-        static IList<string> SplitWords(string sentence, int doNotBreakIfOnlyOneLine, int maxWordsPerLine)
+        public static IList<string> SplitWords(string sentence, int doNotBreakIfOnlyOneLine, int maxWordsPerLine)
         {
             string[] split = sentence.Split(" ");
             if (split.Length <= doNotBreakIfOnlyOneLine)
-                return split.ToList();
+                return new List<string>() { sentence };
 
             var list = new List<string>();
             int wordCount = 0;
@@ -119,23 +129,36 @@ namespace QuickSubtitleTranslator.Common
             foreach (var word in split)
             {
                 bool add = false;
-                if (wordCount + 1 >= maxWordsPerLine)
+                bool addLastOne = false;
+                if (wordCount + 1 > maxWordsPerLine)
                     add = true;
-                if (remaining - 1 < 0)
+                if (remaining - 1 <= 0)
+                {
                     add = true;
+                    addLastOne = true;
+                }
 
                 if (add)
                 {
-                    list.Add(sb.ToString());
+                    if (addLastOne)
+                    {
+                        remaining--;
+                        sb.Append(word.Trim()).Append(" ");
+                    }
+
+                    list.Add(sb.ToString().Trim());
                     wordCount = 0;
                     sb.Clear();
                 }
 
-                wordCount++;
-                remaining--;
-                sb.Append(word);
+                if (!addLastOne)
+                {
+                    wordCount++;
+                    remaining--;
+                    sb.Append(word.Trim()).Append(" ");
+                }
             }
-            if (sb.ToString().Length > 0)
+            if (sb.ToString().Length > 0 || remaining > 0)
                 throw new Exception($"Bug. {nameof(sb)} still has characters...");
 
             return list;

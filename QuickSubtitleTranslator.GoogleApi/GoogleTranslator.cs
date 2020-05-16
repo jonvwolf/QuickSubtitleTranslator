@@ -10,35 +10,40 @@ namespace QuickSubtitleTranslator.GoogleApi
 {
     public class GoogleTranslator : ITranslationService
     {
-        public IList<string> Translate(string from, string to, IList<string> lines, string apiKey)
-        {
-            //TODO: make this better. creating a client for every file...
-            using (TranslationClient client = TranslationClient.CreateFromApiKey(apiKey))
-            {
-                int maxPerRequest = 128;
-                int blocks = 0;
-                IList<string> tempBlocks = new List<string>(maxPerRequest);
-                List<string> result = new List<string>(lines.Count);
-                for (int i = 0; i < lines.Count; i++)
-                {
-                    blocks++;
-                    tempBlocks.Add(lines[i]);
-                    if (blocks >= maxPerRequest || i + 1 >= lines.Count)
-                    {
-                        //TODO improve this
-                        Thread.Sleep(3500);
-                        Console.WriteLine("Translating using Google API... chunks of 128 blocks...");
-                        Console.WriteLine("\tText peek: " + tempBlocks.Last());
-                        var resp = client.TranslateText(tempBlocks, to, from, TranslationModel.NeuralMachineTranslation);
-                        result.AddRange(resp.Select(x => x.TranslatedText));
-                        Console.WriteLine("\tTranslated text peek: " + result.Last());
-                        blocks = 0;
-                        tempBlocks.Clear();
-                    }
-                }
+        //public IList<string> Translate(string from, string to, IList<string> lines, string apiKey)
+        //{
+        //    //TODO: make this better. creating a client for every file...
+        //    using (TranslationClient client = TranslationClient.CreateFromApiKey(apiKey))
+        //    {
+        //        int maxPerRequest = 128;
+        //        int blocks = 0;
+        //        IList<string> tempBlocks = new List<string>(maxPerRequest);
+        //        List<string> result = new List<string>(lines.Count);
+        //        for (int i = 0; i < lines.Count; i++)
+        //        {
+        //            blocks++;
+        //            tempBlocks.Add(lines[i]);
+        //            if (blocks >= maxPerRequest || i + 1 >= lines.Count)
+        //            {
+        //                //TODO improve this
+        //                Thread.Sleep(3500);
+        //                Console.WriteLine("Translating using Google API... chunks of 128 blocks...");
+        //                Console.WriteLine("\tText peek: " + tempBlocks.Last());
+        //                var resp = client.TranslateText(tempBlocks, to, from, TranslationModel.NeuralMachineTranslation);
+        //                result.AddRange(resp.Select(x => x.TranslatedText));
+        //                Console.WriteLine("\tTranslated text peek: " + result.Last());
+        //                blocks = 0;
+        //                tempBlocks.Clear();
+        //            }
+        //        }
 
-                return result;
-            }
+        //        return result;
+        //    }
+        //}
+
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
+        {
+            throw new NotImplementedException();
         }
     }
 }

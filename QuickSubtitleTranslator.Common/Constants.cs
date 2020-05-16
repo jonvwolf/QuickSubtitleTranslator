@@ -6,7 +6,7 @@ namespace QuickSubtitleTranslator.Common
 {
     public static class Constants
     {
-        public const int MaxWordsPerLine = 4;
-        public const int DoNotBreakIfOnlyLine = MaxWordsPerLine + 3;
+        public const int MaxWordsPerLine = 5;
+        public const int DoNotBreakIfOnlyLine = MaxWordsPerLine + 1;
     }
 }
