@@ -52,6 +52,11 @@ namespace QuickSubtitleTranslator.AmazonApi
                 char delimiter = '\n';
                 string text = string.Join(delimiter, subset);
 
+                //Amazon deletes anything between dashes -> - string -
+                char maybeItIsABug = '=';
+                char charToReplace = '-';
+                text = text.Replace(charToReplace, maybeItIsABug);
+
                 var request = new TranslateTextRequest
                 {
                     Text = text,
@@ -60,7 +65,12 @@ namespace QuickSubtitleTranslator.AmazonApi
                 };
 
                 var response = service.TranslateTextAsync(request).Result;
-                return response.TranslatedText.Split(delimiter);
+                var newList =  response.TranslatedText.Replace(maybeItIsABug, charToReplace).Split(delimiter).ToList();
+
+                if (subset.Count != newList.Count)
+                    throw new MyException($"{nameof(subset)} different count than {nameof(newList)}. {subset.Count} != {newList.Count}");
+
+                return newList;
             }
 
             var result = Helper.Process(new DataDesc(

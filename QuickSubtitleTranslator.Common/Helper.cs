@@ -16,47 +16,64 @@ namespace QuickSubtitleTranslator.Common
         {
             var list = new List<Exception>();
 
-            int originalTries = tries;
-        tryagain:
-            while (tries > 0)
+            int currentTries = tries;
+        
+            while (currentTries > 0)
             {
+                currentTries--;
+
                 try
                 {
                     return SendAction(subset);
+                }
+                catch (MyException)
+                {
+                    throw;
                 }
                 catch (Exception e)
                 {
                     list.Add(e);
                     Console.WriteLine($"Exception calling. {e}");
                 }
-                tries--;
-                Console.WriteLine($"Sleeping for {sleep}");
+                
+                if (currentTries <= 0)
+                {
+                    if (AskToContinue())
+                        currentTries = tries;
+                    else
+                        break;
+                }
+
+                Console.WriteLine($"Sleeping for {sleep}. Current tries: {currentTries}");
                 Thread.Sleep(sleep);
             }
 
-            if (WaitForInput)
+            throw new Exception($"Couldn't get a response from server. See inner exception. Exitting...", new AggregateException(list));
+        }
+        static bool AskToContinue()
+        {
+            if (!WaitForInput)
+                return false;
+
+            while (true)
             {
-            askagain:
                 Console.WriteLine($"Time: {DateTime.Now}");
                 Console.WriteLine("Try again or quit? [try] [quit]");
                 var ans = Console.ReadLine().Trim();
                 if (ans.ToUpperInvariant() == "try")
                 {
-                    tries = originalTries;
-                    goto tryagain;
+                    return true;
                 }
                 else if (ans.ToUpperInvariant() == "quit")
                 {
                     Console.WriteLine("Quitting...");
+                    return false;
                 }
                 else
                 {
                     Console.WriteLine("Invalid answer.");
-                    goto askagain;
                 }
             }
-
-            throw new Exception($"Couldn't get a response from server. See inner exception. Exitting...", new AggregateException(list));
         }
         public static MyTranslateResult Process(DataDesc data)
         {
@@ -72,7 +89,8 @@ namespace QuickSubtitleTranslator.Common
             int totalCharactersUsed = 0;
             int currentArrayCount = 0;
             int currentCharacterCount = 0;
-            
+            bool afterFirstCall = false;
+
             var subset = new List<CombinedLine>(data.MaxArrayItemsPerReq);
             foreach (var combinedLine in combinedLines)
             {
@@ -86,6 +104,10 @@ namespace QuickSubtitleTranslator.Common
                 if (send)
                 {
                     //COPIED CODE
+                    if (afterFirstCall)
+                        Thread.Sleep(data.SleepBetweenCalls);
+
+                    afterFirstCall = true;
                     var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
                     Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
                     Console.WriteLine($"Peek: {stringListToSend.Last()}");
@@ -108,6 +130,7 @@ namespace QuickSubtitleTranslator.Common
             if (subset.Count > 0)
             {
                 //COPIED CODE
+                Thread.Sleep(data.SleepBetweenCalls);
                 var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
                 Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
                 Console.WriteLine($"Peek: {stringListToSend.Last()}");
