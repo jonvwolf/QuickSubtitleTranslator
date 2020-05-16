@@ -2,6 +2,8 @@
 using QuickSubtitleTranslator.Common;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
+using System.Globalization;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -11,65 +13,61 @@ namespace QuickSubtitleTranslator.MicrosoftApi
 {
     public class MicrosoftTranslator : ITranslationService
     {
+        const int MaxArrayItemsPerReq = 100;
+        const int MaxCharactersToSend = 5000;
+        const int SleepIfFails = 20000;
+        const int MaxTries = 5;
+        
         //More options: https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate
         const string Endpoint = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to={0}&from={1}";
-        public IList<string> Translate(string from, string to, IList<string> lines, string apiKey)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
         {
             string url = string.Format(Endpoint, to, from);
 
-            int maxPerRequest = 100;
-            int blocks = 0;
-            IList<dynamic> tempBlocks = new List<dynamic>(maxPerRequest);
-            List<string> result = new List<string>(lines.Count);
-
-            using (var client = new HttpClient())
+            IList<string> SendAction(IReadOnlyList<string> subset)
             {
-                for (int i = 0; i < lines.Count; i++)
+                using var client = new HttpClient();
+                using var request = new HttpRequestMessage();
+
+                var list = new List<dynamic>(subset.Count);
+                foreach (var item in subset)
                 {
-                    blocks++;
-                    tempBlocks.Add(new { Text = lines[i] });
-                    if (blocks >= maxPerRequest || i + 1 >= lines.Count)
+                    list.Add(new { Text = item });
+                }
+
+                request.Method = HttpMethod.Post;
+                request.RequestUri = new Uri(url);
+                var requestBody = JsonConvert.SerializeObject(list);
+                request.Content = new StringContent(requestBody, Encoding.UTF8, "application/json");
+                request.Headers.Add("Ocp-Apim-Subscription-Key", apiKey);
+
+                var result = new List<string>(list.Count);
+                using (var response = client.SendAsync(request).Result)
+                {
+                    response.EnsureSuccessStatusCode();
+                    string resultStr = response.Content.ReadAsStringAsync().Result;
+                    TranslationResult[] output = JsonConvert.DeserializeObject<TranslationResult[]>(resultStr);
+
+                    foreach (var o in output)
                     {
-                        Console.WriteLine("Translating using Microsoft API... chunks of 100 blocks...");
-                        Console.WriteLine("\tText peek: " + tempBlocks.Last().Text);
-
-                        using (var request = new HttpRequestMessage())
-                        {
-                            /*
-                             * service call start here
-                             */
-                            request.Method = HttpMethod.Post;
-                            request.RequestUri = new Uri(url);
-                            var requestBody = JsonConvert.SerializeObject(tempBlocks);
-                            request.Content = new StringContent(requestBody, Encoding.UTF8, "application/json");
-                            request.Headers.Add("Ocp-Apim-Subscription-Key", apiKey);
-
-                            //TODO improve this
-                            Thread.Sleep(3500);
-                            using (var response = client.SendAsync(request).Result)
-                            {
-                                string resultStr = response.Content.ReadAsStringAsync().Result;
-                                TranslationResult[] output = JsonConvert.DeserializeObject<TranslationResult[]>(resultStr);
-                                
-                                //todo improve this
-                                foreach(var o in output)
-                                {
-                                    result.AddRange(o.Translations.Select(x => x.Text));
-                                }
-                            }
-                            /*
-                             * service call end here
-                             */
-                        }
-
-                        Console.WriteLine("\tTranslated text peek: " + result.Last());
-                        blocks = 0;
-                        tempBlocks.Clear();
+                        result.AddRange(o.Translations.Select(x => x.Text));
                     }
                 }
+
+                return result;
             }
-            
+
+            var result = Helper.Process(new DataDesc(
+                subs: subtitles,
+                maipr: MaxArrayItemsPerReq,
+                mcpr: MaxCharactersToSend,
+                mtichf: MaxTries,
+                stihf: SleepIfFails,
+                sa: SendAction
+            ));
+
             return result;
         }
+
     }
 }

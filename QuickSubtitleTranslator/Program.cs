@@ -2,6 +2,7 @@
 using SubtitlesParser.Classes;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -70,6 +71,15 @@ namespace QuickSubtitleTranslator
             {
                 throw new InvalidOperationException("Output folder param must indicate a folder in order to write translated SRT files");
             }
+
+            var files = Directory.GetFiles(outputFolder, "*");
+            var dirs = Directory.GetDirectories(outputFolder, "*");
+
+            if (files.Length > 0)
+                throw new InvalidOperationException("Output folder already contains files");
+
+            if (dirs.Length > 0)
+                throw new InvalidOperationException("Output folder already contains folders");
         }
         static IEnumerable<string> GetFiles(string path)
         {
@@ -111,7 +121,7 @@ namespace QuickSubtitleTranslator
                 }
                 else
                 {
-                    throw new InvalidOperationException($"Invalid API type: {api.ToString()}");
+                    throw new InvalidOperationException($"Invalid API type: {api}");
                 }
             }
         }
@@ -141,7 +151,7 @@ namespace QuickSubtitleTranslator
             Console.WriteLine($"Output = {outputFolder}");
             Console.WriteLine($"From language = {fromLang}");
             Console.WriteLine($"To language = {toLang}");
-            Console.WriteLine($"API = {api.ToString()}");
+            Console.WriteLine($"API = {api}");
             Console.WriteLine($"Overwrite = {overwrite}");
             Console.WriteLine($"Default encoding is UTF-8");
             Console.WriteLine($"Default framerate for microdvd subtitles is {25}");
@@ -150,112 +160,97 @@ namespace QuickSubtitleTranslator
 
             SetService(api);
 
-            int totalCharacters = 0;
             var files = GetFiles(path);
+            int totalCharacters = 0;
             foreach (var file in files)
             {
                 var parser = new SubtitlesParser.Classes.Parsers.SubParser();
+
+                List<MySubtitleItem> myItems = new List<MySubtitleItem>();
+                List<SubtitleItem> items = new List<SubtitleItem>();
                 using (var stream = File.OpenRead(file))
                 {
-                    List<SubtitleItem> items;
                     try
                     {
-                        Console.WriteLine($"Parsing file: {file}");
                         items = parser.ParseStream(stream);
-
-                        if (items.Count == 0)
-                        {
-                            Console.WriteLine("No lines parsed... skipping...");
-                            continue;
-                        }
-
-                        List<string> lines = new List<string>((int)(items.Count * 1.5));
-                        int totalLines = 0;
-                        int fileCharacters = 0;
-                        for (int i = 0; i < items.Count; i++)
-                        {
-                            for (int lineIndex = 0; lineIndex < items[i].Lines.Count; lineIndex++)
-                            {
-                                lines.Add(items[i].Lines[lineIndex]);
-                                fileCharacters += new StringInfo(items[i].Lines[lineIndex]).LengthInTextElements;
-                                totalLines++;
-                            }
-                        }
-
-                        if (totalLines == 0)
-                        {
-                            Console.WriteLine("No lines found... skipping...");
-                            continue;
-                        }
-
-                        Console.WriteLine($"Total characters to send: {fileCharacters}");
-                        Console.WriteLine("Calling service provider...");
-                        var translatedItems = TranslationService.Translate(fromLang, toLang, lines, apiKey);
-
-                        Console.WriteLine($"Source text lines: {totalLines}");
-                        Console.WriteLine($"Translated text lines: {translatedItems.Count}");
-                        if (translatedItems.Count != totalLines)
-                        {
-                            Console.WriteLine("WARNING! Total lines do not match from original subtitle file and service provider response...");
-                        }
-
-                        int translatedItemsIndex = 0;
-                        StringBuilder sb = new StringBuilder(fileCharacters);
-                        for (int i = 0; i < items.Count; i++)
-                        {
-                            string format = "{0:00}:{1:00}:{2:00},{3:000}";
-                            TimeSpan start = TimeSpan.FromMilliseconds(items[i].StartTime);
-                            TimeSpan end = TimeSpan.FromMilliseconds(items[i].EndTime);
-                            sb.Append(i + 1).Append(Environment.NewLine)
-                                .Append(string.Format(CultureInfo.InvariantCulture, format, start.Hours, start.Minutes, start.Seconds, start.Milliseconds))
-                                .Append(" --> ")
-                                .Append(string.Format(CultureInfo.InvariantCulture, format, end.Hours, end.Minutes, end.Seconds, end.Milliseconds))
-                                .Append(Environment.NewLine);
-
-
-                            for (int lineIndex = 0; lineIndex < items[i].Lines.Count; lineIndex++)
-                            {
-                                string newVal = string.Empty;
-                                try
-                                {
-                                    newVal = translatedItems[translatedItemsIndex];
-                                }
-                                catch (Exception ex) when (ex is IndexOutOfRangeException || ex is ArgumentOutOfRangeException)
-                                {
-                                    Console.WriteLine($"Since total lines do not match... Error message: {ex.Message}");
-                                }
-                                items[i].Lines[lineIndex] = newVal;
-
-                                sb.Append(items[i].Lines[lineIndex])
-                                    .Append(Environment.NewLine);
-
-                                translatedItemsIndex++;
-                            }
-
-                            sb.Append(Environment.NewLine);
-                        }
-
-                        sb.Remove(sb.Length - (Environment.NewLine.Length * 2), (Environment.NewLine.Length * 2));
-
-                        totalCharacters += fileCharacters;
-
-                        string newFileName = Path.GetFileNameWithoutExtension(file);
-                        string fullPathNewFile = Path.Combine(outputFolder, newFileName + ".srt");
-
-                        Console.WriteLine($"Writing to a new SRT file... {fullPathNewFile}");
-                        File.WriteAllText(fullPathNewFile, sb.ToString());
-                        Console.WriteLine("End");
-                        Console.WriteLine("=============================================================");
-                        Console.WriteLine();
                     }
                     catch (FormatException ex)
                     {
                         Console.WriteLine($"WARNING! Invalid subtitle file [{file}] Skipping file. Error message: {ex.Message}");
+                        continue;
+                    }
+                    
+                    myItems.Capacity = items.Count;
+                    foreach (var item in items)
+                    {
+                        myItems.Add(item.CopyToMySubtitleItem());
                     }
                 }
+
+                if (myItems.Count == 0)
+                    throw new Exception($"File {file} has no subtitles...");
+
+                Console.WriteLine($"File {file} has {myItems.Count} subtitle items");
+
+                var translatedItems = TranslationService.Translate(fromLang, toLang, myItems, apiKey);
+                Console.WriteLine($"Translated count for {file}. Count: {translatedItems.TranslatedCharacters}");
+
+                ValidateItems(items, translatedItems.TranslatedItems.ToImmutableList());
+                WriteToFile(translatedItems.TranslatedItems.ToImmutableList(), file, outputFolder);
+
+                totalCharacters += translatedItems.TranslatedCharacters;
             }
 
             Console.WriteLine($"Total characters used: {totalCharacters}");
+        }
+
+        static void ValidateItems(IReadOnlyList<SubtitleItem> original, IReadOnlyList<MySubtitleItem> translated)
+        {
+            if (original.Count != translated.Count)
+                throw new Exception($"Items do not match between {original} and {translated}");
+
+            for (int index = 0; index < original.Count; index++)
+            {
+                if (original[index].EndTime != translated[index].EndTime || original[index].StartTime != translated[index].StartTime)
+                {
+                    throw new Exception("Difference between original and translated");
+                }
+            }
+        }
+
+        static void WriteToFile(IReadOnlyList<MySubtitleItem> items, string outputFile, string outputFolder)
+        {
+            //* 80 is an estimate
+            StringBuilder sb = new StringBuilder(items.Count * 80);
+            for (int i = 0; i < items.Count; i++)
+            {
+                string format = "{0:00}:{1:00}:{2:00},{3:000}";
+                TimeSpan start = TimeSpan.FromMilliseconds(items[i].StartTime);
+                TimeSpan end = TimeSpan.FromMilliseconds(items[i].EndTime);
+
+                sb.Append(i + 1).Append(Environment.NewLine)
+                    .Append(string.Format(CultureInfo.InvariantCulture, format, start.Hours, start.Minutes, start.Seconds, start.Milliseconds))
+                    .Append(" --> ")
+                    .Append(string.Format(CultureInfo.InvariantCulture, format, end.Hours, end.Minutes, end.Seconds, end.Milliseconds))
+                    .Append(Environment.NewLine);
+
+                foreach (var line in items[i].Lines)
+                {
+                    sb.Append(line)
+                        .Append(Environment.NewLine);
+                }
+
+                sb.Append(Environment.NewLine);
+            }
+
+            sb.Remove(sb.Length - (Environment.NewLine.Length * 2), (Environment.NewLine.Length * 2));
+
+            string newFileName = Path.GetFileNameWithoutExtension(outputFile);
+            string fullPathNewFile = Path.Combine(outputFolder, newFileName + ".srt");
+
+            Console.WriteLine($"Writing to a new SRT file... {fullPathNewFile}");
+            
+            File.WriteAllText(fullPathNewFile, sb.ToString());
         }
     }
 }

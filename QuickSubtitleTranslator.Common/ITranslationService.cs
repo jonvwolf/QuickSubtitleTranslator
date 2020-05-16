@@ -5,6 +5,6 @@ namespace QuickSubtitleTranslator.Common
 {
     public interface ITranslationService
     {
-        IList<string> Translate(string from, string to, IList<string> lines, string apiKey);
+        MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey);
     }
 }
