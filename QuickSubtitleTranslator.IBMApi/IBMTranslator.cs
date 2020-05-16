@@ -12,56 +12,59 @@ namespace QuickSubtitleTranslator.IBMApi
 {
     public class IBMTranslator : ITranslationService
     {
-        //public IList<string> Translate(string from, string to, IList<string> lines, string apiKey)
-        //{
-        //    string key;
-        //    string url;
+        const int MaxArrayItemsPerReq = 100;
+        const int MaxCharactersToSend = 5000;
+        const int SleepIfFails = 20000;
+        const int SleepBetweenCalls = 3500;
+        const int MaxTries = 5;
 
-        //    try
-        //    {
-        //        string[] parts = apiKey.Split("||1||");
-        //        key = parts[0];
-        //        url = parts[1];
-        //    }
-        //    catch
-        //    {
-        //        Console.WriteLine("ERROR: IBM api key is in a bad format. `api_key||1||url`");
-        //        throw;
-        //    }
-
-        //    IamAuthenticator authenticator = new IamAuthenticator(apikey: key);
-        //    LanguageTranslatorService svc = new LanguageTranslatorService("2018-05-01", authenticator);
-        //    svc.SetServiceUrl(url);
-
-        //    int maxPerRequest = 100;
-        //    int blocks = 0;
-        //    List<string> tempBlocks = new List<string>(maxPerRequest);
-        //    List<string> result = new List<string>(lines.Count);
-        //    for (int i = 0; i < lines.Count; i++)
-        //    {
-        //        blocks++;
-        //        tempBlocks.Add(lines[i]);
-        //        if (blocks >= maxPerRequest || i + 1 >= lines.Count)
-        //        {
-        //            Console.WriteLine("Translating using IBM API... chunks of 100 blocks...");
-        //            Console.WriteLine("\tText peek: " + tempBlocks.Last());
-        //            //todo improve this
-        //            Thread.Sleep(3500);
-        //            var response = svc.Translate(tempBlocks, modelId: $"{from}-{to}");
-        //            result.AddRange(response.Result.Translations.Select(x => x._Translation));
-
-        //            Console.WriteLine("\tTranslated text peek: " + result.Last());
-        //            Console.WriteLine("\tTranslated character count: " + response.Result.CharacterCount);
-        //            blocks = 0;
-        //            tempBlocks.Clear();
-        //        }
-        //    }
-
-        //    return result;
-        //}
         public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
         {
-            throw new NotImplementedException();
+            string key;
+            string url;
+
+            try
+            {
+                string[] parts = apiKey.Split("||1||");
+                key = parts[0];
+                url = parts[1];
+            }
+            catch
+            {
+                Console.WriteLine("ERROR: IBM api key is in a bad format. `api_key||1||url`");
+                throw;
+            }
+
+            IList<string> SendAction(IReadOnlyList<string> subset)
+            {
+                IamAuthenticator authenticator = new IamAuthenticator(apikey: key);
+                LanguageTranslatorService svc = null;
+                try
+                {
+                    svc = new LanguageTranslatorService("2018-05-01", authenticator);
+                    svc.SetServiceUrl(url);
+
+                    var response = svc.Translate(subset.ToList(), modelId: $"{from}-{to}");
+                    var result = response.Result.Translations.Select(x => x._Translation).ToList();
+                    return result;
+                }
+                finally
+                {
+                    svc?.Client?.Dispose();
+                }
+            }
+
+            var result = Helper.Process(new DataDesc(
+                subs: subtitles,
+                maipr: MaxArrayItemsPerReq,
+                mcpr: MaxCharactersToSend,
+                mtichf: MaxTries,
+                stihf: SleepIfFails,
+                sa: SendAction,
+                sbc: SleepBetweenCalls
+            ));
+
+            return result;
         }
     }
 }

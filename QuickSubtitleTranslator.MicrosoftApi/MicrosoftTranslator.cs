@@ -16,6 +16,7 @@ namespace QuickSubtitleTranslator.MicrosoftApi
         const int MaxArrayItemsPerReq = 100;
         const int MaxCharactersToSend = 5000;
         const int SleepIfFails = 20000;
+        const int SleepBetweenCalls = 3500;
         const int MaxTries = 5;
         
         //More options: https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate
@@ -63,7 +64,8 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                 mcpr: MaxCharactersToSend,
                 mtichf: MaxTries,
                 stihf: SleepIfFails,
-                sa: SendAction
+                sa: SendAction,
+                sbc: SleepBetweenCalls
             ));
 
             return result;

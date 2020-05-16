@@ -10,40 +10,32 @@ namespace QuickSubtitleTranslator.GoogleApi
 {
     public class GoogleTranslator : ITranslationService
     {
-        //public IList<string> Translate(string from, string to, IList<string> lines, string apiKey)
-        //{
-        //    //TODO: make this better. creating a client for every file...
-        //    using (TranslationClient client = TranslationClient.CreateFromApiKey(apiKey))
-        //    {
-        //        int maxPerRequest = 128;
-        //        int blocks = 0;
-        //        IList<string> tempBlocks = new List<string>(maxPerRequest);
-        //        List<string> result = new List<string>(lines.Count);
-        //        for (int i = 0; i < lines.Count; i++)
-        //        {
-        //            blocks++;
-        //            tempBlocks.Add(lines[i]);
-        //            if (blocks >= maxPerRequest || i + 1 >= lines.Count)
-        //            {
-        //                //TODO improve this
-        //                Thread.Sleep(3500);
-        //                Console.WriteLine("Translating using Google API... chunks of 128 blocks...");
-        //                Console.WriteLine("\tText peek: " + tempBlocks.Last());
-        //                var resp = client.TranslateText(tempBlocks, to, from, TranslationModel.NeuralMachineTranslation);
-        //                result.AddRange(resp.Select(x => x.TranslatedText));
-        //                Console.WriteLine("\tTranslated text peek: " + result.Last());
-        //                blocks = 0;
-        //                tempBlocks.Clear();
-        //            }
-        //        }
-
-        //        return result;
-        //    }
-        //}
+        const int MaxArrayItemsPerReq = 128;
+        const int MaxCharactersToSend = 8000;
+        const int SleepIfFails = 20000;
+        const int SleepBetweenCalls = 5500;
+        const int MaxTries = 5;
 
         public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
         {
-            throw new NotImplementedException();
+            IList<string> SendAction(IReadOnlyList<string> subset)
+            {
+                using var client = TranslationClient.CreateFromApiKey(apiKey);
+                var resp = client.TranslateText(subset, to, from, TranslationModel.NeuralMachineTranslation);
+                return resp.Select(x => x.TranslatedText).ToList();
+            }
+
+            var result = Helper.Process(new DataDesc(
+                subs: subtitles,
+                maipr: MaxArrayItemsPerReq,
+                mcpr: MaxCharactersToSend,
+                mtichf: MaxTries,
+                stihf: SleepIfFails,
+                sa: SendAction,
+                sbc: SleepBetweenCalls
+            ));
+
+            return result;
         }
     }
 }

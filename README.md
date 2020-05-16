@@ -6,7 +6,6 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 
 ## Improvements to be made:
 - Graceful failures (internet disconnected, rate exceeded, etc.)
-- Fix `overwrite` param
 - Better limit control (quotas)
 - Improve Amazon API implementation (it's slow)
 - Remove hardcoded delays
@@ -81,7 +80,7 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 
 
 ### Optional
-`overwrite`: (DOES NOT CURRENTLY WORK) Default true. Overwrite translated subtitles files
+`askForRetry`: If enabled, it will wait for input if http/service fails before continuing
 
 # Supported files
 - srt (SubRip)

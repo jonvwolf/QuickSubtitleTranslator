@@ -30,5 +30,6 @@ namespace QuickSubtitleTranslator.Common.UnitTests
             Assert.Equal(1, list.Count);
             Assert.Equal(workToBreak, list[0]);
         }
+
     }
 }

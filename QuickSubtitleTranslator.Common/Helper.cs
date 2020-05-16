@@ -11,8 +11,13 @@ namespace QuickSubtitleTranslator.Common
 {
     public static class Helper
     {
-        static IList<string> TrySend(IReadOnlyList<string> subset,  int sleep, int tries, Func<IReadOnlyList<string>, IList<string>> SendAction)
+        public static bool WaitForInput = false;
+        static IList<string> TrySend(IReadOnlyList<string> subset, int sleep, int tries, Func<IReadOnlyList<string>, IList<string>> SendAction)
         {
+            var list = new List<Exception>();
+
+            int originalTries = tries;
+        tryagain:
             while (tries > 0)
             {
                 try
@@ -21,12 +26,37 @@ namespace QuickSubtitleTranslator.Common
                 }
                 catch (Exception e)
                 {
+                    list.Add(e);
                     Console.WriteLine($"Exception calling. {e}");
                 }
                 tries--;
+                Console.WriteLine($"Sleeping for {sleep}");
                 Thread.Sleep(sleep);
             }
-            throw new Exception($"Couldn't get a response from server. Exitting...");
+
+            if (WaitForInput)
+            {
+            askagain:
+                Console.WriteLine($"Time: {DateTime.Now}");
+                Console.WriteLine("Try again or quit? [try] [quit]");
+                var ans = Console.ReadLine().Trim();
+                if (ans.ToUpperInvariant() == "try")
+                {
+                    tries = originalTries;
+                    goto tryagain;
+                }
+                else if (ans.ToUpperInvariant() == "quit")
+                {
+                    Console.WriteLine("Quitting...");
+                }
+                else
+                {
+                    Console.WriteLine("Invalid answer.");
+                    goto askagain;
+                }
+            }
+
+            throw new Exception($"Couldn't get a response from server. See inner exception. Exitting...", new AggregateException(list));
         }
         public static MyTranslateResult Process(DataDesc data)
         {
@@ -57,16 +87,13 @@ namespace QuickSubtitleTranslator.Common
                 {
                     //COPIED CODE
                     var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
-
                     Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
                     Console.WriteLine($"Peek: {stringListToSend.Last()}");
-
                     var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction);
                     items.AddRange(Helper.Convert(translatedLines.ToImmutableList(), subset.ToImmutableList()));
-
                     Console.WriteLine($"Peek: {translatedLines.Last()}");
-
                     subset.Clear();
+                    //END COPIED CODE
                     currentArrayCount = 0;
                     currentCharacterCount = 0;
                 }
@@ -82,16 +109,13 @@ namespace QuickSubtitleTranslator.Common
             {
                 //COPIED CODE
                 var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
-
                 Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
                 Console.WriteLine($"Peek: {stringListToSend.Last()}");
-
                 var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction);
                 items.AddRange(Helper.Convert(translatedLines.ToImmutableList(), subset.ToImmutableList()));
-
                 Console.WriteLine($"Peek: {translatedLines.Last()}");
-
                 subset.Clear();
+                //END COPIED CODE
             }
 
             return new MyTranslateResult(items, totalCharactersUsed);

@@ -11,8 +11,9 @@ namespace QuickSubtitleTranslator.Common
         public int MaxCharactersPerRequest { get; protected set; }
         public int MaxTriesInCaseHttpFails { get; protected set; }
         public int SleepTimeIfHttpFails { get; protected set; }
+        public int SleepBetweenCalls { get; protected set; }
         public Func<IReadOnlyList<string>, IList<string>> SendAction { get; protected set; }
-        public DataDesc(IReadOnlyList<MySubtitleItem> subs,int maipr, int mcpr, int mtichf, int stihf, Func<IReadOnlyList<string>, IList<string>> sa)
+        public DataDesc(IReadOnlyList<MySubtitleItem> subs,int maipr, int mcpr, int mtichf, int stihf, Func<IReadOnlyList<string>, IList<string>> sa, int sbc)
         {
             Subtitles = subs ?? throw new ArgumentNullException(nameof(subs));
             SendAction = sa ?? throw new ArgumentNullException(nameof(sa));
@@ -21,6 +22,7 @@ namespace QuickSubtitleTranslator.Common
             MaxCharactersPerRequest = mcpr;
             MaxTriesInCaseHttpFails = mtichf;
             SleepTimeIfHttpFails = stihf;
+            SleepBetweenCalls = sbc;
         }
     }
 }

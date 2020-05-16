@@ -135,8 +135,8 @@ namespace QuickSubtitleTranslator
         /// <param name="toLang">Translate to</param>
         /// <param name="api">Which service provider to use</param>
         /// <param name="apiKey">API key for service provider</param>
-        /// <param name="overwrite">Overwrite output subtitles folder</param>
-        public static void Main(string path, string outputFolder, string fromLang, string toLang, APIType api, string apiKey, bool overwrite = true)
+        /// <param name="askForRetry">If enabled, it will wait for input if http/service fails before continuing</param>
+        public static void Main(string path, string outputFolder, string fromLang, string toLang, APIType api, string apiKey, bool askForRetry = false)
         {
             ShowNotice();
 
@@ -152,10 +152,10 @@ namespace QuickSubtitleTranslator
             Console.WriteLine($"From language = {fromLang}");
             Console.WriteLine($"To language = {toLang}");
             Console.WriteLine($"API = {api}");
-            Console.WriteLine($"Overwrite = {overwrite}");
+            Console.WriteLine($"Ask for retry = {askForRetry}");
             Console.WriteLine($"Default encoding is UTF-8");
             Console.WriteLine($"Default framerate for microdvd subtitles is {25}");
-
+            Helper.WaitForInput = askForRetry;
             CreateAndCheckOutputFolder(outputFolder);
 
             SetService(api);
