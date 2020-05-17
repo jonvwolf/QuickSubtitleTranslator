@@ -90,56 +90,52 @@ namespace QuickSubtitleTranslator.Common
             int currentArrayCount = 0;
             int currentCharacterCount = 0;
             bool afterFirstCall = false;
-
+            int totalProcessedCount = 0;
             var subset = new List<CombinedLine>(data.MaxArrayItemsPerReq);
+
             foreach (var combinedLine in combinedLines)
             {
+                //Add
+                currentArrayCount++;
+                totalProcessedCount++;
+                totalCharactersUsed += combinedLine.CharacterCount;
+                currentCharacterCount += combinedLine.CharacterCount;
+                subset.Add(combinedLine);
+
+                //Check
                 bool send = false;
-                if (currentArrayCount + 1 > data.MaxArrayItemsPerReq)
+                if (currentArrayCount >= data.MaxArrayItemsPerReq)
                     send = true;
 
-                if (currentCharacterCount + combinedLine.CharacterCount > data.MaxCharactersPerRequest)
+                if (currentCharacterCount >= data.MaxCharactersPerRequest)
                     send = true;
 
+                if (totalProcessedCount >= combinedLines.Count)
+                    send = true;
+
+                //Send
                 if (send)
                 {
-                    //COPIED CODE
                     if (afterFirstCall)
                         Thread.Sleep(data.SleepBetweenCalls);
 
                     afterFirstCall = true;
                     var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
-                    Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
-                    Console.WriteLine($"Peek: {stringListToSend.Last()}");
                     var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction);
                     items.AddRange(Helper.Convert(translatedLines.ToImmutableList(), subset.ToImmutableList()));
-                    Console.WriteLine($"Peek: {translatedLines.Last()}");
                     subset.Clear();
-                    //END COPIED CODE
+
+                    Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
+                    Console.WriteLine($"Peek: {stringListToSend.Last()}");
+                    Console.WriteLine($"Peek: {translatedLines.Last()}");
+
                     currentArrayCount = 0;
                     currentCharacterCount = 0;
                 }
-
-                currentArrayCount++;
-                
-                totalCharactersUsed += combinedLine.CharacterCount;
-                currentCharacterCount += combinedLine.CharacterCount;
-                subset.Add(combinedLine);
             }
 
-            if (subset.Count > 0)
-            {
-                //COPIED CODE
-                Thread.Sleep(data.SleepBetweenCalls);
-                var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
-                Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
-                Console.WriteLine($"Peek: {stringListToSend.Last()}");
-                var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction);
-                items.AddRange(Helper.Convert(translatedLines.ToImmutableList(), subset.ToImmutableList()));
-                Console.WriteLine($"Peek: {translatedLines.Last()}");
-                subset.Clear();
-                //END COPIED CODE
-            }
+            if (subset.Count > 0 || totalProcessedCount != combinedLines.Count)
+                throw new Exception($"{nameof(subset)} has unprocessed items. Total processed: {totalProcessedCount} : Total count: {combinedLines.Count}");
 
             return new MyTranslateResult(items, totalCharactersUsed);
         }
