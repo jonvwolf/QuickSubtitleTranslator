@@ -80,13 +80,21 @@ namespace QuickSubtitleTranslator.IntegrationTests
             File.Delete("sub_output\\Scrubs.S02E08.srt");
             File.Delete("sub_output\\srt example.srt");
             File.Delete("sub_output\\sub_example.srt");
-            
+
+            //Dirty fix so it doesn't break up lines
+            Constants.DoNotBreakIfOnlyLine = 1000;
+            Constants.MaxWordsPerLine = 1000;
+
             var svc = new Mock<ITranslationService>();
             svc.Setup(x => x.Translate(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<IReadOnlyList<MySubtitleItem>>(), It.IsAny<string>()))
                 .Returns((string to, string from, IReadOnlyList<MySubtitleItem> list, string key) =>
                 {
-
-                    return new MyTranslateResult(list.ToList(), 0);
+                    var listx = new List<MyTranslatedSubtitleItem>(list.Count);
+                    foreach (var item in list)
+                    {
+                        listx.Add(new MyTranslatedSubtitleItem(item.StartTime, item.EndTime, string.Join("\r\n", item.Lines)));
+                    }
+                    return new MyTranslateResult(listx, 0);
                 });
 
             Program.TranslationService = svc.Object;

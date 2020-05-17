@@ -77,7 +77,7 @@ namespace QuickSubtitleTranslator.Common
         }
         public static MyTranslateResult Process(DataDesc data)
         {
-            List<MySubtitleItem> items = new List<MySubtitleItem>(data.Subtitles.Count);
+            var items = new List<MyTranslatedSubtitleItem>(data.Subtitles.Count);
 
             IList<CombinedLine> combinedLines = new List<CombinedLine>(data.Subtitles.Count);
             foreach (var item in data.Subtitles)
@@ -139,72 +139,25 @@ namespace QuickSubtitleTranslator.Common
 
             return new MyTranslateResult(items, totalCharactersUsed);
         }
-        public static IList<MySubtitleItem> Convert(IReadOnlyList<string> translatedLines, IReadOnlyList<CombinedLine> subset)
+        public static IList<MyTranslatedSubtitleItem> Convert(IReadOnlyList<string> translatedLines, IReadOnlyList<CombinedLine> subset)
         {
             if (translatedLines.Count != subset.Count)
                 throw new Exception($"{nameof(translatedLines)} count does not match with {nameof(subset)}");
 
-            var list = new List<MySubtitleItem>(subset.Count);
+            var list = new List<MyTranslatedSubtitleItem>(subset.Count);
 
             for (int index = 0; index < translatedLines.Count; index++)
             {
                 list.Add(
-                    new MySubtitleItem(
+                    new MyTranslatedSubtitleItem(
                         s: subset[index].BelongsTo.StartTime,
                         e: subset[index].BelongsTo.EndTime,
-                        l: SplitWords(translatedLines[index], Constants.DoNotBreakIfOnlyLine, Constants.MaxWordsPerLine).ToImmutableList())
-                    );
+                        l: translatedLines[index]
+                    ));
             }
 
             return list;
         }
 
-        public static IList<string> SplitWords(string sentence, int doNotBreakIfOnlyOneLine, int maxWordsPerLine)
-        {
-            string[] split = sentence.Split(" ");
-            if (split.Length <= doNotBreakIfOnlyOneLine)
-                return new List<string>() { sentence };
-
-            var list = new List<string>();
-            int wordCount = 0;
-            int remaining = split.Length;
-            StringBuilder sb = new StringBuilder(sentence.Length);
-            foreach (var word in split)
-            {
-                bool add = false;
-                bool addLastOne = false;
-                if (wordCount + 1 > maxWordsPerLine)
-                    add = true;
-                if (remaining - 1 <= 0)
-                {
-                    add = true;
-                    addLastOne = true;
-                }
-
-                if (add)
-                {
-                    if (addLastOne)
-                    {
-                        remaining--;
-                        sb.Append(word.Trim()).Append(" ");
-                    }
-
-                    list.Add(sb.ToString().Trim());
-                    wordCount = 0;
-                    sb.Clear();
-                }
-
-                if (!addLastOne)
-                {
-                    wordCount++;
-                    remaining--;
-                    sb.Append(word.Trim()).Append(" ");
-                }
-            }
-            if (sb.ToString().Length > 0 || remaining > 0)
-                throw new Exception($"Bug. {nameof(sb)} still has characters...");
-
-            return list;
-        }
     }
 }

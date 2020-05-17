@@ -204,7 +204,7 @@ namespace QuickSubtitleTranslator
             Console.WriteLine($"Total characters used: {totalCharacters}");
         }
 
-        static void ValidateItems(IReadOnlyList<SubtitleItem> original, IReadOnlyList<MySubtitleItem> translated)
+        static void ValidateItems(IReadOnlyList<SubtitleItem> original, IReadOnlyList<MyTranslatedSubtitleItem> translated)
         {
             if (original.Count != translated.Count)
                 throw new Exception($"Items do not match between {original} and {translated}");
@@ -218,10 +218,11 @@ namespace QuickSubtitleTranslator
             }
         }
 
-        static void WriteToFile(IReadOnlyList<MySubtitleItem> items, string outputFile, string outputFolder)
+        static void WriteToFile(IReadOnlyList<MyTranslatedSubtitleItem> items, string outputFile, string outputFolder)
         {
             //* 80 is an estimate
             StringBuilder sb = new StringBuilder(items.Count * 80);
+            
             for (int i = 0; i < items.Count; i++)
             {
                 string format = "{0:00}:{1:00}:{2:00},{3:000}";
@@ -234,7 +235,8 @@ namespace QuickSubtitleTranslator
                     .Append(string.Format(CultureInfo.InvariantCulture, format, end.Hours, end.Minutes, end.Seconds, end.Milliseconds))
                     .Append(Environment.NewLine);
 
-                foreach (var line in items[i].Lines)
+                var lines = LineFormatter.SplitWords(items[i].Line, Constants.DoNotBreakIfOnlyLine, Constants.MaxWordsPerLine);
+                foreach (var line in lines)
                 {
                     sb.Append(line)
                         .Append(Environment.NewLine);

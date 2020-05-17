@@ -11,7 +11,7 @@ namespace QuickSubtitleTranslator.Common.UnitTests
             //arrange
             string workToBreak = "¿Hola? ¿Perdóneme? � Hay una línea, amigo.";
             //act
-            var list = Helper.SplitWords(workToBreak, 4, 4);
+            var list = LineFormatter.SplitWords(workToBreak, 4, 4);
             //assert
             Assert.NotNull(list);
             Assert.Equal(2, list.Count);
@@ -24,7 +24,7 @@ namespace QuickSubtitleTranslator.Common.UnitTests
             //arrange
             string workToBreak = "¿Hola? ¿Perdóneme? � Hay una línea, amigo.";
             //act
-            var list = Helper.SplitWords(workToBreak, 100, 4);
+            var list = LineFormatter.SplitWords(workToBreak, 100, 4);
             //assert
             Assert.NotNull(list);
             Assert.Equal(1, list.Count);

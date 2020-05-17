@@ -1,21 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Immutable;
 using System.Text;
 
 namespace QuickSubtitleTranslator.Common
 {
-    public class MySubtitleItem
+    public class MyTranslatedSubtitleItem
     {
         public int StartTime { get; protected set; }
         public int EndTime { get; protected set; }
-        public IReadOnlyList<string> Lines { get; protected set; }
-        public MySubtitleItem(int s, int e, IReadOnlyList<string> l)
+        public string Line { get; protected set; }
+        
+        public MyTranslatedSubtitleItem(int s, int e, string l)
         {
             StartTime = s;
             EndTime = e;
-            Lines = l?.ToImmutableList() ?? throw new ArgumentNullException(nameof(l));
+            Line = l ?? throw new ArgumentNullException(nameof(l));
         }
-
     }
 }
