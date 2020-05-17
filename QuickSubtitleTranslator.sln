@@ -22,7 +22,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSubtitleTranslator.IBM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSubtitleTranslator.AmazonApi", "QuickSubtitleTranslator.AmazonApi\QuickSubtitleTranslator.AmazonApi.csproj", "{181E2D8D-282D-4F36-86BD-D8DA9EECDCA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.Common.UnitTests", "QuickSubtitleTranslator.Common.UnitTests\QuickSubtitleTranslator.Common.UnitTests.csproj", "{C14D2C00-FBA8-4CEA-9DF7-B2B36AABEC1B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickSubtitleTranslator.Common.UnitTests", "QuickSubtitleTranslator.Common.UnitTests\QuickSubtitleTranslator.Common.UnitTests.csproj", "{C14D2C00-FBA8-4CEA-9DF7-B2B36AABEC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickSubtitleTranslator.IntegrationTestsMockEx", "QuickSubtitleTranslator.IntegrationTestsMockEx\QuickSubtitleTranslator.IntegrationTestsMockEx.csproj", "{26BFE341-280E-4D28-AE5F-393E896B8715}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,6 +64,10 @@ Global
 		{C14D2C00-FBA8-4CEA-9DF7-B2B36AABEC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C14D2C00-FBA8-4CEA-9DF7-B2B36AABEC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C14D2C00-FBA8-4CEA-9DF7-B2B36AABEC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BFE341-280E-4D28-AE5F-393E896B8715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BFE341-280E-4D28-AE5F-393E896B8715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BFE341-280E-4D28-AE5F-393E896B8715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BFE341-280E-4D28-AE5F-393E896B8715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
