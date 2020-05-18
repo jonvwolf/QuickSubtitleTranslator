@@ -12,13 +12,15 @@ namespace QuickSubtitleTranslator.IBMApi
 {
     public class IBMTranslator : ITranslationService
     {
+        public static Func<LanguageTranslatorService, List<string>, string, DetailedResponse<TranslationResult>> SendData { get; set; }
+
         const int MaxArrayItemsPerReq = 100;
         const int MaxCharactersToSend = 5000;
-        const int SleepIfFails = 20000;
-        const int SleepBetweenCalls = 3500;
-        const int MaxTries = 5;
+        public static int SleepIfFails = 20000;
+        public static int SleepBetweenCalls = 3500;
+        public static int MaxTries = 5;
 
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput)
         {
             string key;
             string url;
@@ -35,6 +37,14 @@ namespace QuickSubtitleTranslator.IBMApi
                 throw;
             }
 
+            if (SendData == null)
+            {
+                SendData = (svc, list, modelId) =>
+                {
+                    return svc.Translate(list, modelId: modelId);
+                };
+            }
+
             IList<string> SendAction(IReadOnlyList<string> subset)
             {
                 IamAuthenticator authenticator = new IamAuthenticator(apikey: key);
@@ -44,7 +54,7 @@ namespace QuickSubtitleTranslator.IBMApi
                     svc = new LanguageTranslatorService("2018-05-01", authenticator);
                     svc.SetServiceUrl(url);
 
-                    var response = svc.Translate(subset.ToList(), modelId: $"{from}-{to}");
+                    var response = SendData(svc, subset.ToList(), $"{from}-{to}");
                     var result = response.Result.Translations.Select(x => x._Translation).ToList();
                     return result;
                 }
@@ -61,7 +71,8 @@ namespace QuickSubtitleTranslator.IBMApi
                 mtichf: MaxTries,
                 stihf: SleepIfFails,
                 sa: SendAction,
-                sbc: SleepBetweenCalls
+                sbc: SleepBetweenCalls,
+                wfi: waitForInput
             ));
 
             return result;

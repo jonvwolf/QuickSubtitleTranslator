@@ -11,8 +11,7 @@ namespace QuickSubtitleTranslator.Common
 {
     public static class Helper
     {
-        public static bool WaitForInput = false;
-        static IList<string> TrySend(IReadOnlyList<string> subset, int sleep, int tries, Func<IReadOnlyList<string>, IList<string>> SendAction)
+        static IList<string> TrySend(IReadOnlyList<string> subset, int sleep, int tries, Func<IReadOnlyList<string>, IList<string>> SendAction, bool waitForInput)
         {
             var list = new List<Exception>();
 
@@ -38,7 +37,7 @@ namespace QuickSubtitleTranslator.Common
                 
                 if (currentTries <= 0)
                 {
-                    if (AskToContinue())
+                    if (AskToContinue(waitForInput))
                         currentTries = tries;
                     else
                         break;
@@ -50,9 +49,9 @@ namespace QuickSubtitleTranslator.Common
 
             throw new Exception($"Couldn't get a response from server. See inner exception. Exitting...", new AggregateException(list));
         }
-        static bool AskToContinue()
+        static bool AskToContinue(bool waitForInput)
         {
-            if (!WaitForInput)
+            if (!waitForInput)
                 return false;
 
             while (true)
@@ -121,7 +120,7 @@ namespace QuickSubtitleTranslator.Common
 
                     afterFirstCall = true;
                     var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
-                    var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction);
+                    var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction, data.WaitForInput);
                     items.AddRange(Helper.Convert(translatedLines.ToImmutableList(), subset.ToImmutableList()));
                     subset.Clear();
 

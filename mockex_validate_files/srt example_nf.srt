@@ -1,0 +1,23 @@
+1
+00:00:01,600 --> 00:00:04,200
+English (US)
+
+2
+00:00:05,900 --> 00:00:07,999
+This is a subtitle in American English
+
+3
+00:00:10,000 --> 00:00:14,000
+Adding subtitles is very easy to do
+
+4
+00:00:15,000 --> 00:00:16,000
+Adding Iñtërnâtiônàlizætiøn will it work? Hola
+
+5
+00:00:17,000 --> 00:00:20,000
+<b>Adding Iñtërnâtiônàlizætiøn will it work?</b> Hola
+
+6
+00:17:28,847 --> 00:17:31,782
+- I would have been called. - Stop making excuses. 💝🐹🌇⛔

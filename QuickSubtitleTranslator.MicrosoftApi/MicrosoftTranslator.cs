@@ -13,17 +13,27 @@ namespace QuickSubtitleTranslator.MicrosoftApi
 {
     public class MicrosoftTranslator : ITranslationService
     {
+        public static Func<HttpClient, HttpRequestMessage, HttpResponseMessage> SendData { get; set; }
+
         const int MaxArrayItemsPerReq = 100;
         const int MaxCharactersToSend = 5000;
-        const int SleepIfFails = 20000;
-        const int SleepBetweenCalls = 3500;
-        const int MaxTries = 5;
+        public static int SleepIfFails = 20000;
+        public static int SleepBetweenCalls = 3500;
+        public static int MaxTries = 5;
         
         //More options: https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate
         const string Endpoint = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to={0}&from={1}";
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput)
         {
             string url = string.Format(Endpoint, to, from);
+
+            if (SendData == null)
+            {
+                SendData = (client, request) =>
+                {
+                    return client.SendAsync(request).Result;
+                };
+            }
 
             IList<string> SendAction(IReadOnlyList<string> subset)
             {
@@ -43,7 +53,7 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                 request.Headers.Add("Ocp-Apim-Subscription-Key", apiKey);
 
                 var result = new List<string>(list.Count);
-                using (var response = client.SendAsync(request).Result)
+                using (var response = SendData(client, request))
                 {
                     response.EnsureSuccessStatusCode();
                     string resultStr = response.Content.ReadAsStringAsync().Result;
@@ -65,7 +75,8 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                 mtichf: MaxTries,
                 stihf: SleepIfFails,
                 sa: SendAction,
-                sbc: SleepBetweenCalls
+                sbc: SleepBetweenCalls,
+                wfi: waitForInput
             ));
 
             return result;

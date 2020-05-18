@@ -10,18 +10,26 @@ namespace QuickSubtitleTranslator.GoogleApi
 {
     public class GoogleTranslator : ITranslationService
     {
+        public static Func<TranslationClient, IReadOnlyList<string>, string, string, TranslationModel, IList<TranslationResult>> SendData { get; set; }
         const int MaxArrayItemsPerReq = 128;
         const int MaxCharactersToSend = 8000;
-        const int SleepIfFails = 20000;
-        const int SleepBetweenCalls = 5500;
-        const int MaxTries = 5;
+        public static int SleepIfFails = 20000;
+        public static int SleepBetweenCalls = 5500;
+        public static int MaxTries = 5;
 
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput)
         {
+            if (SendData == null)
+            {
+                SendData = (client, subset, to, from, model) =>
+                {
+                    return client.TranslateText(subset, to, from, model);
+                };
+            }
             IList<string> SendAction(IReadOnlyList<string> subset)
             {
                 using var client = TranslationClient.CreateFromApiKey(apiKey);
-                var resp = client.TranslateText(subset, to, from, TranslationModel.NeuralMachineTranslation);
+                var resp = SendData(client, subset, to, from, TranslationModel.NeuralMachineTranslation);
                 return resp.Select(x => x.TranslatedText).ToList();
             }
 
@@ -32,7 +40,8 @@ namespace QuickSubtitleTranslator.GoogleApi
                 mtichf: MaxTries,
                 stihf: SleepIfFails,
                 sa: SendAction,
-                sbc: SleepBetweenCalls
+                sbc: SleepBetweenCalls,
+                wfi: waitForInput
             ));
 
             return result;

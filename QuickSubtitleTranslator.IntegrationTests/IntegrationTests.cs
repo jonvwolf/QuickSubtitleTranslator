@@ -14,8 +14,15 @@ namespace QuickSubtitleTranslator.IntegrationTests
 {
     public class IntegrationTests
     {
+        const string Path = @"..\..\..\..\test_folder_inputs";
+        const string FromLang = "en";
+        const string ToLang = "es";
+        const string SrtExampleFile = "srt example.srt";
+        const string ScrubsFile = "Scrubs.S02E08.srt";
+        const string SrtExampleFileNF = "srt example_nf.srt";
+        const string ScrubsFileNF = "Scrubs.S02E08_nf.srt";
 
-        static string GetApiKey(APIType api)
+        static string GetApiKey(ApiType api)
         {
             //qsubtranslator_google_key env key
             //format of: qsubtranslator_google_key
@@ -24,19 +31,19 @@ namespace QuickSubtitleTranslator.IntegrationTests
             string apiKey;
             string env;
 
-            if (api == APIType.Google)
+            if (api == ApiType.Google)
             {
                 env = Environment.GetEnvironmentVariable("qsubtranslator_google_key");
             }
-            else if (api == APIType.Microsoft)
+            else if (api == ApiType.Microsoft)
             {
                 env = Environment.GetEnvironmentVariable("qsubtranslator_microsoft_key");
             }
-            else if (api == APIType.IBM)
+            else if (api == ApiType.IBM)
             {
                 env = Environment.GetEnvironmentVariable("qsubtranslator_ibm_key");
             }
-            else if (api == APIType.Amazon)
+            else if (api == ApiType.Amazon)
             {
                 env = Environment.GetEnvironmentVariable("qsubtranslator_amazon_key");
             }
@@ -58,35 +65,39 @@ namespace QuickSubtitleTranslator.IntegrationTests
             }
             return apiKey;
         }
-
+        static void CheckDirectory(string outputFolder)
+        {
+            if (Directory.Exists(outputFolder))
+            {
+                File.Delete($"{outputFolder}\\{ScrubsFile}");
+                File.Delete($"{outputFolder}\\{SrtExampleFile}");
+                File.Delete($"{outputFolder}\\{ScrubsFileNF}");
+                File.Delete($"{outputFolder}\\{SrtExampleFileNF}");
+            }
+        }
         public IntegrationTests()
         {
-            File.WriteAllText("accepted_notice", "Yes");
+            if (!File.Exists("accepted_notice"))
+                File.WriteAllText("accepted_notice", "Yes");
         }
 
         [Fact]
         public void OutputSubtitle_ShouldBe_TranslatedBy_Google()
         {
-            string path = @"..\..\..\..\test_folder_google";
             string outputFolder = "sub_output_translate_google";
-            string fromLang = "en";
-            string toLang = "es";
-            APIType api = APIType.Google;
-            File.Delete("sub_output_translate_google\\Scrubs.S02E08.srt");
-            File.Delete("sub_output_translate_google\\srt example.srt");
+            ApiType api = ApiType.Google;
 
-            Program.Main(path, outputFolder, fromLang, toLang, api, GetApiKey(api));
+            CheckDirectory(outputFolder);
 
-            string file = @"sub_output_translate_google\" + "srt example.srt";
-            string contents = File.ReadAllText(file, Encoding.UTF8);
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
+
+            string contents = File.ReadAllText(@$"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);
             Assert.Contains("Inglés", contents);
             Assert.Contains("00:00:01,600 --> 00:00:04,200", contents);
             Assert.Contains("Iñtërnâtiônàlizætiøn", contents);
             Assert.Contains("excusas", contents);
-        
-            string file2 = @"sub_output_translate_google\" + "Scrubs.S02E08.srt";
-            string contents2 = File.ReadAllText(file2, Encoding.UTF8);
 
+            string contents2 = File.ReadAllText($@"{outputFolder}\{ScrubsFile}", Encoding.UTF8);
             Assert.Contains("00:00:01,360 --> 00:00:04,079", contents2);
             Assert.Contains("00:20:12,880 --> 00:20:16,919", contents2);
             Assert.Contains("00:03:41,120 --> 00:03:45,398", contents2);
@@ -99,26 +110,19 @@ namespace QuickSubtitleTranslator.IntegrationTests
         [Fact]
         public void OutputSubtitle_ShouldBe_TranslatedBy_Microsoft()
         {
-            string path = @"..\..\..\..\test_folder_google";
             string outputFolder = "sub_output_translate_microsoft";
-            string fromLang = "en";
-            string toLang = "es";
-            APIType api = APIType.Microsoft;
+            ApiType api = ApiType.Microsoft;
 
-            File.Delete("sub_output_translate_microsoft\\Scrubs.S02E08.srt");
-            File.Delete("sub_output_translate_microsoft\\srt example.srt");
+            CheckDirectory(outputFolder);
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
 
-            Program.Main(path, outputFolder, fromLang, toLang, api, GetApiKey(api));
-
-            string file = @"sub_output_translate_microsoft\" + "srt example.srt";
-            string contents = File.ReadAllText(file, Encoding.UTF8);
+            string contents = File.ReadAllText($@"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);
             Assert.Contains("Inglés", contents);
             Assert.Contains("00:00:01,600 --> 00:00:04,200", contents);
             Assert.Contains("subtítulos", contents);
             Assert.Contains("excusas", contents);
 
-            string file2 = @"sub_output_translate_microsoft\" + "Scrubs.S02E08.srt";
-            string contents2 = File.ReadAllText(file2, Encoding.UTF8);
+            string contents2 = File.ReadAllText($@"{outputFolder}\{ScrubsFile}", Encoding.UTF8);
             Assert.Contains("00:00:01,360 --> 00:00:04,079", contents2);
             Assert.Contains("00:20:12,880 --> 00:20:16,919", contents2);
             Assert.Contains("00:03:41,120 --> 00:03:45,398", contents2);
@@ -131,25 +135,19 @@ namespace QuickSubtitleTranslator.IntegrationTests
         [Fact]
         public void OutputSubtitle_ShouldBe_TranslatedBy_Amazon()
         {
-            string path = @"..\..\..\..\test_folder_google";
             string outputFolder = "sub_output_translate_amazon";
-            string fromLang = "en";
-            string toLang = "es";
-            APIType api = APIType.Amazon;
-            File.Delete("sub_output_translate_amazon\\Scrubs.S02E08.srt");
-            File.Delete("sub_output_translate_amazon\\srt example.srt");
+            ApiType api = ApiType.Amazon;
+            CheckDirectory(outputFolder);
 
-            Program.Main(path, outputFolder, fromLang, toLang, api, GetApiKey(api));
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
 
-            string file = @"sub_output_translate_amazon\" + "srt example.srt";
-            string contents = File.ReadAllText(file, Encoding.UTF8);
+            string contents = File.ReadAllText($@"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);
             Assert.Contains("Añadir", contents);
             Assert.Contains("00:00:01,600 --> 00:00:04,200", contents);
             Assert.Contains("subtítulos", contents);
             Assert.Contains("excusas", contents);
 
-            string file2 = @"sub_output_translate_amazon\" + "Scrubs.S02E08.srt";
-            string contents2 = File.ReadAllText(file2, Encoding.UTF8);
+            string contents2 = File.ReadAllText($@"{outputFolder}\{ScrubsFile}", Encoding.UTF8);
         
             Assert.Contains("bien", contents2);
             Assert.Contains("ambulancia", contents2);
@@ -163,24 +161,20 @@ namespace QuickSubtitleTranslator.IntegrationTests
         [Fact]
         public void OutputSubtitle_ShouldBe_TranslatedBy_IBM()
         {
-            string path = @"..\..\..\..\test_folder_google";
             string outputFolder = "sub_output_translate_ibm";
-            string fromLang = "en";
-            string toLang = "es";
-            APIType api = APIType.IBM;
-            File.Delete("sub_output_translate_ibm\\Scrubs.S02E08.srt");
-            File.Delete("sub_output_translate_ibm\\srt example.srt");
-            Program.Main(path, outputFolder, fromLang, toLang, api, GetApiKey(api));
+            ApiType api = ApiType.IBM;
 
-            string file = @"sub_output_translate_ibm\" + "srt example.srt";
-            string contents = File.ReadAllText(file, Encoding.UTF8);
+            CheckDirectory(outputFolder);
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
+
+            
+            string contents = File.ReadAllText($@"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);
             Assert.Contains("Añadir", contents);
             Assert.Contains("00:00:01,600 --> 00:00:04,200", contents);
             Assert.Contains("subtítulos", contents);
             Assert.Contains("excusas", contents);
 
-            string file2 = @"sub_output_translate_ibm\" + "Scrubs.S02E08.srt";
-            string contents2 = File.ReadAllText(file2, Encoding.UTF8);
+            string contents2 = File.ReadAllText($@"{outputFolder}\{ScrubsFile}", Encoding.UTF8);
 
             Assert.Contains("00:00:01,360 --> 00:00:04,079", contents2);
             Assert.Contains("00:20:12,880 --> 00:20:16,919", contents2);

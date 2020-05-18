@@ -12,13 +12,15 @@ namespace QuickSubtitleTranslator.AmazonApi
 {
     public class AmazonTranslator : ITranslationService
     {
+        public static Func<AmazonTranslateClient, TranslateTextRequest, TranslateTextResponse> SendData { get; set; }
+
         const int MaxArrayItemsPerReq = 25;
         const int MaxCharactersToSend = 1700;
-        const int SleepIfFails = 30000;
-        const int SleepBetweenCalls = 11000;
-        const int MaxTries = 5;
+        public static int SleepIfFails = 30000;
+        public static int SleepBetweenCalls = 11000;
+        public static int MaxTries = 5;
 
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput)
         {
             string accessKey;
             string secretKey;
@@ -37,6 +39,14 @@ namespace QuickSubtitleTranslator.AmazonApi
 
             IList<string> SendAction(IReadOnlyList<string> subset)
             {
+                if (SendData == null)
+                {
+                    SendData = (svc, request) =>
+                    {
+                        return svc.TranslateTextAsync(request).Result;
+                    };
+                }
+
                 //TODO : not sure which one to believe...
                 // Limits (says utf8 5k bytes): https://docs.aws.amazon.com/translate/latest/dg/what-is-limits.html
                 //quota in aws says 10k bytes per 10 seconds: https://us-east-2.console.aws.amazon.com/servicequotas/home?region=us-east-2#!/services/translate/quotas
@@ -64,7 +74,7 @@ namespace QuickSubtitleTranslator.AmazonApi
                     TargetLanguageCode = to
                 };
 
-                var response = service.TranslateTextAsync(request).Result;
+                var response = SendData(service, request);
                 var newList =  response.TranslatedText.Replace(maybeItIsABug, charToReplace).Split(delimiter).ToList();
 
                 if (subset.Count != newList.Count)
@@ -80,7 +90,8 @@ namespace QuickSubtitleTranslator.AmazonApi
                 mtichf: MaxTries,
                 stihf: SleepIfFails,
                 sa: SendAction,
-                sbc: SleepBetweenCalls
+                sbc: SleepBetweenCalls,
+                wfi: waitForInput
             ));
 
             return result;
