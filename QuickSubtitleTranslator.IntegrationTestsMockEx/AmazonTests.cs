@@ -11,8 +11,8 @@ namespace QuickSubtitleTranslator.IntegrationTestsMockEx
     public class AmazonTests
     {
         const string OutputFolder = "mockex_output_amazon";
-        const string ApiKey = "apikey||1||https://api.us-south.language-translator.watson.cloud.ibm.com/instances/1000-001-10001-abc";
-        static readonly ApiType Api = ApiType.IBM;
+        const string ApiKey = "apikey||1||accesskey";
+        static readonly ApiType Api = ApiType.Amazon;
 
         public AmazonTests()
         {
