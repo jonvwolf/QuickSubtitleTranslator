@@ -11,7 +11,7 @@ namespace QuickSubtitleTranslator.Common
         public int StartTime { get; protected set; }
         public int EndTime { get; protected set; }
 
-        IList<string> _lines;
+        readonly IList<string> _lines;
         public IReadOnlyList<string> Lines { get { return _lines.ToImmutableList(); } }
         public MySubtitleItem(int s, int e, IReadOnlyList<string> l)
         {

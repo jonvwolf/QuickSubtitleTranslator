@@ -11,7 +11,7 @@ namespace QuickSubtitleTranslator.Common
 {
     public static class Helper
     {
-        static readonly string LineBreak = "\n";
+        public const string LineBreak = "\n";
         
         static string TrySend(string sentenceToTranslate, int sleep, int tries, Func<string, string> SendAction, bool waitForInput)
         {

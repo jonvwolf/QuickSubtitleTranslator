@@ -54,13 +54,17 @@ namespace QuickSubtitleTranslator.IBMApi
                     svc = new LanguageTranslatorService("2018-05-01", authenticator);
                     svc.SetServiceUrl(url);
 
-                    var response = SendData(svc, new List<string>() { sentenceToTranslate }, $"{from}-{to}");
+                    var list = sentenceToTranslate.Split(Helper.LineBreak);
+
+                    var response = SendData(svc, list.ToList(), $"{from}-{to}");
                     var result = response.Result.Translations.Select(x => x._Translation).ToList();
 
-                    if (result.Count != 1)
-                        throw new Exception($"Got result but returned more than 1 translated item");
+                    string translated = string.Join(Helper.LineBreak, result);
 
-                    return result[0];
+                    if (string.IsNullOrWhiteSpace(translated))
+                        throw new Exception("Translated is empty");
+
+                    return translated;
                 }
                 finally
                 {
