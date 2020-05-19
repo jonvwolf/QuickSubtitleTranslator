@@ -15,7 +15,7 @@ namespace QuickSubtitleTranslator.IntegrationTestsMockEx
         
         public const string FromLang = "en";
         public const string ToLang = "es";
-        public const string Path = @"..\..\..\..\test_folder_inputs";
+        public const string Path = @"..\..\..\..\test_folder_inputs_mockex";
         public const string ValidatePath = Path;
 
         public static void CheckDirectory(string outputFolder)

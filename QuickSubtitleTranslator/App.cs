@@ -82,6 +82,18 @@ namespace QuickSubtitleTranslator
                     }
                 }
 
+                foreach (var item in myItems)
+                {
+                    if (item.EndTime <= 0 || item.StartTime <= 0 || item.Lines.Count <= 0)
+                        throw new Exception($"Invalid subtitle file: {file}");
+
+                    foreach (var line in item.Lines)
+                    {
+                        if (string.IsNullOrWhiteSpace(line))
+                            throw new Exception($"Empty line detected in {file}");
+                    }
+                }
+
                 if (myItems.Count == 0)
                     throw new Exception($"File {file} has no subtitles...");
 

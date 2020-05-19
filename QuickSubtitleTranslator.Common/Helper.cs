@@ -92,8 +92,6 @@ namespace QuickSubtitleTranslator.Common
                 }
             }
 
-            
-            
             int totalCharactersUsed = 0;
             int currentArrayCount = 0;
             int currentCharacterCount = 0;
@@ -150,6 +148,9 @@ namespace QuickSubtitleTranslator.Common
         }
         public static void FillResult(string translatedSentence, IReadOnlyList<LineToTranslate> subset, IReadOnlyList<MySubtitleItem> listToFill)
         {
+            if (string.IsNullOrWhiteSpace(translatedSentence))
+                throw new ArgumentNullException(nameof(translatedSentence));
+
             var lines = translatedSentence.Split(LineBreak).ToList();
 
             if (lines.Count != subset.Count)
