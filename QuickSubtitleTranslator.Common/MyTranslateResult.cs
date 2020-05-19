@@ -6,9 +6,9 @@ namespace QuickSubtitleTranslator.Common
 {
     public class MyTranslateResult
     {
-        public IList<MyTranslatedSubtitleItem> TranslatedItems { get; protected set; }
+        public IReadOnlyList<MySubtitleItem> TranslatedItems { get; protected set; }
         public int TranslatedCharacters { get; protected set; }
-        public MyTranslateResult(IList<MyTranslatedSubtitleItem> items, int count)
+        public MyTranslateResult(IReadOnlyList<MySubtitleItem> items, int count)
         {
             TranslatedItems = items ?? throw new ArgumentNullException(nameof(items));
             TranslatedCharacters = count;

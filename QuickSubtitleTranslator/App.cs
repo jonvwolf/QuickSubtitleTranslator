@@ -16,15 +16,6 @@ namespace QuickSubtitleTranslator
     public class App
     {
         /// <summary>
-        /// Max words per line when formatting
-        /// </summary>
-        public int MaxWordsPerLine { get; set; } = 5;
-        /// <summary>
-        /// Do not break line if it is less than this
-        /// </summary>
-        public int DoNotBreakIfOnlyLine { get; set; } = 5 + 1;
-
-        /// <summary>
         /// This property helps to override the default service providers
         /// </summary>
         public ITranslationService TranslationService { get; set; }
@@ -100,8 +91,7 @@ namespace QuickSubtitleTranslator
                 Console.WriteLine($"Translated count for {file}. Count: {translatedItems.TranslatedCharacters}");
 
                 ValidateItems(items, translatedItems.TranslatedItems.ToImmutableList());
-                WriteToFile(translatedItems.TranslatedItems.ToImmutableList(), file, outputFolder, false);
-                WriteToFile(translatedItems.TranslatedItems.ToImmutableList(), file, outputFolder, true);
+                WriteToFile(translatedItems.TranslatedItems.ToImmutableList(), file, outputFolder);
 
                 totalCharacters += translatedItems.TranslatedCharacters;
             }
@@ -166,7 +156,7 @@ namespace QuickSubtitleTranslator
             return files;
         }
 
-        static void ValidateItems(IReadOnlyList<SubtitleItem> original, IReadOnlyList<MyTranslatedSubtitleItem> translated)
+        static void ValidateItems(IReadOnlyList<SubtitleItem> original, IReadOnlyList<MySubtitleItem> translated)
         {
             if (original.Count != translated.Count)
                 throw new Exception($"Items do not match between {original} and {translated}");
@@ -176,12 +166,19 @@ namespace QuickSubtitleTranslator
                 if (original[index].EndTime != translated[index].EndTime || original[index].StartTime != translated[index].StartTime)
                     throw new Exception("Difference between original and translated start and end times");
 
-                if (string.IsNullOrWhiteSpace(translated[index].Line))
-                    throw new Exception("Line is empty or whitespaced");
+                if (translated[index].Lines.Count != original[index].Lines.Count)
+                    throw new Exception("Translated lines and original lines count do not match");
+
+                foreach (var line in translated[index].Lines)
+                {
+                    if (string.IsNullOrWhiteSpace(line))
+                        throw new Exception($"There should be not an empty string");
+                }
             }
+
         }
 
-        void WriteToFile(IReadOnlyList<MyTranslatedSubtitleItem> items, string outputFile, string outputFolder, bool doFormat)
+        void WriteToFile(IReadOnlyList<MySubtitleItem> items, string outputFile, string outputFolder)
         {
             //* 80 is an estimate
             StringBuilder sb = new StringBuilder(items.Count * 80);
@@ -198,13 +195,7 @@ namespace QuickSubtitleTranslator
                     .Append(string.Format(CultureInfo.InvariantCulture, format, end.Hours, end.Minutes, end.Seconds, end.Milliseconds))
                     .Append(Environment.NewLine);
 
-                IList<string> lines;
-                if (doFormat)
-                    lines = LineFormatter.SplitWords(items[i].Line, DoNotBreakIfOnlyLine, MaxWordsPerLine);
-                else
-                    lines = new List<string>() { items[i].Line };
-
-                foreach (var line in lines)
+                foreach (var line in items[i].Lines)
                 {
                     sb.Append(line)
                         .Append(Environment.NewLine);
@@ -213,11 +204,7 @@ namespace QuickSubtitleTranslator
                 sb.Append(Environment.NewLine);
             }
 
-            sb.Remove(sb.Length - (Environment.NewLine.Length * 2), (Environment.NewLine.Length * 2));
-
             string newFileName = Path.GetFileNameWithoutExtension(outputFile);
-            if (!doFormat)
-                newFileName += "_nf";
             string fullPathNewFile = Path.Combine(outputFolder, newFileName + ".srt");
 
             Console.WriteLine($"Writing to a new SRT file... {fullPathNewFile}");

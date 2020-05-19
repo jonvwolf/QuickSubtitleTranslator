@@ -45,7 +45,7 @@ namespace QuickSubtitleTranslator.IBMApi
                 };
             }
 
-            IList<string> SendAction(IReadOnlyList<string> subset)
+            string SendAction(string sentenceToTranslate)
             {
                 IamAuthenticator authenticator = new IamAuthenticator(apikey: key);
                 LanguageTranslatorService svc = null;
@@ -54,9 +54,13 @@ namespace QuickSubtitleTranslator.IBMApi
                     svc = new LanguageTranslatorService("2018-05-01", authenticator);
                     svc.SetServiceUrl(url);
 
-                    var response = SendData(svc, subset.ToList(), $"{from}-{to}");
+                    var response = SendData(svc, new List<string>() { sentenceToTranslate }, $"{from}-{to}");
                     var result = response.Result.Translations.Select(x => x._Translation).ToList();
-                    return result;
+
+                    if (result.Count != 1)
+                        throw new Exception($"Got result but returned more than 1 translated item");
+
+                    return result[0];
                 }
                 finally
                 {

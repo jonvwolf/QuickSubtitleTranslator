@@ -63,9 +63,7 @@ namespace QuickSubtitleTranslator.IntegrationTestsMockEx
             Program.Main(Helper.Path, OutputFolder, Helper.FromLang, Helper.ToLang, Api, ApiKey);
 
             //Assert
-            Helper.AssertFilesAreIdentical($"{Helper.ValidatePath}\\{Helper.ScrubsFileNF}", $"{OutputFolder}\\{Helper.ScrubsFileNF}");
-            Helper.AssertFilesAreIdentical($"{Helper.ValidatePath}\\{Helper.SrtExampleFileNF}", $"{OutputFolder}\\{Helper.SrtExampleFileNF}");
-            Helper.AssertMockExFilesHaveStrings($@"{OutputFolder}\{Helper.SrtExampleFileNF}", $@"{OutputFolder}\{Helper.ScrubsFileNF}");
+            Helper.ValidateAllFiles(OutputFolder);
         }
     }
 }

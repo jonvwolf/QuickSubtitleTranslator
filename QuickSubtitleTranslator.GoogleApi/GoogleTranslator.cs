@@ -26,11 +26,15 @@ namespace QuickSubtitleTranslator.GoogleApi
                     return client.TranslateText(subset, to, from, model);
                 };
             }
-            IList<string> SendAction(IReadOnlyList<string> subset)
+            string SendAction(string sentenceToTranslate)
             {
                 using var client = TranslationClient.CreateFromApiKey(apiKey);
-                var resp = SendData(client, subset, to, from, TranslationModel.NeuralMachineTranslation);
-                return resp.Select(x => x.TranslatedText).ToList();
+                var resp = SendData(client, new List<string>() { sentenceToTranslate }, to, from, TranslationModel.NeuralMachineTranslation);
+
+                if (resp.Count != 1)
+                    throw new Exception($"Got result but returned more than 1 translated item");
+
+                return resp[0].TranslatedText;
             }
 
             var result = Helper.Process(new DataDesc(

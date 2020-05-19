@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 
 namespace QuickSubtitleTranslator.AmazonApi
@@ -37,7 +38,7 @@ namespace QuickSubtitleTranslator.AmazonApi
                 throw;
             }
 
-            IList<string> SendAction(IReadOnlyList<string> subset)
+            string SendAction(string sentenceToTranslate)
             {
                 if (SendData == null)
                 {
@@ -59,28 +60,25 @@ namespace QuickSubtitleTranslator.AmazonApi
                 //Answer: https://stackoverflow.com/questions/33889673/translate-api-user-rate-limit-exceeded-403-without-reason
                 using var service = new AmazonTranslateClient(accessKey, secretKey, RegionEndpoint.USEast2);
 
-                char delimiter = '\n';
-                string text = string.Join(delimiter, subset);
-
                 //Amazon deletes anything between dashes -> - string -
-                char maybeItIsABug = '=';
+                char maybeItIsABug = '~';
                 char charToReplace = '-';
-                text = text.Replace(charToReplace, maybeItIsABug);
+                sentenceToTranslate = sentenceToTranslate.Replace(charToReplace, maybeItIsABug);
 
                 var request = new TranslateTextRequest
                 {
-                    Text = text,
+                    Text = sentenceToTranslate,
                     SourceLanguageCode = from,
                     TargetLanguageCode = to
                 };
 
                 var response = SendData(service, request);
-                var newList =  response.TranslatedText.Replace(maybeItIsABug, charToReplace).Split(delimiter).ToList();
+                var translatedText = response.TranslatedText.Replace(maybeItIsABug, charToReplace);
 
-                if (subset.Count != newList.Count)
-                    throw new MyException($"{nameof(subset)} different count than {nameof(newList)}. {subset.Count} != {newList.Count}");
+                if (string.IsNullOrWhiteSpace(translatedText))
+                    throw new Exception("Translated text from amazon was empty");
 
-                return newList;
+                return translatedText;
             }
 
             var result = Helper.Process(new DataDesc(

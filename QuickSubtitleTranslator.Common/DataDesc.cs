@@ -12,12 +12,12 @@ namespace QuickSubtitleTranslator.Common
         public int MaxTriesInCaseHttpFails { get; protected set; }
         public int SleepTimeIfHttpFails { get; protected set; }
         public int SleepBetweenCalls { get; protected set; }
-        public Func<IReadOnlyList<string>, IList<string>> SendAction { get; protected set; }
+        public Func<string, string> SendAction { get; protected set; }
         /// <summary>
         /// Dirty fix... this shouldn't be here
         /// </summary>
         public bool WaitForInput { get; protected set; }
-        public DataDesc(IReadOnlyList<MySubtitleItem> subs, int maipr, int mcpr, int mtichf, int stihf, Func<IReadOnlyList<string>, IList<string>> sa, int sbc, bool wfi)
+        public DataDesc(IReadOnlyList<MySubtitleItem> subs, int maipr, int mcpr, int mtichf, int stihf, Func<string, string> sa, int sbc, bool wfi)
         {
             Subtitles = subs ?? throw new ArgumentNullException(nameof(subs));
             SendAction = sa ?? throw new ArgumentNullException(nameof(sa));

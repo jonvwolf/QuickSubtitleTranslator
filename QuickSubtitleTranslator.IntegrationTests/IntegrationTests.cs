@@ -19,9 +19,7 @@ namespace QuickSubtitleTranslator.IntegrationTests
         const string ToLang = "es";
         const string SrtExampleFile = "srt example.srt";
         const string ScrubsFile = "Scrubs.S02E08.srt";
-        const string SrtExampleFileNF = "srt example_nf.srt";
-        const string ScrubsFileNF = "Scrubs.S02E08_nf.srt";
-
+        
         static string GetApiKey(ApiType api)
         {
             //qsubtranslator_google_key env key
@@ -71,8 +69,6 @@ namespace QuickSubtitleTranslator.IntegrationTests
             {
                 File.Delete($"{outputFolder}\\{ScrubsFile}");
                 File.Delete($"{outputFolder}\\{SrtExampleFile}");
-                File.Delete($"{outputFolder}\\{ScrubsFileNF}");
-                File.Delete($"{outputFolder}\\{SrtExampleFileNF}");
             }
         }
         public IntegrationTests()

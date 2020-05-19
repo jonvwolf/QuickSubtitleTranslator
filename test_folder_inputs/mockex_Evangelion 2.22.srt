@@ -1,0 +1,6338 @@
+1
+00:00:30,199 --> 00:00:35,699
+<font size="24">02 Evangelion 2.22 You Can (Not) Advance -
+Anime 2009 720p [H264-mp4] English</font>
+
+2
+00:00:39,200 --> 00:00:41,240
+<font size="24">Start entry sequence.</font>
+
+3
+00:00:41,330 --> 00:00:43,950
+<font size="24">Initializing LCL ionization.</font>
+
+4
+00:00:44,040 --> 00:00:46,120
+<font size="24">Plug depth stable at default value.</font>
+
+5
+00:00:46,210 --> 00:00:48,170
+<font size="24">Autonomous systems are a go.</font>
+
+6
+00:00:48,250 --> 00:00:50,500
+<font size="24">Boot-up voltage has cleared the threshold.</font>
+
+7
+00:00:50,590 --> 00:00:52,750
+<font size="24">Launch prerequisites achieved.</font>
+
+8
+00:00:52,840 --> 00:00:55,420
+<font size="24">Synchronization rate requirements are a go.</font>
+
+9
+00:00:55,510 --> 00:01:00,260
+<font size="24">Pilot, please specify linguistic
+norm for cognitive functions.</font>
+
+10
+00:01:00,340 --> 00:01:03,890
+<font size="24">Well, it's my first time,
+so I'll go with Japanese.</font>
+
+11
+00:01:03,970 --> 00:01:05,770
+<font size="24">Roger.</font>
+
+12
+00:01:10,730 --> 00:01:13,570
+<font size="24">I guess we weren't able to issue
+you the new model in time.</font>
+
+13
+00:01:13,650 --> 00:01:15,730
+<font size="24">I hate how this thing's tight in the chest.</font>
+
+14
+00:01:15,820 --> 00:01:19,320
+<font size="24">On top of which, we're sending you out to
+fight in an Eva that was thrown together.</font>
+
+15
+00:01:19,410 --> 00:01:21,490
+<font size="24">So I'm really sorry about that.</font>
+
+16
+00:01:21,570 --> 00:01:24,410
+<font size="24">You finally let me get in
+the pilot's seat, so we're good.</font>
+
+17
+00:01:24,490 --> 00:01:27,660
+<font size="24">You're a problem child, after all.
+Well, we're counting on you.</font>
+
+18
+00:01:27,750 --> 00:01:29,580
+<font size="24">It's moving! It's moving!</font>
+
+19
+00:01:29,670 --> 00:01:33,380
+<font size="24">This is great! So exciting!</font>
+
+20
+00:01:35,050 --> 00:01:36,050
+<font size="24">Now, then!</font>
+
+21
+00:01:36,130 --> 00:01:39,840
+<font size="24">Evangelion Provisional Unit 05, activate!</font>
+
+22
+00:01:52,730 --> 00:01:55,610
+<font size="24">Defend the Limbo Area at all costs!</font>
+
+23
+00:01:55,690 --> 00:01:58,190
+<font size="24">We cannot allow it to escape from Acheron!</font>
+
+24
+00:01:58,280 --> 00:02:02,740
+<font size="24">How could a containment system
+as secure as Cocytus be neutralized?</font>
+
+25
+00:02:02,820 --> 00:02:06,160
+<font size="24">It was within the realm of possibility.</font>
+
+26
+00:02:06,240 --> 00:02:10,750
+<font size="24">On its own, humanity is incapable
+of holding the Angels in check.</font>
+
+27
+00:02:10,830 --> 00:02:13,750
+<font size="24">The analysis following
+the permafrost excavation</font>
+
+28
+00:02:13,840 --> 00:02:18,760
+<font size="24">of the 3rd Angel was so extensive,
+all that was left were some bones.</font>
+
+29
+00:02:18,840 --> 00:02:21,340
+<font size="24">And this was the conclusion.</font>
+
+30
+00:02:21,430 --> 00:02:23,180
+<font size="24">That's it. Good luck!</font>
+
+31
+00:02:23,850 --> 00:02:28,270
+<font size="24">- Happiness won't come walking to you -</font>
+
+32
+00:02:28,350 --> 00:02:32,730
+<font size="24">- That's why you have to walk to it -</font>
+
+33
+00:02:32,810 --> 00:02:36,900
+<font size="24">- One step a day, three
+steps in three days -</font>
+
+34
+00:02:36,980 --> 00:02:41,320
+<font size="24">- Three steps forward and two steps back -</font>
+
+35
+00:02:41,400 --> 00:02:45,780
+<font size="24">- Go at life with a one-two punch -</font>
+
+36
+00:02:45,870 --> 00:02:48,580
+<font size="24">Ooh, here it comes! Deploy field!</font>
+
+37
+00:02:55,460 --> 00:03:00,090
+<font size="24">Target inbound. Eva Unit-05
+is about to engage the hostile.</font>
+
+38
+00:03:06,600 --> 00:03:08,310
+<font size="24">Oh, man!</font>
+
+39
+00:03:08,850 --> 00:03:10,970
+<font size="24">This thing is so not responsive!</font>
+
+40
+00:03:15,440 --> 00:03:19,820
+<font size="24">I guess that just leaves
+brute force as my only option!</font>
+
+41
+00:03:31,950 --> 00:03:34,210
+<font size="24">Upper outer wall integrity compromised!</font>
+
+42
+00:03:34,290 --> 00:03:36,170
+<font size="24">The final seal is about to be breached!</font>
+
+43
+00:03:45,430 --> 00:03:47,390
+<font size="24">Target has broken through Limbo Area.</font>
+
+44
+00:03:47,470 --> 00:03:49,260
+<font size="24">Now moving into Acheron.</font>
+
+45
+00:03:49,350 --> 00:03:52,140
+<font size="24">Get Unit-05 to do something!</font>
+
+46
+00:03:53,230 --> 00:03:56,100
+<font size="24">You're not getting away from me!</font>
+
+47
+00:04:03,570 --> 00:04:06,910
+<font size="24">Ow! This hurts real bad, but...</font>
+
+48
+00:04:06,990 --> 00:04:09,530
+<font size="24">It's fun, so it's all good!</font>
+
+49
+00:04:13,830 --> 00:04:15,460
+<font size="24">No time left.</font>
+
+50
+00:04:17,250 --> 00:04:19,460
+<font size="24">And this unit can't take much more.</font>
+
+51
+00:04:19,540 --> 00:04:22,710
+<font size="24">And the artificial arms
+were forcibly synchronized,</font>
+
+52
+00:04:22,800 --> 00:04:24,970
+<font size="24">so they're not as powerful.</font>
+
+53
+00:04:30,180 --> 00:04:32,760
+<font size="24">Oh, fine!</font>
+
+54
+00:04:32,850 --> 00:04:36,810
+<font size="24">I'll let you have an arm!</font>
+
+55
+00:04:40,690 --> 00:04:46,150
+<font size="24">Drop dead already!</font>
+
+56
+00:05:01,420 --> 00:05:02,880
+<font size="24">Target obliterated.</font>
+
+57
+00:05:02,960 --> 00:05:04,800
+<font size="24">Unit-05 has been vaporized.</font>
+
+58
+00:05:04,880 --> 00:05:07,170
+<font size="24">Pilot appears to have been ejected.</font>
+
+59
+00:05:07,260 --> 00:05:12,050
+<font size="24">So, Unit-05's self-destruct program
+functioned without a hitch...</font>
+
+60
+00:05:12,140 --> 00:05:13,970
+<font size="24">This was always part of the plan,</font>
+
+61
+00:05:14,060 --> 00:05:17,770
+<font size="24">but I feel bad about involving
+kids to carry out adult agendas.</font>
+
+62
+00:05:23,020 --> 00:05:25,440
+<font size="24">Ow, that hurt...</font>
+
+63
+00:05:25,530 --> 00:05:30,320
+<font size="24">Synchronizing with an Eva is
+more brutal than they'd said.</font>
+
+64
+00:05:34,240 --> 00:05:37,540
+<font size="24">Well, as long as I'm alive, it's all good.</font>
+
+65
+00:05:37,620 --> 00:05:43,170
+<font size="24">I feel awkward involving adults
+for the sake of my own goals...</font>
+
+66
+00:05:43,250 --> 00:05:46,130
+<font size="24">Farewell, Eva Unit-05.</font>
+
+67
+00:05:46,210 --> 00:05:47,800
+<font size="24">You served well.</font>
+
+68
+00:06:01,690 --> 00:06:06,940
+<font size="24">It's been three years, hasn't it?
+Since we last came here together.</font>
+
+69
+00:06:07,030 --> 00:06:10,240
+<font size="24">I ran away that time and...</font>
+
+70
+00:06:10,320 --> 00:06:12,660
+<font size="24">I haven't been here since.</font>
+
+71
+00:06:12,740 --> 00:06:16,160
+<font size="24">It doesn't seem real to me
+that Mom was laid to rest here.</font>
+
+72
+00:06:16,240 --> 00:06:18,370
+<font size="24">I don't even remember her face.</font>
+
+73
+00:06:18,450 --> 00:06:21,960
+<font size="24">People deal with life by
+letting their memories fade.</font>
+
+74
+00:06:22,040 --> 00:06:25,960
+<font size="24">But there are also some
+things that we must never forget.</font>
+
+75
+00:06:26,050 --> 00:06:29,380
+<font size="24">And Yui taught me those things,
+which are to be treasured.</font>
+
+76
+00:06:29,470 --> 00:06:33,430
+<font size="24">I come here to reaffirm those things.</font>
+
+77
+00:06:33,510 --> 00:06:36,140
+<font size="24">You don't have any
+photos of her or anything?</font>
+
+78
+00:06:36,220 --> 00:06:38,060
+<font size="24">None remain.</font>
+
+79
+00:06:38,140 --> 00:06:40,520
+<font size="24">Even this grave is just for show.</font>
+
+80
+00:06:40,600 --> 00:06:42,600
+<font size="24">There's no body here.</font>
+
+81
+00:06:42,690 --> 00:06:46,860
+<font size="24">So you threw everything away,
+just like my teacher said.</font>
+
+82
+00:06:46,940 --> 00:06:49,940
+<font size="24">It's all in my heart and mind.</font>
+
+83
+00:06:50,030 --> 00:06:52,490
+<font size="24">That's enough for now.</font>
+
+84
+00:06:57,410 --> 00:07:00,330
+<font size="24">It's time. I'll be returning without you.</font>
+
+85
+00:07:05,250 --> 00:07:07,290
+<font size="24">Dad!</font>
+
+86
+00:07:08,960 --> 00:07:10,800
+<font size="24">Um...</font>
+
+87
+00:07:10,880 --> 00:07:15,390
+<font size="24">I'm glad I got to talk to you today.</font>
+
+88
+00:07:15,470 --> 00:07:17,100
+<font size="24">Are you?</font>
+
+89
+00:07:57,680 --> 00:07:59,350
+<font size="24">Well, Shinji?</font>
+
+90
+00:07:59,430 --> 00:08:01,310
+<font size="24">You were worried about this and that,</font>
+
+91
+00:08:01,390 --> 00:08:04,890
+<font size="24">but it wasn't so bad when
+you actually saw him, right?</font>
+
+92
+00:08:04,980 --> 00:08:08,400
+<font size="24">It's good that you came instead of
+being wishy-washy at home, right?</font>
+
+93
+00:08:08,480 --> 00:08:10,940
+<font size="24">It was a visit to your
+mother's grave, after all.</font>
+
+94
+00:08:11,030 --> 00:08:13,530
+<font size="24">You just dragged me
+out here, Miss Misato.</font>
+
+95
+00:08:13,610 --> 00:08:17,280
+<font size="24">That's because, deep down,
+you wanted to come.</font>
+
+96
+00:08:17,360 --> 00:08:19,570
+<font size="24">Be at least a little honest with yourself.</font>
+
+97
+00:08:19,660 --> 00:08:22,540
+<font size="24">Being honest with myself will
+only make me more miserable.</font>
+
+98
+00:08:22,620 --> 00:08:26,290
+<font size="24">You lived up to everyone's
+expectation and saved us.</font>
+
+99
+00:08:26,370 --> 00:08:29,080
+<font size="24">Have more confidence in yourself.</font>
+
+100
+00:08:30,670 --> 00:08:35,050
+<font size="24">I'm sure your father also recognizes
+you for what you've accomplished.</font>
+
+101
+00:08:36,380 --> 00:08:37,590
+<font size="24">Yes? Katsuragi.</font>
+
+102
+00:08:39,180 --> 00:08:42,560
+<font size="24">Whoa-oa-oa!</font>
+
+103
+00:08:42,640 --> 00:08:44,350
+<font size="24">What did you say?!</font>
+
+104
+00:09:12,170 --> 00:09:14,730
+<font size="24">The Seventh Angel has been detected
+off the coast of Sagami Bay.</font>
+
+105
+00:09:14,800 --> 00:09:16,300
+<font size="24">Area 2 Division engaging target.</font>
+
+106
+00:09:16,380 --> 00:09:19,510
+<font size="24">State of emergency
+declared three minutes ago.</font>
+
+107
+00:09:19,590 --> 00:09:21,180
+<font size="24">I've got a visual on it, too.</font>
+
+108
+00:09:21,260 --> 00:09:23,350
+<font size="24">Currently transporting Unit-01 pilot.</font>
+
+109
+00:09:23,430 --> 00:09:26,850
+<font size="24">Implement Task 03 right
+away, prioritizing Unit-00.</font>
+
+110
+00:09:26,930 --> 00:09:29,440
+<font size="24">Negative. Task 02 has
+already been implemented.</font>
+
+111
+00:09:29,520 --> 00:09:30,810
+<font size="24">Task 02?!</font>
+
+112
+00:09:30,900 --> 00:09:32,610
+<font size="24">Don't tell me...!</font>
+
+113
+00:09:39,660 --> 00:09:41,820
+<font size="24">Just as I thought! Unit-02!</font>
+
+114
+00:10:15,820 --> 00:10:17,780
+<font size="24">Wow! One shot to take out the core!</font>
+
+115
+00:10:17,860 --> 00:10:19,990
+<font size="24">No! That was a decoy!</font>
+
+116
+00:11:14,080 --> 00:11:15,630
+<font size="24">Situation terminated!</font>
+
+117
+00:11:15,710 --> 00:11:20,050
+<font size="24">Eva Unit-02 currently in
+transit via Main Sagami Line 1.</font>
+
+118
+00:11:20,130 --> 00:11:25,090
+<font size="24">No change to ETA to Depot 9.</font>
+
+119
+00:11:25,180 --> 00:11:28,470
+<font size="24">Whoowee! So Unit-02's red, huh?</font>
+
+120
+00:11:28,560 --> 00:11:31,560
+<font size="24">Its color's not the only
+thing that's different.</font>
+
+121
+00:11:31,640 --> 00:11:33,350
+<font size="24">Ultimately, Unit-00 and Unit-01</font>
+
+122
+00:11:33,440 --> 00:11:36,600
+<font size="24">are just the prototype and the test-type
+used in the developmental process.</font>
+
+123
+00:11:36,690 --> 00:11:38,560
+<font size="24">But Unit-02 is different.</font>
+
+124
+00:11:38,650 --> 00:11:43,530
+<font size="24">It's none other than the world's first
+real Evangelion, built for actual combat!</font>
+
+125
+00:11:43,610 --> 00:11:45,450
+<font size="24">The official production model!</font>
+
+126
+00:11:45,530 --> 00:11:48,280
+<font size="24">Allow me to introduce you
+to the Euro Air Force ace,</font>
+
+127
+00:11:48,370 --> 00:11:50,240
+<font size="24">Captain Asuka Langley Shikinami.</font>
+
+128
+00:11:50,330 --> 00:11:54,370
+<font size="24">She's the 2nd Girl.
+Designated pilot of Eva Unit-02.</font>
+
+129
+00:11:55,830 --> 00:11:58,040
+<font size="24">Long time no see, Misato.</font>
+
+130
+00:12:00,800 --> 00:12:05,090
+<font size="24">So that's the Unit-00 pilot, who was
+chosen because she's the teacher's pet.</font>
+
+131
+00:12:05,180 --> 00:12:09,930
+<font size="24">And which one of you is the Unit-01 pilot,
+who was chosen because he's daddy's boy?</font>
+
+132
+00:12:10,010 --> 00:12:11,850
+<font size="24">Uh, um...</font>
+
+133
+00:12:13,520 --> 00:12:16,640
+<font size="24">What are you, an idiot?!
+Not being available in a moment of crisis?!</font>
+
+134
+00:12:16,730 --> 00:12:18,310
+<font size="24">How blind are you?!</font>
+
+135
+00:12:20,070 --> 00:12:22,650
+<font size="24">And unguarded, too.</font>
+
+136
+00:12:24,320 --> 00:12:27,610
+<font size="24">You're not even ashamed that
+your Eva wasn't there to fight!</font>
+
+137
+00:12:27,700 --> 00:12:30,280
+<font size="24">That's what you get from a daddy's boy.</font>
+
+138
+00:12:32,750 --> 00:12:36,830
+<font size="24">Who the hell does that chick
+think she is, anyway?!</font>
+
+139
+00:12:37,580 --> 00:12:42,630
+<font size="24">A captain already at our age, though?
+That's awesome! Beyond awesome!</font>
+
+140
+00:12:42,710 --> 00:12:45,170
+<font size="24">That's like going from junior high
+straight to grad school!</font>
+
+141
+00:12:45,260 --> 00:12:47,050
+<font size="24">Excuse me.</font>
+
+142
+00:12:47,130 --> 00:12:51,050
+<font size="24">Is this the right gate for
+the Geofront's hub terminal?</font>
+
+143
+00:12:51,140 --> 00:12:55,730
+<font size="24">Er, yes. You'll have to transfer
+at the fourth stop, though.</font>
+
+144
+00:12:55,810 --> 00:13:00,150
+<font size="24">I've only been gone for two years,
+and I feel like Urashima Taro...</font>
+
+145
+00:13:00,230 --> 00:13:02,270
+<font size="24">Thanks, you're a lifesaver.</font>
+
+146
+00:13:02,360 --> 00:13:05,400
+<font size="24">By the way, isn't Katsuragi with you?</font>
+
+147
+00:13:06,820 --> 00:13:08,450
+<font size="24">I'm an old friend of hers.</font>
+
+148
+00:13:08,530 --> 00:13:14,410
+<font size="24">You're not the only one who knows
+what a sloppy sleeper she is, Shinji Ikari.</font>
+
+149
+00:13:18,000 --> 00:13:19,710
+<font size="24">He's watched her sleep?</font>
+
+150
+00:13:19,790 --> 00:13:21,630
+<font size="24">Who is that guy?</font>
+
+151
+00:13:21,710 --> 00:13:24,750
+<font size="24">Man, oh, man, that was one rough job.</font>
+
+152
+00:13:24,840 --> 00:13:27,300
+<font size="24">The 3rd Angel and Eva Unit-05,
+which were outstanding issues,</font>
+
+153
+00:13:27,380 --> 00:13:29,010
+<font size="24">were disposed of as planned.</font>
+
+154
+00:13:29,090 --> 00:13:30,810
+<font size="24">The cause, categorically
+deemed an accident.</font>
+
+155
+00:13:30,890 --> 00:13:34,510
+<font size="24">The Marduk Plan at Bethany Base
+will come to a standstill now.</font>
+
+156
+00:13:34,600 --> 00:13:36,810
+<font size="24">All has gone exactly as you had planned.</font>
+
+157
+00:13:36,890 --> 00:13:40,060
+<font size="24">As for the usual report on
+the latest from Seele, just earlier, I...</font>
+
+158
+00:13:40,150 --> 00:13:42,020
+<font size="24">We took a look at it.</font>
+
+159
+00:13:42,110 --> 00:13:45,360
+<font size="24">Confirmation of the construction
+of Mark 06 proved useful.</font>
+
+160
+00:13:45,440 --> 00:13:46,820
+<font size="24">Excellent.</font>
+
+161
+00:13:46,900 --> 00:13:49,650
+<font size="24">Here is the item as promised.</font>
+
+162
+00:13:49,740 --> 00:13:53,030
+<font size="24">The lost number that had been
+stored for safekeeping as the spare.</font>
+
+163
+00:13:54,830 --> 00:13:58,620
+<font size="24">The waymark that will
+entwine God and soul.</font>
+
+164
+00:13:58,710 --> 00:13:59,750
+<font size="24">Yes.</font>
+
+165
+00:13:59,830 --> 00:14:02,880
+<font size="24">It will open the door
+to Human Instrumentality.</font>
+
+166
+00:14:02,960 --> 00:14:05,170
+<font size="24">The Key of Nebuchadnezzar.</font>
+
+167
+00:14:05,250 --> 00:14:06,840
+<font size="24">Then if you'll excuse me,</font>
+
+168
+00:14:06,920 --> 00:14:09,920
+<font size="24">I'm going to go do my
+own thing for a while.</font>
+
+169
+00:14:13,470 --> 00:14:16,680
+<font size="24">Ryoji Kaji. Chief Inspection Officer.</font>
+
+170
+00:14:16,770 --> 00:14:19,890
+<font size="24">Is he a man that can be trusted?</font>
+
+171
+00:14:26,690 --> 00:14:28,940
+<font size="24">Have you lost a little weight, Ritsy?</font>
+
+172
+00:14:29,030 --> 00:14:32,700
+<font size="24">Wrong. I've gained 1,570 grams.</font>
+
+173
+00:14:32,780 --> 00:14:34,740
+<font size="24">I'd love to see for myself.</font>
+
+174
+00:14:34,830 --> 00:14:37,910
+<font size="24">I wouldn't mind, but this
+room is being monitored.</font>
+
+175
+00:14:38,000 --> 00:14:41,710
+<font size="24">No problem. I already have fake
+footage running on the system.</font>
+
+176
+00:14:41,790 --> 00:14:43,960
+<font size="24">Thoroughly prepared as ever, aren't you?</font>
+
+177
+00:14:44,040 --> 00:14:46,130
+<font size="24">I just don't like to lose.</font>
+
+178
+00:14:46,210 --> 00:14:48,090
+<font size="24">But you've lost.</font>
+
+179
+00:14:48,920 --> 00:14:52,970
+<font size="24">There's a scary lady watching us.</font>
+
+180
+00:14:53,680 --> 00:14:55,300
+<font size="24">Long time no see, Ryo.</font>
+
+181
+00:14:55,390 --> 00:14:57,310
+<font size="24">Hey, it's been a while.</font>
+
+182
+00:14:57,390 --> 00:14:59,890
+<font size="24">What the hell are you doing here?</font>
+
+183
+00:14:59,980 --> 00:15:01,310
+<font size="24">You're assigned to Euro, aren't you?</font>
+
+184
+00:15:01,390 --> 00:15:04,190
+<font size="24">I'm here on a special assignment.
+I'll be at Headquarters for a while.</font>
+
+185
+00:15:04,270 --> 00:15:07,610
+<font size="24">The three of us can hang out together
+again. Just like when we were students.</font>
+
+186
+00:15:07,690 --> 00:15:10,280
+<font size="24">I have no interest in
+going back to those days!</font>
+
+187
+00:15:10,360 --> 00:15:12,700
+<font size="24">I only came to see Ritsuko!</font>
+
+188
+00:15:12,780 --> 00:15:16,410
+<font size="24">About Asuka. I got HR's okay. Bye!</font>
+
+189
+00:15:18,160 --> 00:15:20,870
+<font size="24">That was blatant jealousy.</font>
+
+190
+00:15:20,950 --> 00:15:23,000
+<font size="24">You've got a shot at her here, Ryo.</font>
+
+191
+00:15:23,080 --> 00:15:25,210
+<font size="24">Well, we'll have to see about that.</font>
+
+192
+00:15:32,130 --> 00:15:35,300
+<font size="24">Asuka Shikinami...</font>
+
+193
+00:15:35,390 --> 00:15:38,720
+<font size="24">I had no idea some people were
+actually happy to pilot an Eva.</font>
+
+194
+00:15:39,220 --> 00:15:41,060
+<font size="24">I'm back.</font>
+
+195
+00:15:41,140 --> 00:15:43,680
+<font size="24">Wait, what the hell is this?!</font>
+
+196
+00:15:43,770 --> 00:15:45,650
+<font size="24">My room...</font>
+
+197
+00:15:45,730 --> 00:15:46,850
+<font size="24">How rude!</font>
+
+198
+00:15:46,940 --> 00:15:48,860
+<font size="24">That's my stuff.</font>
+
+199
+00:15:48,940 --> 00:15:53,110
+<font size="24">But then, what about my stuff?
+Wait, what are you doing here, Shikinami?</font>
+
+200
+00:15:54,400 --> 00:15:56,530
+<font size="24">What are you, an idiot?</font>
+
+201
+00:15:56,620 --> 00:15:59,160
+<font size="24">It means they're giving you the boot.</font>
+
+202
+00:15:59,240 --> 00:16:02,080
+<font size="24">Well, when you consider who's
+the more accomplished one here,</font>
+
+203
+00:16:02,160 --> 00:16:03,620
+<font size="24">the decision was obvious.</font>
+
+204
+00:16:03,710 --> 00:16:05,160
+<font size="24">You can't be serious!</font>
+
+205
+00:16:05,250 --> 00:16:08,710
+<font size="24">But why are Japanese
+rooms so cramped?!</font>
+
+206
+00:16:08,790 --> 00:16:11,500
+<font size="24">I couldn't even fit
+half of my stuff in here!</font>
+
+207
+00:16:11,590 --> 00:16:16,090
+<font size="24">And why do Japanese people
+totally lack any sense of security?</font>
+
+208
+00:16:16,180 --> 00:16:18,590
+<font size="24">I don't know how you people
+live in rooms without locks!</font>
+
+209
+00:16:18,680 --> 00:16:20,260
+<font size="24">Unbelievable!</font>
+
+210
+00:16:21,310 --> 00:16:24,680
+<font size="24">That's because the Japanese spirit is
+about being perceptive and considerate.</font>
+
+211
+00:16:24,770 --> 00:16:26,100
+<font size="24">Miss Misato!</font>
+
+212
+00:16:26,190 --> 00:16:27,440
+<font size="24">You are so annoying!</font>
+
+213
+00:16:27,520 --> 00:16:29,900
+<font size="24">Hurry up and get lost
+along with the trash.</font>
+
+214
+00:16:29,980 --> 00:16:32,480
+<font size="24">Oh, but Shin's staying here, too.</font>
+
+215
+00:16:32,570 --> 00:16:33,440
+<font size="24">What?!</font>
+
+216
+00:16:33,530 --> 00:16:37,700
+<font size="24">What you and Shin lack is
+appropriate communication skills.</font>
+
+217
+00:16:37,780 --> 00:16:42,830
+<font size="24">As fellow pilots, you need to live
+under the same roof and make nice.</font>
+
+218
+00:16:44,710 --> 00:16:46,830
+<font size="24">That's an order.</font>
+
+219
+00:17:04,100 --> 00:17:06,390
+<font size="24">Okay, all together now!</font>
+
+220
+00:17:06,480 --> 00:17:09,400
+<font size="24">Thank you for the meal!</font>
+
+221
+00:17:14,190 --> 00:17:18,150
+<font size="24">A cold beer after a hot bath
+is still the best thing ever!</font>
+
+222
+00:17:19,490 --> 00:17:23,080
+<font size="24">Th-Th-There's some
+weird animal in the bath!</font>
+
+223
+00:17:25,500 --> 00:17:27,200
+<font size="24">It's a kind of bird called penguins.</font>
+
+224
+00:17:27,290 --> 00:17:29,620
+<font size="24">His name is Pen Pen.</font>
+
+225
+00:17:39,720 --> 00:17:40,800
+<font size="24">You pervert!</font>
+
+226
+00:17:40,890 --> 00:17:42,720
+<font size="24">Jerk! You're sick! Unbelievable!</font>
+
+227
+00:17:42,800 --> 00:17:44,429
+<font size="24">They're starting to open up more.</font>
+
+228
+00:17:44,430 --> 00:17:46,220
+<font size="24">This is why I hate boys!
+Blah</font>
+
+229
+00:17:46,310 --> 00:17:47,890
+<font size="24">Don't you, Pen Pen?</font>
+
+230
+00:18:00,410 --> 00:18:02,700
+<font size="24">"I'm not like them, either!"</font>
+
+231
+00:18:02,780 --> 00:18:05,370
+<font size="24">"I'm special!"</font>
+
+232
+00:18:05,450 --> 00:18:08,910
+<font size="24">"That's why, just like before..."</font>
+
+233
+00:18:09,000 --> 00:18:12,670
+<font size="24">You have to keep going it alone, Asuka.</font>
+
+234
+00:18:33,980 --> 00:18:36,690
+<font size="24">I guess Dad still won't answer the phone.</font>
+
+235
+00:20:01,150 --> 00:20:02,690
+<font size="24">A social studies field trip?</font>
+
+236
+00:20:02,780 --> 00:20:03,690
+<font size="24">Kaji's taking you?</font>
+
+237
+00:20:03,780 --> 00:20:06,490
+<font size="24">Yes. He said I should
+invite everyone else along, too.</font>
+
+238
+00:20:06,570 --> 00:20:09,160
+<font size="24">Nothing good will come of
+having anything to do with that guy.</font>
+
+239
+00:20:09,240 --> 00:20:11,410
+<font size="24">Then I'm gonna pass!</font>
+
+240
+00:20:11,490 --> 00:20:14,580
+<font size="24">No, you're not. "Harmony
+is the greatest of virtues."</font>
+
+241
+00:20:14,660 --> 00:20:16,040
+<font size="24">You go, too, Asuka.</font>
+
+242
+00:20:16,120 --> 00:20:18,250
+<font size="24">Is that an order, too?</font>
+
+243
+00:20:26,010 --> 00:20:29,510
+<font size="24">Here we are, with the Tabgha
+Moonbase right in front of our noses,</font>
+
+244
+00:20:29,600 --> 00:20:31,930
+<font size="24">and yet, they refuse
+us permission to land.</font>
+
+245
+00:20:32,020 --> 00:20:34,480
+<font size="24">The Seele certainly can be nasty.</font>
+
+246
+00:20:34,560 --> 00:20:37,900
+<font size="24">The construction methods being used
+on the Mark 06 differ from the others.</font>
+
+247
+00:20:37,980 --> 00:20:40,560
+<font size="24">Getting to ascertain that is enough.</font>
+
+248
+00:20:40,650 --> 00:20:44,610
+<font size="24">But there weren't supposed to be any
+plans for construction beyond Unit-05.</font>
+
+249
+00:20:44,690 --> 00:20:48,950
+<font size="24">There are likely still undisclosed
+Apocrypha of the Dead Sea Scrolls.</font>
+
+250
+00:20:49,030 --> 00:20:52,620
+<font size="24">Seele intends to follow their
+script based on those writings.</font>
+
+251
+00:20:53,750 --> 00:20:59,120
+<font size="24">But even Seele must be aware
+of Nerv's ultimate goal at this point.</font>
+
+252
+00:20:59,210 --> 00:21:03,920
+<font size="24">Even if they are, we have
+but to follow our own path.</font>
+
+253
+00:21:04,010 --> 00:21:08,470
+<font size="24">Though it may mean turning
+against the Word of God.</font>
+
+254
+00:21:13,140 --> 00:21:14,430
+<font size="24">Is that a person?</font>
+
+255
+00:21:14,520 --> 00:21:16,850
+<font size="24">Surely not...</font>
+
+256
+00:21:16,940 --> 00:21:20,190
+<font size="24">Nice to meet you, Father.</font>
+
+257
+00:21:20,980 --> 00:21:23,230
+<font size="24">Awesome! This is beyond awesome!</font>
+
+258
+00:21:23,320 --> 00:21:25,690
+<font size="24">Perpetual conservation of
+the marine life that was lost</font>
+
+259
+00:21:25,780 --> 00:21:28,530
+<font size="24">and restoration of the
+oceans that had turned red!</font>
+
+260
+00:21:28,610 --> 00:21:32,740
+<font size="24">Truly, a forbidden sanctuary carrying
+out grand godlike experimental projects!</font>
+
+261
+00:21:32,830 --> 00:21:36,120
+<font size="24">Just getting to scratch the surface
+and tour even a small part of it is...</font>
+
+262
+00:21:36,200 --> 00:21:39,040
+<font size="24">Truly, it's like, this is
+what good friends are for!</font>
+
+263
+00:21:39,080 --> 00:21:41,040
+<font size="24">Awesome!
+Blah</font>
+
+264
+00:21:41,130 --> 00:21:44,060
+<font size="24">If you're going to thank
+someone, thank Mr. Kaji.</font>
+
+265
+00:21:44,150 --> 00:21:47,050
+<font size="24">Here's where things get complicated.</font>
+
+266
+00:21:47,080 --> 00:21:48,080
+<font size="24">Huh?</font>
+
+267
+00:21:55,310 --> 00:21:57,180
+<font size="24">Hot, hot, hot, hot, hot!</font>
+
+268
+00:22:01,480 --> 00:22:03,560
+<font size="24">C-Cold! Cold!</font>
+
+269
+00:22:05,320 --> 00:22:06,610
+<font size="24">Not again.</font>
+
+270
+00:22:07,940 --> 00:22:09,400
+<font size="24">Nooo!</font>
+
+271
+00:22:10,910 --> 00:22:12,870
+<font size="24">I can't take any more of this...</font>
+
+272
+00:22:21,790 --> 00:22:23,009
+<font size="24">What a huge tank!</font>
+
+273
+00:22:23,010 --> 00:22:24,840
+<font size="24">Amazing!</font>
+
+274
+00:22:27,340 --> 00:22:31,430
+<font size="24">So these are the creatures
+from before the Second Impact.</font>
+
+275
+00:22:39,850 --> 00:22:41,890
+<font size="24">Holy...! They're alive!</font>
+
+276
+00:22:41,980 --> 00:22:44,230
+<font size="24">Awesome! Beyond awesome!</font>
+
+277
+00:22:44,310 --> 00:22:46,940
+<font size="24">Ooh, here's one with
+somethin' on its back!</font>
+
+278
+00:22:47,030 --> 00:22:48,359
+<font size="24">I hear they're called "turtles."</font>
+
+279
+00:22:48,360 --> 00:22:49,070
+<font size="24">"Turtuls"?</font>
+
+280
+00:22:49,150 --> 00:22:52,820
+<font size="24">Look at the kiddies getting all excited.
+Talk about idiotic.</font>
+
+281
+00:23:02,960 --> 00:23:05,420
+<font size="24">I'm glad you were able
+to come with us, Ayanami.</font>
+
+282
+00:23:05,500 --> 00:23:07,250
+<font size="24">Are you okay now, health wise?</font>
+
+283
+00:23:07,340 --> 00:23:08,710
+<font size="24">Yes.</font>
+
+284
+00:23:08,800 --> 00:23:11,970
+<font size="24">I finished my allotment,
+so I'm fine today.</font>
+
+285
+00:23:13,390 --> 00:23:14,800
+<font size="24">It's so cramped in there.</font>
+
+286
+00:23:14,890 --> 00:23:17,430
+<font size="24">They should go swim in the bigger areas.</font>
+
+287
+00:23:17,510 --> 00:23:18,760
+<font size="24">They can't.</font>
+
+288
+00:23:18,850 --> 00:23:22,890
+<font size="24">They can only survive in there.</font>
+
+289
+00:23:22,980 --> 00:23:24,980
+<font size="24">Just like me.</font>
+
+290
+00:23:33,200 --> 00:23:35,530
+<font size="24">Time to eat!</font>
+
+291
+00:23:36,990 --> 00:23:38,660
+<font size="24">This is good. I didn't expect that.</font>
+
+292
+00:23:38,740 --> 00:23:41,950
+<font size="24">Yeah, excellent job on
+the grilling and seasoning.</font>
+
+293
+00:23:42,040 --> 00:23:46,210
+<font size="24">To think the 90% artificial meat can
+become this tasty when cooked right.</font>
+
+294
+00:23:46,290 --> 00:23:47,880
+<font size="24">It's truly astounding!</font>
+
+295
+00:23:47,960 --> 00:23:50,460
+<font size="24">Shinji, that's a hidden
+talent ya got there.</font>
+
+296
+00:23:50,550 --> 00:23:53,470
+<font size="24">Miss Misato only goes
+for microwavable foods,</font>
+
+297
+00:23:53,550 --> 00:23:55,260
+<font size="24">so it's either I cook or nothing.</font>
+
+298
+00:23:55,340 --> 00:23:58,430
+<font size="24">Women love men who know
+their way around a kitchen, Shinji.</font>
+
+299
+00:23:58,510 --> 00:23:59,850
+<font size="24">You hear that?</font>
+
+300
+00:23:59,930 --> 00:24:02,850
+<font size="24">Nuh-uh! I'm not gonna cook!
+That's no job for a man!</font>
+
+301
+00:24:02,930 --> 00:24:05,350
+<font size="24">Talk about old-fashioned. So idiotic.</font>
+
+302
+00:24:05,440 --> 00:24:08,110
+<font size="24">The hell d'you say?!
+It's important to have yer principles!</font>
+
+303
+00:24:08,190 --> 00:24:09,440
+<font size="24">That's even more idiotic.</font>
+
+304
+00:24:09,520 --> 00:24:12,650
+<font size="24">The hell d'you say?!</font>
+
+305
+00:24:16,740 --> 00:24:19,950
+<font size="24">Sorry, Ayanami, was it not to your taste?</font>
+
+306
+00:24:20,030 --> 00:24:22,580
+<font size="24">No, I just don't eat meat.</font>
+
+307
+00:24:22,660 --> 00:24:25,910
+<font size="24">Why do you Japanese apologize when
+you haven't even done anything wrong?!</font>
+
+308
+00:24:26,000 --> 00:24:27,170
+<font size="24">And you!</font>
+
+309
+00:24:27,250 --> 00:24:29,460
+<font size="24">Living things eat other
+living things to survive!</font>
+
+310
+00:24:29,540 --> 00:24:33,630
+<font size="24">That's precious life there,
+so clean your plate!</font>
+
+311
+00:24:35,180 --> 00:24:37,590
+<font size="24">Are you trying to pick a fight,
+Teacher's Pet?!</font>
+
+312
+00:24:40,050 --> 00:24:42,010
+<font size="24">Comin' through, comin' through.</font>
+
+313
+00:24:42,100 --> 00:24:44,060
+<font size="24">In that case, I'll just help myself.</font>
+
+314
+00:24:45,230 --> 00:24:46,730
+<font size="24">Ya aren't gettin' any!</font>
+
+315
+00:24:46,810 --> 00:24:49,060
+<font size="24">Greedy bastard! Get away from me!</font>
+
+316
+00:24:49,150 --> 00:24:51,400
+<font size="24">Moron!</font>
+
+317
+00:24:51,480 --> 00:24:53,030
+<font size="24">Idiotic.</font>
+
+318
+00:24:53,990 --> 00:24:56,200
+<font size="24">Then, how about some miso soup?</font>
+
+319
+00:24:59,530 --> 00:25:01,870
+<font size="24">It'll warm you up.</font>
+
+320
+00:25:12,800 --> 00:25:14,170
+<font size="24">It's delicious.</font>
+
+321
+00:25:14,840 --> 00:25:17,340
+<font size="24">To think that this is our Mother Earth.</font>
+
+322
+00:25:17,430 --> 00:25:20,550
+<font size="24">I can't look at it. It breaks my heart.</font>
+
+323
+00:25:20,640 --> 00:25:25,060
+<font size="24">However, there are also those who
+wished for this miserable state.</font>
+
+324
+00:25:25,140 --> 00:25:31,230
+<font size="24">Because it's a world barred to man,
+cleansed and untainted by original sin.</font>
+
+325
+00:25:31,310 --> 00:25:36,030
+<font size="24">I would rather have a
+chaotic world tainted by man.</font>
+
+326
+00:25:36,110 --> 00:25:38,700
+<font size="24">Chaos is merely a human impression.</font>
+
+327
+00:25:38,780 --> 00:25:42,740
+<font size="24">The world is composed
+entirely of harmony and order.</font>
+
+328
+00:25:42,830 --> 00:25:46,950
+<font size="24">So, it is the human heart that
+throws the world into confusion.</font>
+
+329
+00:25:48,250 --> 00:25:50,210
+<font size="24">It's hard for me to imagine</font>
+
+330
+00:25:50,290 --> 00:25:53,170
+<font size="24">that this ocean used
+to be blue before I was born.</font>
+
+331
+00:25:53,250 --> 00:25:56,170
+<font size="24">It's amazing that we were even
+able to restore the environment</font>
+
+332
+00:25:56,260 --> 00:25:58,420
+<font size="24">to the point where we
+humans could live in it.</font>
+
+333
+00:25:58,510 --> 00:26:01,590
+<font size="24">But this sea breeze...</font>
+
+334
+00:26:01,680 --> 00:26:04,560
+<font size="24">It smells kind of weird
+and fishy, doesn't it?</font>
+
+335
+00:26:04,640 --> 00:26:07,060
+<font size="24">It's the smell of decaying marine life.</font>
+
+336
+00:26:07,140 --> 00:26:09,730
+<font size="24">It's proof that they were alive.</font>
+
+337
+00:26:09,810 --> 00:26:12,440
+<font size="24">Not like that red water with nothing in it.</font>
+
+338
+00:26:12,520 --> 00:26:15,230
+<font size="24">This is how the real
+ocean's supposed to be.</font>
+
+339
+00:26:15,320 --> 00:26:20,320
+<font size="24">By rights, this world should be
+vast and filled with all kinds of life.</font>
+
+340
+00:26:20,410 --> 00:26:23,620
+<font size="24">And I wanted you guys to know that.</font>
+
+341
+00:26:23,700 --> 00:26:25,780
+<font size="24">It makes me happy somehow.</font>
+
+342
+00:26:25,870 --> 00:26:28,040
+<font size="24">Miss Misato should have come, too.</font>
+
+343
+00:26:28,120 --> 00:26:30,160
+<font size="24">Katsuragi would never come.</font>
+
+344
+00:26:30,250 --> 00:26:31,790
+<font size="24">Because it would remind her.</font>
+
+345
+00:26:31,870 --> 00:26:34,290
+<font size="24">Of what?</font>
+
+346
+00:26:34,380 --> 00:26:36,250
+<font size="24">The Second Impact...</font>
+
+347
+00:27:20,470 --> 00:27:25,390
+<font size="24">Have you ever asked
+Katsuragi why she joined Nerv?</font>
+
+348
+00:27:25,470 --> 00:27:27,300
+<font size="24">Katsuragi's father was
+apparently the sort of man</font>
+
+349
+00:27:27,390 --> 00:27:31,890
+<font size="24">who lived for his research,
+lived in his dreams.</font>
+
+350
+00:27:31,980 --> 00:27:35,310
+<font size="24">And she used to hate her father for that.</font>
+
+351
+00:27:35,400 --> 00:27:37,150
+<font size="24">I think she may have even despised him.</font>
+
+352
+00:27:37,230 --> 00:27:39,150
+<font size="24">So you don't get along with your father.</font>
+
+353
+00:27:39,230 --> 00:27:40,860
+<font size="24">You're the same as me.</font>
+
+354
+00:27:40,940 --> 00:27:43,200
+<font size="24">She's the same as me.</font>
+
+355
+00:27:43,280 --> 00:27:45,610
+<font size="24">But in the end,</font>
+
+356
+00:27:45,700 --> 00:27:48,830
+<font size="24">she was saved by her father.</font>
+
+357
+00:27:48,910 --> 00:27:52,450
+<font size="24">Being a survivor can mean a lot of things.</font>
+
+358
+00:27:52,540 --> 00:27:55,250
+<font size="24">You have to accept the
+sacrifice of those who died</font>
+
+359
+00:27:55,330 --> 00:27:57,630
+<font size="24">and bear the burden of what they stood for.</font>
+
+360
+00:27:57,710 --> 00:28:01,170
+<font size="24">That's all the more true
+if you're the sole survivor.</font>
+
+361
+00:28:01,260 --> 00:28:05,340
+<font size="24">You're not the only one who's got it rough.</font>
+
+362
+00:28:09,220 --> 00:28:11,770
+<font size="24">Target detected by Mauna Kea
+Observatories three minutes ago.</font>
+
+363
+00:28:11,850 --> 00:28:13,890
+<font size="24">Currently entering orbital elements.</font>
+
+364
+00:28:13,980 --> 00:28:16,850
+<font size="24">Surveillance Satellite 3
+has a visual on the target.</font>
+
+365
+00:28:16,940 --> 00:28:18,940
+<font size="24">Putting it on screen at
+maximum magnification.</font>
+
+366
+00:28:21,320 --> 00:28:25,450
+<font size="24">An AT field powerful enough
+to bend light? That's phenomenal.</font>
+
+367
+00:28:25,530 --> 00:28:28,700
+<font size="24">So, where do we expect it to land?</font>
+
+368
+00:28:28,780 --> 00:28:31,030
+<font size="24">Here, of course. Right?</font>
+
+369
+00:28:31,120 --> 00:28:32,620
+<font size="24">The Magi are also recalculating.</font>
+
+370
+00:28:32,700 --> 00:28:36,250
+<font size="24">Probability of a direct hit
+on Nerv HQ is 99.9999%.</font>
+
+371
+00:28:42,550 --> 00:28:45,470
+<font size="24">The aerial N2 bombs are
+having no effect whatsoever.</font>
+
+372
+00:28:45,550 --> 00:28:47,470
+<font size="24">So, no adjusting its trajectory.</font>
+
+373
+00:28:47,550 --> 00:28:50,800
+<font size="24">Its AT field is pushed out
+to one concentrated point,</font>
+
+374
+00:28:50,890 --> 00:28:53,470
+<font size="24">and the energy from its
+descent will add to that as well.</font>
+
+375
+00:28:53,560 --> 00:28:56,480
+<font size="24">So the Angel itself is acting as a bomb.</font>
+
+376
+00:28:56,560 --> 00:28:59,480
+<font size="24">In the event the
+8th Angel scores a direct hit,</font>
+
+377
+00:28:59,560 --> 00:29:01,020
+<font size="24">the estimated diameter
+of the blast is 420,000.</font>
+
+378
+00:29:01,110 --> 00:29:03,570
+<font size="24">With a geoid deviation of -15,000.</font>
+
+379
+00:29:03,650 --> 00:29:05,650
+<font size="24">New Tokyo-3 will be vaporized.</font>
+
+380
+00:29:05,740 --> 00:29:09,570
+<font size="24">The Central Dogma will be completely
+exposed, to say nothing of the Geofront.</font>
+
+381
+00:29:09,660 --> 00:29:10,660
+<font size="24">Where's Commander Ikari?</font>
+
+382
+00:29:10,700 --> 00:29:13,540
+<font size="24">Signals in the upper atmosphere
+are unstable due to the Angel.</font>
+
+383
+00:29:13,620 --> 00:29:15,950
+<font size="24">We can't reach him at this time.</font>
+
+384
+00:29:16,040 --> 00:29:19,170
+<font size="24">We'll have no choice but
+to make the call ourselves here.</font>
+
+385
+00:29:20,880 --> 00:29:23,670
+<font size="24">Notify the Japanese government
+as well as all ministries.</font>
+
+386
+00:29:23,760 --> 00:29:27,300
+<font size="24">Under Nerv's authority,
+we are issuing Special Declaration D-17.</font>
+
+387
+00:29:27,380 --> 00:29:31,010
+<font size="24">Immediately commence the evacuation
+of all residents within a 120km radius.</font>
+
+388
+00:29:31,100 --> 00:29:32,470
+<font size="24">Not a problem.</font>
+
+389
+00:29:32,560 --> 00:29:36,430
+<font size="24">People connected to the government have
+already begun scrambling to evacuate.</font>
+
+390
+00:29:50,570 --> 00:29:53,990
+<font size="24">Evacuation of civilians
+within city limits completed.</font>
+
+391
+00:29:54,080 --> 00:29:57,250
+<font size="24">Evacuation of noncombatants and
+Class D Workers has been completed</font>
+
+392
+00:29:57,330 --> 00:29:59,920
+<font size="24">in accordance with Departmental Warning C.</font>
+
+393
+00:30:00,000 --> 00:30:02,920
+<font size="24">We've asked Matsushiro
+to handle the backup of the Magi.</font>
+
+394
+00:30:03,000 --> 00:30:04,800
+<font size="24">So, what's the plan?</font>
+
+395
+00:30:04,880 --> 00:30:08,170
+<font size="24">Even our Evas aren't capable of flying...</font>
+
+396
+00:30:08,260 --> 00:30:12,050
+<font size="24">Severe spatial distortion also makes
+sniping from various angles impossible.</font>
+
+397
+00:30:12,140 --> 00:30:16,350
+<font size="24">There's nothing we can do
+against a monster like this.</font>
+
+398
+00:30:21,600 --> 00:30:22,919
+<font size="24">Are you serious?</font>
+
+399
+00:30:22,920 --> 00:30:24,230
+<font size="24">Yes, I am.</font>
+
+400
+00:30:24,320 --> 00:30:26,940
+<font size="24">Can this plan really be called a strategy?</font>
+
+401
+00:30:27,030 --> 00:30:31,070
+<font size="24">Even the Magi have verified that the
+probability of failure is a little over 99%.</font>
+
+402
+00:30:31,160 --> 00:30:34,240
+<font size="24">Even if it succeeds, we'll lose three Evas.</font>
+
+403
+00:30:34,330 --> 00:30:36,870
+<font size="24">Speaking for the Technology Division,
+that is absolutely unacceptable.</font>
+
+404
+00:30:36,950 --> 00:30:39,040
+<font size="24">Our chance of success isn't zero.</font>
+
+405
+00:30:39,120 --> 00:30:41,680
+<font size="24">Better to be down-to-earth and
+work hard than wait for a miracle.</font>
+
+406
+00:30:41,750 --> 00:30:44,460
+<font size="24">We should make protecting
+Lilith and Unit-01 our top priority.</font>
+
+407
+00:30:44,540 --> 00:30:45,790
+<font size="24">I have no intention of waiting.</font>
+
+408
+00:30:45,880 --> 00:30:48,210
+<font size="24">We're going to create
+a miracle of man's own volition!</font>
+
+409
+00:30:48,300 --> 00:30:49,840
+<font size="24">Colonel Katsuragi!</font>
+
+410
+00:30:49,920 --> 00:30:52,470
+<font size="24">I am currently the ranking officer here.</font>
+
+411
+00:30:52,550 --> 00:30:54,470
+<font size="24">It's my decision to make.</font>
+
+412
+00:30:54,550 --> 00:30:58,310
+<font size="24">Besides, my job is to wipe out the angels.</font>
+
+413
+00:30:58,390 --> 00:31:01,060
+<font size="24">Your job? Your personal grudge, you mean?</font>
+
+414
+00:31:01,140 --> 00:31:03,440
+<font size="24">That's what your vendetta
+against the Angels is.</font>
+
+415
+00:31:03,520 --> 00:31:05,730
+<font size="24">What?! Catch it with our hands?!</font>
+
+416
+00:31:05,820 --> 00:31:07,440
+<font size="24">That's right. As the Angel comes flying,</font>
+
+417
+00:31:07,530 --> 00:31:10,530
+<font size="24">you'll deploy your Eva's AT field
+at maximum and catch it directly.</font>
+
+418
+00:31:10,610 --> 00:31:12,700
+<font size="24">The target is disguising its location,
+so you won't be able to expect</font>
+
+419
+00:31:12,780 --> 00:31:16,370
+<font size="24">an accurate calculation of the trajectory
+based on compensated observation.</font>
+
+420
+00:31:16,450 --> 00:31:19,240
+<font size="24">In order to give ourselves multiple
+options as the situation dictates,</font>
+
+421
+00:31:19,330 --> 00:31:22,370
+<font size="24">this mission will involve all three
+Evas being deployed simultaneously.</font>
+
+422
+00:31:22,460 --> 00:31:24,920
+<font size="24">You're wasting your time!
+I can destroy it on my own!</font>
+
+423
+00:31:25,000 --> 00:31:28,380
+<font size="24">That'll be impossible.
+A single Eva won't be able to cover</font>
+
+424
+00:31:28,460 --> 00:31:31,170
+<font size="24">the vast area within which
+the Angel is estimated to land.</font>
+
+425
+00:31:31,260 --> 00:31:32,970
+<font size="24">What is this positioning based on?</font>
+
+426
+00:31:33,050 --> 00:31:34,050
+<font size="24">Woman's intuition.</font>
+
+427
+00:31:34,140 --> 00:31:35,970
+<font size="24">How arbitrary is that!</font>
+
+428
+00:31:36,050 --> 00:31:37,800
+<font size="24">Um, what's our chance of success?</font>
+
+429
+00:31:37,890 --> 00:31:40,310
+<font size="24">I'd have to say, God only knows.</font>
+
+430
+00:31:40,890 --> 00:31:42,890
+<font size="24">That's exactly why these millstones
+around my neck will get in the way!</font>
+
+431
+00:31:42,980 --> 00:31:46,020
+<font size="24">I'm more than up to the task
+of protecting mankind on my own!</font>
+
+432
+00:31:46,110 --> 00:31:49,820
+<font size="24">Your performance in single-combat
+isn't what this mission needs.</font>
+
+433
+00:31:49,900 --> 00:31:52,360
+<font size="24">So you refuse to acknowledge my talent?</font>
+
+434
+00:31:52,450 --> 00:31:53,610
+<font size="24">That's not it.</font>
+
+435
+00:31:53,700 --> 00:31:56,740
+<font size="24">I need all three of you on this...</font>
+
+436
+00:31:56,820 --> 00:31:58,410
+<font size="24">to create a miracle.</font>
+
+437
+00:31:58,490 --> 00:32:01,120
+<font size="24">All Evas currently operating
+on live power sources.</font>
+
+438
+00:32:01,120 --> 00:32:01,120
+<font size="24">Unit 5 is in position. Situation, green.</font>
+
+439
+00:32:01,120 --> 00:32:02,120
+<font size="24">Power transmission is nominal.</font>
+
+440
+00:32:02,120 --> 00:32:03,870
+<font size="24">Currently standing by
+at designated location.</font>
+
+441
+00:32:03,870 --> 00:32:06,420
+<font size="24">Construction of Temporary Power
+Storage Facility 305 is complete.</font>
+
+442
+00:32:06,500 --> 00:32:08,960
+<font size="24">Connection made with the
+New Gotenba Substation.</font>
+
+443
+00:32:08,960 --> 00:32:09,960
+<font size="24">Station coming online.</font>
+
+444
+00:32:09,961 --> 00:32:13,010
+<font size="24">- Continuing to lay down auxiliary cables.
+- Unit-00 internal power charged to over 105%.</font>
+
+445
+00:32:13,090 --> 00:32:15,050
+<font size="24">- Auxiliary power extension cables have arrived.
+- Commencing system check.</font>
+
+446
+00:32:15,310 --> 00:32:19,050
+<font size="24">Team 8, please get them connected quickly.</font>
+
+447
+00:32:19,050 --> 00:32:19,050
+<font size="24">Roger. Circuits green.</font>
+
+448
+00:32:19,050 --> 00:32:19,050
+<font size="24">Transmission voltage nominal.</font>
+
+449
+00:32:19,140 --> 00:32:21,220
+<font size="24">Checking Unit-01 connector link.</font>
+
+450
+00:32:21,516 --> 00:32:23,140
+<font size="24">No abnormalities detected.</font>
+
+451
+00:32:23,230 --> 00:32:27,650
+<font size="24">Respiration and heart rates are normal.
+Final medical check has been cleared.</font>
+
+452
+00:32:29,070 --> 00:32:32,860
+<font size="24">Being inside the Eva...
+I wonder why.</font>
+
+453
+00:32:32,940 --> 00:32:35,860
+<font size="24">It's strangely calming in here,
+even at a time like this.</font>
+
+454
+00:32:35,950 --> 00:32:39,200
+<font size="24">Have I gotten used to
+being in here already?</font>
+
+455
+00:32:39,280 --> 00:32:40,740
+<font size="24">I wonder why.</font>
+
+456
+00:32:40,830 --> 00:32:43,870
+<font size="24">It feels warm and familiar...</font>
+
+457
+00:32:43,960 --> 00:32:45,750
+<font size="24">Is it the smell?</font>
+
+458
+00:32:45,830 --> 00:32:47,330
+<font size="24">How my mom smelled?</font>
+
+459
+00:32:48,790 --> 00:32:50,710
+<font size="24">How Ayanami smells?</font>
+
+460
+00:32:50,800 --> 00:32:53,920
+<font size="24">Calculating target's trajectory.</font>
+
+461
+00:32:54,010 --> 00:32:56,170
+<font size="24">And here it comes.</font>
+
+462
+00:32:56,260 --> 00:32:58,260
+<font size="24">All Evas in your start positions.</font>
+
+463
+00:33:04,850 --> 00:33:06,980
+<font size="24">Since the secondary data is unreliable,</font>
+
+464
+00:33:07,060 --> 00:33:10,310
+<font size="24">priority from here on out will be
+given to your on site discretion.</font>
+
+465
+00:33:10,400 --> 00:33:13,230
+<font size="24">Everything we've got is
+riding on you and the Evas.</font>
+
+466
+00:33:13,320 --> 00:33:15,530
+<font size="24">Target approaching.
+Distance, approximately 20,000.</font>
+
+467
+00:33:15,610 --> 00:33:17,950
+<font size="24">All right then, start the operation.</font>
+
+468
+00:33:19,030 --> 00:33:20,620
+<font size="24">Go.</font>
+
+469
+00:33:51,730 --> 00:33:54,190
+<font size="24">Target's AT field is transforming!</font>
+
+470
+00:33:54,280 --> 00:33:55,530
+<font size="24">Trajectory changing!</font>
+
+471
+00:33:55,610 --> 00:33:57,860
+<font size="24">Estimated point of impact adjusted by 205.</font>
+
+472
+00:33:57,950 --> 00:33:59,110
+<font size="24">Target accelerating!</font>
+
+473
+00:33:59,200 --> 00:34:01,160
+<font size="24">What the hell?
+It's faster than they'd estimated!</font>
+
+474
+00:34:01,240 --> 00:34:02,820
+<font size="24">No good! I won't make it in time!</font>
+
+475
+00:34:02,910 --> 00:34:05,160
+<font size="24">I'll manage things from my end.
+Miss Misato!</font>
+
+476
+00:34:05,240 --> 00:34:07,790
+<font size="24">Emergency course configuration! 605 to 675!</font>
+
+477
+00:34:07,870 --> 00:34:09,120
+<font size="24">Yes, ma'am!</font>
+
+478
+00:34:16,130 --> 00:34:19,970
+<font size="24">Next! 1072 to 1078! Stand by!</font>
+
+479
+00:34:59,630 --> 00:35:02,470
+<font size="24">Target morphing! Distance, 12,000!</font>
+
+480
+00:35:07,100 --> 00:35:09,470
+<font size="24">AT field at maximum!</font>
+
+481
+00:35:43,970 --> 00:35:45,760
+<font size="24">Daddy's Boy!</font>
+
+482
+00:35:46,100 --> 00:35:48,320
+<font size="24">Unit-02, get the core.</font>
+
+483
+00:35:48,321 --> 00:35:49,350
+<font size="24">I know that!</font>
+
+484
+00:35:49,430 --> 00:35:51,850
+<font size="24">Don't order me around!</font>
+
+485
+00:35:57,820 --> 00:35:59,150
+<font size="24">I missed?!</font>
+
+486
+00:35:59,230 --> 00:36:01,530
+<font size="24">Damn sore loser, scurrying around!</font>
+
+487
+00:36:01,610 --> 00:36:03,240
+<font size="24">30 seconds left!</font>
+
+488
+00:36:13,500 --> 00:36:14,790
+<font size="24">Hurry, Asuka!</font>
+
+489
+00:36:14,870 --> 00:36:16,830
+<font size="24">I know!</font>
+
+490
+00:36:20,420 --> 00:36:23,010
+<font size="24">Teacher's Pet?!</font>
+
+491
+00:36:25,510 --> 00:36:26,590
+<font size="24">Hurry...</font>
+
+492
+00:36:26,680 --> 00:36:27,590
+<font size="24">Asuka!</font>
+
+493
+00:36:27,680 --> 00:36:32,520
+<font size="24">I know what to do, damn you!</font>
+
+494
+00:36:35,640 --> 00:36:39,020
+<font size="24">And here's one more!</font>
+
+495
+00:37:37,160 --> 00:37:39,500
+<font size="24">Thank you, you guys.</font>
+
+496
+00:37:39,580 --> 00:37:43,040
+<font size="24">Radio systems are back online.
+Incoming call from Commander Ikari.</font>
+
+497
+00:37:43,130 --> 00:37:45,170
+<font size="24">Patch him through.</font>
+
+498
+00:37:45,800 --> 00:37:47,260
+<font size="24">You have my apologies.</font>
+
+499
+00:37:47,340 --> 00:37:50,180
+<font size="24">Decisions I made at my discretion
+have resulted in damage to three Evas,</font>
+
+500
+00:37:50,260 --> 00:37:52,470
+<font size="24">as well as injury to their pilots.</font>
+
+501
+00:37:52,550 --> 00:37:55,180
+<font size="24">I take full responsibility for it.</font>
+
+502
+00:37:55,270 --> 00:37:58,140
+<font size="24">That's fine. In light of
+the target's destruction,</font>
+
+503
+00:37:58,230 --> 00:38:01,730
+<font size="24">this level of damage might
+actually be considered fortunate.</font>
+
+504
+00:38:01,810 --> 00:38:04,690
+<font size="24">Yes, you did well for
+us, Colonel Katsuragi.</font>
+
+505
+00:38:04,780 --> 00:38:06,110
+<font size="24">Thank you very much.</font>
+
+506
+00:38:06,190 --> 00:38:09,200
+<font size="24">Patch me through to Unit-01's pilot.</font>
+
+507
+00:38:10,070 --> 00:38:13,660
+<font size="24">I heard what happened.
+You did well, Shinji.</font>
+
+508
+00:38:13,740 --> 00:38:15,910
+<font size="24">What? Yes, sir...</font>
+
+509
+00:38:16,000 --> 00:38:18,960
+<font size="24">Then, Colonel Katsuragi,
+I will leave the rest to you.</font>
+
+510
+00:38:19,040 --> 00:38:19,960
+<font size="24">Yes, sir.</font>
+
+511
+00:38:20,040 --> 00:38:22,040
+<font size="24">Expedite the recovery of the three Evas.</font>
+
+512
+00:38:22,130 --> 00:38:26,460
+<font size="24">Priority goes to Unit-01.
+Transport to Emergency Cage 99.</font>
+
+513
+00:38:33,100 --> 00:38:35,510
+<font size="24">I couldn't do anything...</font>
+
+514
+00:38:35,600 --> 00:38:37,720
+<font size="24">on my own.</font>
+
+515
+00:39:08,420 --> 00:39:12,550
+<font size="24">Being alone has always
+been the norm for me, and yet...</font>
+
+516
+00:39:12,630 --> 00:39:17,180
+<font size="24">Solitude shouldn't bother me, and yet...</font>
+
+517
+00:39:29,610 --> 00:39:30,530
+<font size="24">H-Hey...</font>
+
+518
+00:39:30,610 --> 00:39:33,280
+<font size="24">Don't turn this way.</font>
+
+519
+00:39:38,200 --> 00:39:43,580
+<font size="24">Daddy's Boy, let me stay here,
+just for a little while.</font>
+
+520
+00:39:47,500 --> 00:39:53,380
+<font size="24">Um... Miss... Shikinami?</font>
+
+521
+00:39:53,470 --> 00:39:58,050
+<font size="24">You got caught up in the moment
+and called me by name today.</font>
+
+522
+00:39:58,140 --> 00:40:00,640
+<font size="24">I'll make a special exception.
+You can call me Asuka.</font>
+
+523
+00:40:00,720 --> 00:40:03,560
+<font size="24">I'll call you Stupid Shinji, too.</font>
+
+524
+00:40:03,640 --> 00:40:06,440
+<font size="24">Then... um...</font>
+
+525
+00:40:06,520 --> 00:40:09,150
+<font size="24">Asuka, why do you pilot the Eva...?</font>
+
+526
+00:40:09,230 --> 00:40:15,030
+<font size="24">What a silly question.
+Shut up, Stupid Shinji.</font>
+
+527
+00:40:18,080 --> 00:40:21,990
+<font size="24">I pilot the Eva for myself.</font>
+
+528
+00:40:22,080 --> 00:40:24,040
+<font size="24">What about you?</font>
+
+529
+00:40:24,120 --> 00:40:27,210
+<font size="24">I don't really know.</font>
+
+530
+00:40:27,290 --> 00:40:28,960
+<font size="24">What are you, an idiot?</font>
+
+531
+00:40:29,040 --> 00:40:33,420
+<font size="24">That's just how you avoid
+owning up to whatever it is, right?</font>
+
+532
+00:40:33,510 --> 00:40:37,510
+<font size="24">Maybe I want Dad to praise me.</font>
+
+533
+00:40:37,590 --> 00:40:42,010
+<font size="24">He praised me for the first time today.</font>
+
+534
+00:40:42,100 --> 00:40:45,770
+<font size="24">For the first time, I
+felt happy to be praised.</font>
+
+535
+00:40:45,850 --> 00:40:51,110
+<font size="24">I wonder if Dad recognizes me
+for my accomplishments now.</font>
+
+536
+00:40:51,190 --> 00:40:55,280
+<font size="24">Maybe it's just like Miss Misato said.</font>
+
+537
+00:40:58,120 --> 00:40:59,870
+<font size="24">You...</font>
+
+538
+00:40:59,950 --> 00:41:02,330
+<font size="24">really are an idiot.</font>
+
+539
+00:41:03,660 --> 00:41:05,750
+<font size="24">Did you watch it?</font>
+
+540
+00:41:06,290 --> 00:41:09,140
+<font size="24">All righty, time to eat!</font>
+
+541
+00:41:09,330 --> 00:41:11,750
+<font size="24">It's the best part of school, after all!</font>
+
+542
+00:41:11,840 --> 00:41:14,380
+<font size="24">What?! You didn't bring us lunch?!</font>
+
+543
+00:41:14,470 --> 00:41:17,590
+<font size="24">I was doing homework this morning
+and I didn't have time to make it!</font>
+
+544
+00:41:17,680 --> 00:41:22,430
+<font size="24">And because of that, you
+expect me to go without lunch?!</font>
+
+545
+00:41:22,510 --> 00:41:24,560
+<font size="24">Like I said, I'll be sure
+to make lunch tomorrow!</font>
+
+546
+00:41:24,640 --> 00:41:27,140
+<font size="24">What's this? Another marital spat?</font>
+
+547
+00:41:28,650 --> 00:41:30,310
+<font size="24">No, it's not!</font>
+
+548
+00:41:31,900 --> 00:41:35,320
+<font size="24">Asuka, let me borrow
+your face washing soap.</font>
+
+549
+00:41:35,400 --> 00:41:39,160
+<font size="24">Enough already, Misato! Get your own!</font>
+
+550
+00:41:39,240 --> 00:41:41,030
+<font size="24">Cheapskate!</font>
+
+551
+00:41:42,530 --> 00:41:44,950
+<font size="24">All righty, time to eat!</font>
+
+552
+00:41:45,040 --> 00:41:48,370
+<font size="24">Woohoo! Let's dig in!</font>
+
+553
+00:41:50,000 --> 00:41:52,080
+<font size="24">Hmm. It's so-so today.</font>
+
+554
+00:41:52,170 --> 00:41:54,210
+<font size="24">But it'd be even better
+if he hadn't slacked off that day.</font>
+
+555
+00:41:54,300 --> 00:41:56,880
+<font size="24">Um, Asuka?</font>
+
+556
+00:41:56,970 --> 00:41:59,840
+<font size="24">Would you mind if I joined you?</font>
+
+557
+00:42:01,140 --> 00:42:04,810
+<font size="24">No, but I'm not sharing my lunch.</font>
+
+558
+00:42:07,980 --> 00:42:10,020
+<font size="24">Here, this is for you.</font>
+
+559
+00:42:12,110 --> 00:42:14,690
+<font size="24">You never seem to have lunch, so...</font>
+
+560
+00:42:17,320 --> 00:42:18,360
+<font size="24">Thank you.</font>
+
+561
+00:42:18,450 --> 00:42:21,210
+<font size="24">I'm so glad I worked up
+the nerve to talk to you.</font>
+
+562
+00:42:21,211 --> 00:42:22,700
+<font size="24">Hikari, was it?</font>
+
+563
+00:42:22,780 --> 00:42:25,740
+<font size="24">You can have the rest.</font>
+
+564
+00:42:25,830 --> 00:42:28,910
+<font size="24">Whew, I'm stuffed!</font>
+
+565
+00:42:29,000 --> 00:42:31,210
+<font size="24">Thank you for the meal!</font>
+
+566
+00:42:31,290 --> 00:42:33,040
+<font size="24">That's a late lunch.</font>
+
+567
+00:42:33,130 --> 00:42:35,380
+<font size="24">Th-Thanks.</font>
+
+568
+00:42:35,460 --> 00:42:37,880
+<font size="24">So I hear Shinji makes your lunches?</font>
+
+569
+00:42:37,970 --> 00:42:41,970
+<font size="24">Well, you're not the
+home cooking type anyway.</font>
+
+570
+00:42:43,760 --> 00:42:46,970
+<font size="24">I suppose not. Unlike you,
+with time on your hands,</font>
+
+571
+00:42:47,060 --> 00:42:49,730
+<font size="24">I have boatloads of work to do
+as a manager in the trenches.</font>
+
+572
+00:42:49,810 --> 00:42:52,100
+<font size="24">You're as serious as ever.</font>
+
+573
+00:42:52,190 --> 00:42:55,820
+<font size="24">I mean, that's your strength,
+but it's also your weakness.</font>
+
+574
+00:42:55,900 --> 00:42:59,860
+<font size="24">Like the other day.
+I heard that you went at it with Ritsy.</font>
+
+575
+00:42:59,950 --> 00:43:01,990
+<font size="24">Relax a little more.</font>
+
+576
+00:43:02,070 --> 00:43:06,370
+<font size="24">Unfortunately, my plate's
+always full with duty and obligations.</font>
+
+577
+00:43:06,450 --> 00:43:09,540
+<font size="24">If you're too tense,
+you'll never find a guy.</font>
+
+578
+00:43:09,620 --> 00:43:11,710
+<font size="24">Nobody asked you!</font>
+
+579
+00:43:32,730 --> 00:43:34,560
+<font size="24">"Thank you."</font>
+
+580
+00:43:34,650 --> 00:43:36,650
+<font size="24">Words of gratitude.</font>
+
+581
+00:43:36,730 --> 00:43:40,440
+<font size="24">Words I'd never spoken before.</font>
+
+582
+00:43:40,530 --> 00:43:44,910
+<font size="24">I'd never even said it to him...</font>
+
+583
+00:43:44,990 --> 00:43:46,780
+<font size="24">Rise!</font>
+
+584
+00:43:47,450 --> 00:43:49,160
+<font size="24">Bow!</font>
+
+585
+00:43:49,240 --> 00:43:51,790
+<font size="24">Be seated!</font>
+
+586
+00:43:52,960 --> 00:43:56,330
+<font size="24">Ayanami's absent again, huh? No matter.</font>
+
+587
+00:43:56,420 --> 00:44:00,130
+<font size="24">She seemed well yesterday.</font>
+
+588
+00:44:00,130 --> 00:44:00,130
+<font size="24">Now, I'm going to give you back</font>
+
+589
+00:44:00,130 --> 00:44:00,130
+<font size="24">the test from the other day,</font>
+
+590
+00:44:00,130 --> 00:44:01,460
+<font size="24">I wonder what happened.</font>
+
+591
+00:44:01,550 --> 00:44:03,880
+<font size="24">Just like me.</font>
+
+592
+00:44:03,970 --> 00:44:08,800
+<font size="24">They can only survive in there...
+What did she mean?</font>
+
+593
+00:44:13,140 --> 00:44:15,100
+<font size="24">Rei.</font>
+
+594
+00:44:19,900 --> 00:44:22,400
+<font size="24">Time for a meal.</font>
+
+595
+00:44:22,490 --> 00:44:24,070
+<font size="24">Yes, sir.</font>
+
+596
+00:44:30,160 --> 00:44:31,950
+<font size="24">Commander Ikari.</font>
+
+597
+00:44:32,040 --> 00:44:33,330
+<font size="24">What is it?</font>
+
+598
+00:44:33,410 --> 00:44:36,460
+<font size="24">Are meals enjoyable?</font>
+
+599
+00:44:36,540 --> 00:44:38,330
+<font size="24">Yes.</font>
+
+600
+00:44:38,420 --> 00:44:43,380
+<font size="24">Is there pleasure in
+eating with someone else?</font>
+
+601
+00:44:43,470 --> 00:44:45,680
+<font size="24">Yes.</font>
+
+602
+00:44:45,760 --> 00:44:50,680
+<font size="24">Cooking dishes is delightful...
+Is that right?</font>
+
+603
+00:44:50,760 --> 00:44:52,350
+<font size="24">Yes.</font>
+
+604
+00:44:54,730 --> 00:44:56,520
+<font size="24">Commander Ikari,</font>
+
+605
+00:44:56,600 --> 00:45:04,190
+<font size="24">how about having a meal with
+Ikari and the others sometime?</font>
+
+606
+00:45:04,280 --> 00:45:07,490
+<font size="24">No, I have no time for such...</font>
+
+607
+00:45:10,490 --> 00:45:13,660
+<font size="24">Honey, take care of Shinji for me...</font>
+
+608
+00:45:18,920 --> 00:45:22,040
+<font size="24">All right, I'll go.</font>
+
+609
+00:45:23,420 --> 00:45:26,590
+<font size="24">Simulated synch is normal for all pilots.</font>
+
+610
+00:45:26,680 --> 00:45:29,010
+<font size="24">Picking up no psychological contamination.</font>
+
+611
+00:45:29,090 --> 00:45:32,300
+<font size="24">LCL osmotic pressure
+clears Categorization B.</font>
+
+612
+00:45:32,390 --> 00:45:36,020
+<font size="24">Jeez, this is so boring!</font>
+
+613
+00:45:36,100 --> 00:45:40,060
+<font size="24">If no Angels come, we're stuck
+doing checks all day! Totally not cool.</font>
+
+614
+00:45:40,150 --> 00:45:41,940
+<font size="24">I don't see the problem.</font>
+
+615
+00:45:42,020 --> 00:45:47,400
+<font size="24">We're doing all this work so we can build a
+peaceful daily life free of Angels, you know.</font>
+
+616
+00:45:47,490 --> 00:45:48,490
+<font size="24">Whee!</font>
+
+617
+00:45:48,530 --> 00:45:49,780
+<font size="24">Glorying in our repetitive daily lives:</font>
+
+618
+00:45:49,870 --> 00:45:54,120
+<font size="24">in a today just like yesterday,
+a tomorrow probably just like today.</font>
+
+619
+00:45:54,200 --> 00:45:56,580
+<font size="24">That's something to be
+grateful for, actually.</font>
+
+620
+00:45:58,210 --> 00:46:01,500
+<font size="24">Checks complete. All monitors
+coming in loud and clear.</font>
+
+621
+00:46:01,590 --> 00:46:06,710
+<font size="24">Good work, you three. You
+can come on out now.</font>
+
+622
+00:46:06,800 --> 00:46:09,220
+<font size="24">Back up to file 101.</font>
+
+623
+00:46:09,300 --> 00:46:12,260
+<font size="24">Commencing LCL drain in three minutes.</font>
+
+624
+00:46:14,350 --> 00:46:16,350
+<font size="24">This may not be for me to say,</font>
+
+625
+00:46:16,430 --> 00:46:20,310
+<font size="24">but such severe damage is going
+to hinder our ability to run operations.</font>
+
+626
+00:46:20,400 --> 00:46:23,190
+<font size="24">Couldn't we just scrap the Vatican Treaty?</font>
+
+627
+00:46:23,270 --> 00:46:24,570
+<font size="24">I know.</font>
+
+628
+00:46:24,650 --> 00:46:27,820
+<font size="24">With each country only allowed
+possession of a maximum of three Evas,</font>
+
+629
+00:46:27,900 --> 00:46:29,900
+<font size="24">there's no leeway in operational units.</font>
+
+630
+00:46:29,990 --> 00:46:33,320
+<font size="24">Even now, our repair work
+is being prioritized for Unit-01.</font>
+
+631
+00:46:33,410 --> 00:46:36,290
+<font size="24">We're just barely managing
+by juggling all the spare parts,</font>
+
+632
+00:46:36,370 --> 00:46:39,540
+<font size="24">so we don't even know when
+we'll be able to repair Unit-00.</font>
+
+633
+00:46:39,620 --> 00:46:42,750
+<font size="24">The nationalistic ego of every
+country is tangled up in that Treaty.</font>
+
+634
+00:46:42,830 --> 00:46:44,920
+<font size="24">Getting it revised will
+be nearly impossible.</font>
+
+635
+00:46:45,000 --> 00:46:47,760
+<font size="24">On top of which, with
+their loss of Unit-05,</font>
+
+636
+00:46:47,840 --> 00:46:50,930
+<font size="24">Euro and Russia seem to be embroiling
+Asia in their various allegations.</font>
+
+637
+00:46:51,010 --> 00:46:54,140
+<font size="24">It gets to be something of a pain
+when politics enters the picture.</font>
+
+638
+00:46:54,220 --> 00:46:57,850
+<font size="24">There's too much to do before we can
+even get around to protecting mankind.</font>
+
+639
+00:47:06,190 --> 00:47:08,150
+<font size="24">Move! Move!</font>
+
+640
+00:47:12,410 --> 00:47:16,370
+<font size="24">Ooh, ow... That hurt...</font>
+
+641
+00:47:27,000 --> 00:47:29,550
+<font size="24">My glasses, my glasses...</font>
+
+642
+00:47:29,630 --> 00:47:31,420
+<font size="24">Um...</font>
+
+643
+00:47:31,510 --> 00:47:34,390
+<font size="24">Oh, sorry. Are you okay?</font>
+
+644
+00:47:37,010 --> 00:47:38,720
+<font size="24">Hello. Mari here.</font>
+
+645
+00:47:38,810 --> 00:47:42,640
+<font size="24">Yes, I seem to have glided off target.</font>
+
+646
+00:47:42,730 --> 00:47:45,940
+<font size="24">It looks like I'm in a school of some sort.</font>
+
+647
+00:47:46,020 --> 00:47:47,270
+<font size="24">What?!</font>
+
+648
+00:47:47,360 --> 00:47:51,490
+<font size="24">Well, you told me
+to enter into Japan covertly!</font>
+
+649
+00:47:51,570 --> 00:47:54,740
+<font size="24">Won't you have the
+Euro people work this out?</font>
+
+650
+00:47:54,820 --> 00:47:57,780
+<font size="24">Just be there for my
+extraction later, okay?</font>
+
+651
+00:47:57,870 --> 00:47:59,080
+<font size="24">Thanks.</font>
+
+652
+00:48:06,790 --> 00:48:12,010
+<font size="24">You smell good. I can smell LCL on you.</font>
+
+653
+00:48:13,720 --> 00:48:16,220
+<font size="24">You're interesting.</font>
+
+654
+00:48:16,300 --> 00:48:20,810
+<font size="24">Well, mum's the word.
+Okay, little Nerv doggy?</font>
+
+655
+00:48:31,480 --> 00:48:34,450
+<font size="24">Huh? That's strange...</font>
+
+656
+00:48:39,200 --> 00:48:43,450
+<font size="24">Hey. How about going on a date for once?</font>
+
+657
+00:48:43,540 --> 00:48:45,250
+<font size="24">I'm a guy.</font>
+
+658
+00:48:45,330 --> 00:48:47,330
+<font size="24">No problem.</font>
+
+659
+00:48:48,630 --> 00:48:51,670
+<font size="24">Gender has nothing to do with love.</font>
+
+660
+00:48:55,090 --> 00:48:58,180
+<font size="24">I'm kidding.</font>
+
+661
+00:48:58,260 --> 00:48:59,640
+<font size="24">Here.</font>
+
+662
+00:49:12,190 --> 00:49:14,990
+<font size="24">The smell of dirt...</font>
+
+663
+00:49:15,070 --> 00:49:17,990
+<font size="24">Worn out already?</font>
+
+664
+00:49:18,070 --> 00:49:20,660
+<font size="24">I expect to get the labor I paid for.</font>
+
+665
+00:49:20,740 --> 00:49:24,370
+<font size="24">Paid for? You mean that can of coffee?</font>
+
+666
+00:49:25,910 --> 00:49:28,620
+<font size="24">And you called this a date.</font>
+
+667
+00:49:28,710 --> 00:49:31,540
+<font size="24">I thought you were a
+more serious person than this.</font>
+
+668
+00:49:31,630 --> 00:49:36,340
+<font size="24">For an adult, being more
+devious than not is just about perfect.</font>
+
+669
+00:49:39,010 --> 00:49:41,850
+<font size="24">If I remember right, these
+are watermelons, aren't they?</font>
+
+670
+00:49:41,930 --> 00:49:43,890
+<font size="24">Yeah. Cute, right?</font>
+
+671
+00:49:43,970 --> 00:49:45,720
+<font size="24">It's my hobby.</font>
+
+672
+00:49:45,810 --> 00:49:49,560
+<font size="24">Making things or growing things is great.</font>
+
+673
+00:49:49,650 --> 00:49:52,520
+<font size="24">It makes you see and
+understand all kinds of things.</font>
+
+674
+00:49:52,610 --> 00:49:55,320
+<font size="24">Like about enjoyment.</font>
+
+675
+00:49:55,400 --> 00:49:57,900
+<font size="24">And about suffering, too, right?</font>
+
+676
+00:49:57,990 --> 00:50:00,740
+<font size="24">Do you hate suffering?</font>
+
+677
+00:50:00,820 --> 00:50:02,530
+<font size="24">I don't like it.</font>
+
+678
+00:50:02,620 --> 00:50:05,540
+<font size="24">Did you find something that you enjoyed?</font>
+
+679
+00:50:07,160 --> 00:50:11,750
+<font size="24">That's fine, too.
+But people who know about suffering</font>
+
+680
+00:50:11,840 --> 00:50:14,090
+<font size="24">are capable of being kind
+to others that much more.</font>
+
+681
+00:50:14,170 --> 00:50:17,340
+<font size="24">And that's not the same as being weak.</font>
+
+682
+00:50:18,430 --> 00:50:21,220
+<font size="24">Do you like Katsuragi?</font>
+
+683
+00:50:23,430 --> 00:50:25,220
+<font size="24">M-Miss Misato?</font>
+
+684
+00:50:25,310 --> 00:50:28,890
+<font size="24">Uh, well... I don't not like her.</font>
+
+685
+00:50:28,980 --> 00:50:32,650
+<font size="24">Protect Katsuragi for me.</font>
+
+686
+00:50:32,730 --> 00:50:39,320
+<font size="24">That's something I can't do. Only you can.</font>
+
+687
+00:50:39,400 --> 00:50:40,780
+<font size="24">Please.</font>
+
+688
+00:51:10,520 --> 00:51:13,020
+<font size="24">Morning.</font>
+
+689
+00:51:13,100 --> 00:51:13,900
+<font size="24">Ayanami!</font>
+
+690
+00:51:13,980 --> 00:51:15,270
+<font size="24">A greeting?</font>
+
+691
+00:51:15,360 --> 00:51:18,320
+<font size="24">From Ayanami?</font>
+
+692
+00:51:19,320 --> 00:51:21,900
+<font size="24">Ayanami, are you okay now?</font>
+
+693
+00:51:21,990 --> 00:51:25,280
+<font size="24">Yes, I'm fine today.</font>
+
+694
+00:51:25,370 --> 00:51:27,990
+<font size="24">What happened to your hand?</font>
+
+695
+00:51:28,080 --> 00:51:31,910
+<font size="24">Dr. Akagi put them on for me just earlier.</font>
+
+696
+00:51:32,000 --> 00:51:33,330
+<font size="24">What were you doing?</font>
+
+697
+00:51:33,420 --> 00:51:35,000
+<font size="24">It's a secret.</font>
+
+698
+00:51:35,090 --> 00:51:38,750
+<font size="24">I'll tell you once I get
+a little better at it.</font>
+
+699
+00:51:48,640 --> 00:51:50,520
+<font size="24">Rei's changed.</font>
+
+700
+00:51:50,600 --> 00:51:55,840
+<font size="24">The idea of her doing something
+for someone else is mind-boggling.</font>
+
+701
+00:51:55,980 --> 00:51:57,730
+<font size="24">What could have brought this on?</font>
+
+702
+00:51:57,820 --> 00:51:59,480
+<font size="24">Maybe... it's love!</font>
+
+703
+00:51:59,570 --> 00:52:02,610
+<font size="24">Surely not. Impossible.</font>
+
+704
+00:52:06,490 --> 00:52:10,370
+<font size="24">I wonder if Idiot Shinji
+would prefer it to be milder.</font>
+
+705
+00:52:10,450 --> 00:52:12,160
+<font size="24">I'm back!</font>
+
+706
+00:52:12,250 --> 00:52:15,000
+<font size="24">Oh? Misato, you're early.</font>
+
+707
+00:52:15,080 --> 00:52:17,540
+<font size="24">I have to go right back to HQ.</font>
+
+708
+00:52:17,630 --> 00:52:20,380
+<font size="24">I only came home for
+a bath and change of clothes.</font>
+
+709
+00:52:21,630 --> 00:52:22,420
+<font size="24">Ooh!</font>
+
+710
+00:52:22,470 --> 00:52:23,800
+<font size="24">Whoa!</font>
+
+711
+00:52:23,880 --> 00:52:28,930
+<font size="24">Oh, my, my! Are you going
+to cook for Shin, too?</font>
+
+712
+00:52:29,010 --> 00:52:30,220
+<font size="24">What?!</font>
+
+713
+00:52:30,310 --> 00:52:34,180
+<font size="24">No! Um, it's for a girl...
+Y-Yeah, it's for Hikari!</font>
+
+714
+00:52:34,270 --> 00:52:37,270
+<font size="24">First Rei and now you.
+Getting romantic all of a sudden.</font>
+
+715
+00:52:37,360 --> 00:52:39,480
+<font size="24">What? Don't lump me
+in with that teacher's pet!</font>
+
+716
+00:52:39,570 --> 00:52:40,940
+<font size="24">Hmm, I suppose I shouldn't.</font>
+
+717
+00:52:41,030 --> 00:52:44,030
+<font size="24">Rei seems to have something
+more ambitious planned, after all.</font>
+
+718
+00:52:44,110 --> 00:52:45,200
+<font size="24">What do you mean?</font>
+
+719
+00:52:45,280 --> 00:52:47,780
+<font size="24">It looks like she wants to be the cupid</font>
+
+720
+00:52:47,870 --> 00:52:51,030
+<font size="24">who brings Commander
+Ikari and Shin together.</font>
+
+721
+00:52:51,120 --> 00:52:53,830
+<font size="24">"Invite everyone to a dinner party
+and serve a home-cooked meal"</font>
+
+722
+00:52:53,910 --> 00:52:58,040
+<font size="24">seems to be her plan of attack.
+It's so direct, it's going to pack a punch.</font>
+
+723
+00:52:58,420 --> 00:53:02,710
+<font size="24">Seriously, bringing that family
+closer together is no easy task.</font>
+
+724
+00:53:02,800 --> 00:53:05,220
+<font size="24">That girl's doing this for Idiot Shinji?</font>
+
+725
+00:53:05,300 --> 00:53:10,010
+<font size="24">It's a surprise, so no telling Shin, okay?</font>
+
+726
+00:53:10,100 --> 00:53:12,760
+<font size="24">As if I would!</font>
+
+727
+00:53:35,410 --> 00:53:37,330
+<font size="24">Vaporized?!</font>
+
+728
+00:53:37,420 --> 00:53:40,830
+<font size="24">Eva Unit-04 and Branch 2 were vaporized?</font>
+
+729
+00:53:40,920 --> 00:53:43,920
+<font size="24">This is data from ground zero at T plus 10.</font>
+
+730
+00:53:45,260 --> 00:53:46,130
+<font size="24">It's terrible.</font>
+
+731
+00:53:46,220 --> 00:53:49,550
+<font size="24">The satellite lets us verify
+that the AT field collapsed,</font>
+
+732
+00:53:49,640 --> 00:53:51,180
+<font size="24">but the specifics remain unknown.</font>
+
+733
+00:53:51,260 --> 00:53:53,810
+<font size="24">So Unit-04 was at the center,
+as we'd suspected.</font>
+
+734
+00:53:53,890 --> 00:53:55,930
+<font size="24">Tell me that our Evas are fine.</font>
+
+735
+00:53:56,020 --> 00:53:58,350
+<font size="24">Unit-04 was...!</font>
+
+736
+00:53:58,440 --> 00:54:01,270
+<font size="24">Unit-04 was the testbed
+for a new internal engine</font>
+
+737
+00:54:01,360 --> 00:54:05,730
+<font size="24">that was meant to solve our
+operational time limit issues.</font>
+
+738
+00:54:05,820 --> 00:54:06,860
+<font size="24">Or so I've heard.</font>
+
+739
+00:54:06,950 --> 00:54:08,900
+<font size="24">Nerv North America's R&D Intel</font>
+
+740
+00:54:08,990 --> 00:54:12,530
+<font size="24">hasn't been extensively
+disclosed even to Dr. Akagi.</font>
+
+741
+00:54:12,620 --> 00:54:14,030
+<font size="24">Those who would know are...</font>
+
+742
+00:54:14,120 --> 00:54:16,250
+<font size="24">Eva Unit-04.</font>
+
+743
+00:54:16,330 --> 00:54:18,790
+<font size="24">It was an experimental
+unit aimed at acquiring data</font>
+
+744
+00:54:18,870 --> 00:54:23,210
+<font size="24">for the development of a next-generation
+Eva. Anything could have happened to it.</font>
+
+745
+00:54:23,290 --> 00:54:24,880
+<font size="24">But...</font>
+
+746
+00:54:27,220 --> 00:54:29,590
+<font size="24">Was it really an accident?</font>
+
+747
+00:54:59,910 --> 00:55:03,130
+<font size="24">Gimme three of these, ma'am.</font>
+
+748
+00:55:05,170 --> 00:55:08,050
+<font size="24">It's unusual for you to treat us, Toji.</font>
+
+749
+00:55:08,130 --> 00:55:13,050
+<font size="24">Yer so serious... I never thought you'd come
+hang out with us for a cheap snack, either.</font>
+
+750
+00:55:13,140 --> 00:55:17,220
+<font size="24">Why don't you be honest and say
+that your little sister's gotten better?</font>
+
+751
+00:55:17,310 --> 00:55:18,020
+<font size="24">Shaddup!</font>
+
+752
+00:55:18,060 --> 00:55:21,100
+<font size="24">Keep yer mouth shut 'bout
+what's none of yer business! Moron!</font>
+
+753
+00:55:25,570 --> 00:55:27,690
+<font size="24">Say, Ikari.</font>
+
+754
+00:55:27,780 --> 00:55:30,150
+<font size="24">So, Unit-03's coming to Japan?</font>
+
+755
+00:55:30,240 --> 00:55:32,740
+<font size="24">It is? I haven't heard anything.</font>
+
+756
+00:55:32,820 --> 00:55:34,950
+<font size="24">Rumor is, the US suddenly
+insisted that we take it,</font>
+
+757
+00:55:35,030 --> 00:55:37,280
+<font size="24">along with making us do
+the activation test.</font>
+
+758
+00:55:37,370 --> 00:55:40,700
+<font size="24">Well, I guess you rank and file
+pilots don't need to know about it.</font>
+
+759
+00:55:40,790 --> 00:55:43,420
+<font size="24">Say, who do you think will be piloting it?</font>
+
+760
+00:55:43,500 --> 00:55:46,080
+<font size="24">I don't know. I haven't heard anything.</font>
+
+761
+00:55:46,170 --> 00:55:50,510
+<font size="24">It must be so great to be a pilot!
+I wish they'd pick me!</font>
+
+762
+00:55:50,590 --> 00:55:52,050
+<font size="24">Don't look at me.</font>
+
+763
+00:55:52,130 --> 00:55:53,319
+<font size="24">Try asking Miss Misato.</font>
+
+764
+00:55:53,320 --> 00:55:55,180
+<font size="24">Damn, I didn't win.</font>
+
+765
+00:56:06,610 --> 00:56:10,650
+<font size="24">Evangelion Unit-05 was lost earlier...</font>
+
+766
+00:56:10,740 --> 00:56:14,110
+<font size="24">And now, Unit-04 has similarly been lost.</font>
+
+767
+00:56:14,200 --> 00:56:18,660
+<font size="24">The loss of the two units will
+hinder the progress of our plans, but...</font>
+
+768
+00:56:18,740 --> 00:56:22,040
+<font size="24">It is within correctable limits.
+There should be no problem.</font>
+
+769
+00:56:22,120 --> 00:56:26,670
+<font size="24">The American government has
+insisted on offering Eva-03 to you.</font>
+
+770
+00:56:26,750 --> 00:56:29,710
+<font size="24">Your country's government
+is amenable to this as well.</font>
+
+771
+00:56:29,800 --> 00:56:31,250
+<font size="24">It's a state-of-the-art unit.</font>
+
+772
+00:56:31,340 --> 00:56:33,050
+<font size="24">It should be good enough
+to be your main fire power.</font>
+
+773
+00:56:33,130 --> 00:56:36,300
+<font size="24">The elimination of Angels is
+being executed on an ongoing basis.</font>
+
+774
+00:56:36,390 --> 00:56:39,390
+<font size="24">An untested unit cannot be trusted.</font>
+
+775
+00:56:39,470 --> 00:56:43,520
+<font size="24">If you would approve the additional
+supplementary budget to repair Unit-00...</font>
+
+776
+00:56:43,600 --> 00:56:46,770
+<font size="24">The prototype's function
+is beginning to grow obsolete.</font>
+
+777
+00:56:46,850 --> 00:56:48,110
+<font size="24">Surely, you have no need of it.</font>
+
+778
+00:56:48,190 --> 00:56:51,940
+<font size="24">Indeed. There are other
+matters that should be given priority.</font>
+
+779
+00:56:52,030 --> 00:56:55,150
+<font size="24">The true Evangelion that we desire...</font>
+
+780
+00:56:55,240 --> 00:57:00,160
+<font size="24">With its birth and the resurrection of Lilith
+the time of the covenant will be upon us.</font>
+
+781
+00:57:00,240 --> 00:57:04,040
+<font size="24">The necessary rites must
+be performed by then.</font>
+
+782
+00:57:04,120 --> 00:57:07,040
+<font size="24">For the sake of the
+Human Instrumentality Project.</font>
+
+783
+00:57:07,130 --> 00:57:09,000
+<font size="24">I am aware of this.</font>
+
+784
+00:57:09,090 --> 00:57:12,500
+<font size="24">All will go according to Seele's plan.</font>
+
+785
+00:57:14,840 --> 00:57:17,840
+<font size="24">The true Evangelion.</font>
+
+786
+00:57:17,930 --> 00:57:20,550
+<font size="24">To serve as its forerunners
+until its completion...</font>
+
+787
+00:57:20,640 --> 00:57:24,310
+<font size="24">That's basically the job of all
+the current units, including Unit-01.</font>
+
+788
+00:57:24,390 --> 00:57:26,940
+<font size="24">And that's the Mark 06?</font>
+
+789
+00:57:27,020 --> 00:57:32,650
+<font size="24">So they've finally decided they want
+to create a real god instead of false ones.</font>
+
+790
+00:57:32,730 --> 00:57:33,730
+<font size="24">Yes.</font>
+
+791
+00:57:33,820 --> 00:57:36,990
+<font size="24">We must hasten the awakening of Unit-01.</font>
+
+792
+00:57:39,370 --> 00:57:43,330
+<font size="24">Eva Unit-02's core unit
+separation complete.</font>
+
+793
+00:57:43,410 --> 00:57:46,370
+<font size="24">Why is my Unit-02 being
+put into containment?!</font>
+
+794
+00:57:46,460 --> 00:57:49,000
+<font size="24">You know what the Vatican Treaty is, right?</font>
+
+795
+00:57:49,080 --> 00:57:51,590
+<font size="24">This is the condition in
+exchange for getting Unit-03.</font>
+
+796
+00:57:51,670 --> 00:57:54,340
+<font size="24">Unit-00's still in for repairs,
+so put it into containment!</font>
+
+797
+00:57:54,420 --> 00:57:58,050
+<font size="24">Euro still has possession
+of the pass to Unit-02.</font>
+
+798
+00:57:58,130 --> 00:58:00,220
+<font size="24">There's nothing we can do about it.</font>
+
+799
+00:58:00,300 --> 00:58:02,850
+<font size="24">And it has no designated pilot now, either.</font>
+
+800
+00:58:02,930 --> 00:58:06,520
+<font size="24">Sit tight until we receive
+further word from Euro.</font>
+
+801
+00:58:06,600 --> 00:58:09,100
+<font size="24">But no one can pilot it except me.</font>
+
+802
+00:58:09,190 --> 00:58:11,020
+<font size="24">The Evas are combat weapons.</font>
+
+803
+00:58:11,110 --> 00:58:15,730
+<font size="24">There's a backup for everything.
+That includes the pilot.</font>
+
+804
+00:58:15,820 --> 00:58:18,280
+<font size="24">No, it can't be...</font>
+
+805
+00:58:18,360 --> 00:58:22,370
+<font size="24">But this is the one place
+I belong in the entire world...</font>
+
+806
+00:58:45,930 --> 00:58:48,520
+<font size="24">The Evas mirror what's in our hearts.</font>
+
+807
+00:58:48,600 --> 00:58:49,430
+<font size="24">What was that?</font>
+
+808
+00:58:49,520 --> 00:58:54,770
+<font size="24">You don't have to be dependent on the Eva.
+There's happiness for you outside the Eva.</font>
+
+809
+00:58:54,860 --> 00:58:58,400
+<font size="24">Don't patronize me!
+You're just the teacher's pet!</font>
+
+810
+00:59:00,200 --> 00:59:04,490
+<font size="24">I was chosen to be a pilot on
+my merits, because I'm a genius!</font>
+
+811
+00:59:04,580 --> 00:59:06,910
+<font size="24">I'm not like you two, who got
+in through your connections!</font>
+
+812
+00:59:06,990 --> 00:59:09,790
+<font size="24">I'm just tied to it.</font>
+
+813
+00:59:09,870 --> 00:59:12,750
+<font size="24">I just don't have any ties with
+people except through the Eva.</font>
+
+814
+00:59:12,830 --> 00:59:13,830
+<font size="24">Shut up!</font>
+
+815
+00:59:13,880 --> 00:59:16,380
+<font size="24">Commander Ikari just favors you,
+because you're a prim doll,</font>
+
+816
+00:59:16,460 --> 00:59:19,260
+<font size="24">who does everything he says, right?!</font>
+
+817
+00:59:19,340 --> 00:59:20,920
+<font size="24">I'm not a doll.</font>
+
+818
+00:59:21,010 --> 00:59:25,760
+<font size="24">You are a doll!
+Have a little more self-awareness!</font>
+
+819
+00:59:35,860 --> 00:59:38,900
+<font size="24">You've got some nerve for a doll.</font>
+
+820
+00:59:45,070 --> 00:59:48,950
+<font size="24">I've got just one question for you.
+What do you think of that idiot?</font>
+
+821
+00:59:49,040 --> 00:59:49,830
+<font size="24">Idiot?</font>
+
+822
+00:59:49,870 --> 00:59:52,540
+<font size="24">"Idiot" as in "Idiot Shinji," of course.</font>
+
+823
+00:59:52,620 --> 00:59:54,170
+<font size="24">Ikari?</font>
+
+824
+00:59:54,250 --> 00:59:56,080
+<font size="24">Well?</font>
+
+825
+00:59:56,170 --> 00:59:57,840
+<font size="24">I don't really know.</font>
+
+826
+00:59:57,920 --> 00:59:59,920
+<font size="24">This is the problem with you Japanese!</font>
+
+827
+01:00:00,010 --> 01:00:01,550
+<font size="24">Say what you mean!</font>
+
+828
+01:00:01,630 --> 01:00:03,010
+<font size="24">I don't know.</font>
+
+829
+01:00:03,090 --> 01:00:07,760
+<font size="24">But being with Ikari makes
+me feel all warm inside.</font>
+
+830
+01:00:07,850 --> 01:00:11,850
+<font size="24">I want Ikari to feel all warm inside, too.</font>
+
+831
+01:00:11,930 --> 01:00:14,310
+<font size="24">I want him to get along
+with Commander Ikari</font>
+
+832
+01:00:14,400 --> 01:00:17,860
+<font size="24">and feel all warm inside.</font>
+
+833
+01:00:17,940 --> 01:00:20,230
+<font size="24">I get it.</font>
+
+834
+01:00:24,070 --> 01:00:27,370
+<font size="24">Seriously! Talk about
+profoundly ultra-idiotic!</font>
+
+835
+01:00:27,450 --> 01:00:30,040
+<font size="24">That means she likes him!</font>
+
+836
+01:00:35,500 --> 01:00:37,830
+<font size="24">I can't wait for this dinner party.</font>
+
+837
+01:00:38,340 --> 01:00:41,500
+<font size="24">But I wonder if Ayanami's
+cooking is going to be okay...</font>
+
+838
+01:00:45,110 --> 01:00:47,640
+<font size="24">I wish Father would come, too.</font>
+
+839
+01:00:48,260 --> 01:00:52,520
+<font size="24">The first unmanned solo
+activation test of the Dummy System...</font>
+
+840
+01:00:52,600 --> 01:00:55,350
+<font size="24">So that's the Dummy System.</font>
+
+841
+01:00:55,440 --> 01:00:58,190
+<font size="24">It is ostensibly nothing more
+than a support system for the pilot,</font>
+
+842
+01:00:58,270 --> 01:01:00,480
+<font size="24">but it is not only capable of
+autonomous control on its own,</font>
+
+843
+01:01:00,570 --> 01:01:03,400
+<font size="24">but it can even generate an
+AT field out of an unmanned unit.</font>
+
+844
+01:01:03,490 --> 01:01:06,990
+<font size="24">It is apparently more humane
+than making children pilot them.</font>
+
+845
+01:01:11,710 --> 01:01:17,460
+<font size="24">There's something about it
+that just rubs me the wrong way!</font>
+
+846
+01:01:17,540 --> 01:01:20,790
+<font size="24">It's a black box part direct
+from Golgotha Base, after all.</font>
+
+847
+01:01:20,840 --> 01:01:22,620
+<font size="24">So it's remained a mystery to us.</font>
+
+848
+01:01:24,170 --> 01:01:28,550
+<font size="24">Entrusting our Evas to something
+so sketchy just boggles my mind!</font>
+
+849
+01:01:28,640 --> 01:01:33,260
+<font size="24">Are you saying the Evas are safe in the
+hands of the pilots because they're human?</font>
+
+850
+01:01:33,350 --> 01:01:35,180
+<font size="24">Shinji sure has your trust.</font>
+
+851
+01:01:35,270 --> 01:01:38,850
+<font size="24">Or rather, I guess it's because
+of Shinji that you can say that.</font>
+
+852
+01:01:38,940 --> 01:01:40,150
+<font size="24">Never mind that.</font>
+
+853
+01:01:40,230 --> 01:01:43,400
+<font size="24">What about Intel on the organization
+above us called Seele or something?</font>
+
+854
+01:01:43,480 --> 01:01:46,190
+<font size="24">Anything you can tell me?</font>
+
+855
+01:01:46,280 --> 01:01:49,110
+<font size="24">If you want to snoop around
+about that project, I'd advise against it.</font>
+
+856
+01:01:49,200 --> 01:01:52,740
+<font size="24">That's not an option for me.
+The Human Instrumentality Project...</font>
+
+857
+01:01:52,830 --> 01:01:55,540
+<font size="24">What is Nerv trying to
+do behind the scenes?</font>
+
+858
+01:01:55,620 --> 01:01:57,460
+<font size="24">That's...</font>
+
+859
+01:01:59,750 --> 01:02:02,920
+<font size="24">something I'd like to know, too.</font>
+
+860
+01:02:04,510 --> 01:02:06,970
+<font size="24">We haven't had a meal together in ages,</font>
+
+861
+01:02:07,050 --> 01:02:09,300
+<font size="24">and all we talk about is work, work, work!</font>
+
+862
+01:02:09,390 --> 01:02:12,180
+<font size="24">Things are different
+from when we were students.</font>
+
+863
+01:02:12,260 --> 01:02:15,850
+<font size="24">There's so much more that we're
+aware of... burdens we've taken on.</font>
+
+864
+01:02:15,930 --> 01:02:19,480
+<font size="24">I guess neither of us can afford
+to think only of ourselves anymore.</font>
+
+865
+01:02:19,560 --> 01:02:24,230
+<font size="24">And Shinji and the others are loaded
+down with an even greater burden.</font>
+
+866
+01:02:24,320 --> 01:02:25,400
+<font size="24">Yeah.</font>
+
+867
+01:02:25,480 --> 01:02:27,690
+<font size="24">It's too much for kids to have to bear.</font>
+
+868
+01:02:27,780 --> 01:02:31,280
+<font size="24">But we have no choice
+but to depend on them.</font>
+
+869
+01:02:36,870 --> 01:02:38,620
+<font size="24">Yes?</font>
+
+870
+01:02:38,710 --> 01:02:40,670
+<font size="24">Yes, I know.</font>
+
+871
+01:02:40,750 --> 01:02:44,500
+<font size="24">I'll make my decision by midnight.</font>
+
+872
+01:02:44,590 --> 01:02:45,420
+<font size="24">Ritsy?</font>
+
+873
+01:02:45,500 --> 01:02:48,920
+<font size="24">Yup. She's hounding me
+about the Unit-03 test pilot.</font>
+
+874
+01:02:49,010 --> 01:02:51,510
+<font size="24">Personnel decisions are
+your responsibility, after all.</font>
+
+875
+01:02:51,590 --> 01:02:53,620
+<font size="24">I know that, but...</font>
+
+876
+01:02:53,850 --> 01:02:57,850
+<font size="24">The schedule set for the
+arrival of Unit-03...</font>
+
+877
+01:02:57,930 --> 01:03:00,270
+<font size="24">Of all days, it's coming on this day.</font>
+
+878
+01:03:00,350 --> 01:03:03,650
+<font size="24">The day they scheduled
+the Unit-03 activation test for is...</font>
+
+879
+01:03:04,400 --> 01:03:07,860
+<font size="24">the day the teacher's
+pet had picked out.</font>
+
+880
+01:03:11,570 --> 01:03:13,410
+<font size="24">Up we go!</font>
+
+881
+01:03:34,220 --> 01:03:37,680
+<font size="24">I see. So you've settled on Asuka.</font>
+
+882
+01:03:37,770 --> 01:03:41,230
+<font size="24">Yes, I'll head for
+Matsushiro on the last flight out.</font>
+
+883
+01:03:41,310 --> 01:03:43,060
+<font size="24">I'll leave the rest to you, Maya.</font>
+
+884
+01:03:43,150 --> 01:03:45,100
+<font size="24">Yes, ma'am!</font>
+
+885
+01:03:45,190 --> 01:03:48,360
+<font size="24">Um, Dr. Akagi?</font>
+
+886
+01:03:49,570 --> 01:03:52,820
+<font size="24">I'd like to get a message
+to the Second Girl.</font>
+
+887
+01:03:52,910 --> 01:03:55,200
+<font size="24">Please.</font>
+
+888
+01:04:05,500 --> 01:04:08,550
+<font size="24">You have one new message.</font>
+
+889
+01:04:08,630 --> 01:04:11,090
+<font size="24">First message.</font>
+
+890
+01:04:12,220 --> 01:04:15,640
+<font size="24">Here, Rei, you can talk now.</font>
+
+891
+01:04:26,770 --> 01:04:28,715
+<font size="24">Damn it!</font>
+
+892
+01:04:28,716 --> 01:04:29,940
+<font size="24">Thank you.</font>
+
+893
+01:04:32,240 --> 01:04:33,950
+<font size="24">What is she, an idiot?!</font>
+
+894
+01:04:34,030 --> 01:04:37,120
+<font size="24">I'm only doing this because
+I want to pilot the Eva.</font>
+
+895
+01:04:40,660 --> 01:04:45,580
+<font size="24">If I like Unit-03, have
+it repainted red, okay?</font>
+
+896
+01:04:48,340 --> 01:04:49,380
+<font size="24">Good morning, Aida.</font>
+
+897
+01:04:49,550 --> 01:04:51,250
+<font size="24">Hey yo.</font>
+
+898
+01:04:51,340 --> 01:04:52,710
+<font size="24">Oh? Where's Toji?</font>
+
+899
+01:04:52,800 --> 01:04:55,090
+<font size="24">He's at the hospital in Odawara today.</font>
+
+900
+01:04:55,180 --> 01:04:57,890
+<font size="24">He said his little
+sister's being discharged.</font>
+
+901
+01:04:57,970 --> 01:05:00,260
+<font size="24">Oh, right.</font>
+
+902
+01:05:00,350 --> 01:05:01,640
+<font size="24">Message for you from Toji.</font>
+
+903
+01:05:01,720 --> 01:05:05,060
+<font size="24">"Don't ya worry 'bout it anymore.
+My sis's grateful, too."</font>
+
+904
+01:05:05,140 --> 01:05:07,980
+<font size="24">That's what he said.</font>
+
+905
+01:05:08,060 --> 01:05:10,860
+<font size="24">It's great how things
+have worked out, huh, Ikari?</font>
+
+906
+01:05:10,940 --> 01:05:12,030
+<font size="24">Yeah.</font>
+
+907
+01:05:12,110 --> 01:05:16,910
+<font size="24">You've been invited over
+by Ayanami today, right?</font>
+
+908
+01:05:16,990 --> 01:05:18,625
+<font size="24">Talk about lucky, you bastard!</font>
+
+909
+01:05:18,626 --> 01:05:19,990
+<font size="24">Whoa! I can't breathe!</font>
+
+910
+01:05:27,920 --> 01:05:31,920
+<font size="24">Mission director of the manned activation
+testing of the Eva Unit-03 has arrived</font>
+
+911
+01:05:32,000 --> 01:05:34,010
+<font size="24">and is currently heading
+toward the main control room.</font>
+
+912
+01:05:34,130 --> 01:05:39,140
+<font size="24">Temporary above-ground cage and restraint
+system checked. No abnormalities detected.</font>
+
+913
+01:05:40,470 --> 01:05:42,260
+<font size="24">Connector contact verified.</font>
+
+914
+01:05:42,350 --> 01:05:45,560
+<font size="24">Main power supply current switch complete.</font>
+
+915
+01:05:47,020 --> 01:05:49,730
+<font size="24">Entry plug anchored in insertion position.</font>
+
+916
+01:05:49,810 --> 01:05:52,690
+<font size="24">Checks done up through 1350
+on the list. No problems found.</font>
+
+917
+01:05:52,780 --> 01:05:54,860
+<font size="24">Roger. Resume the countdown.</font>
+
+918
+01:05:54,940 --> 01:05:58,110
+<font size="24">Resuming countdown.
+All ground crew personnel begin evacuation.</font>
+
+919
+01:05:58,200 --> 01:06:00,160
+<font size="24">Test pilot medical checkups completed.</font>
+
+920
+01:06:00,240 --> 01:06:02,830
+<font size="24">Currently standing by in
+mobile quarantine chamber.</font>
+
+921
+01:06:02,910 --> 01:06:06,290
+<font size="24">Looks like I can hand over the
+rest to Ritsuko without any problems.</font>
+
+922
+01:06:07,080 --> 01:06:09,330
+<font size="24">Maintenance Team 6, evacuation complete.</font>
+
+923
+01:06:09,420 --> 01:06:12,130
+<font size="24">Secure line? From Asuka?</font>
+
+924
+01:06:14,920 --> 01:06:17,470
+<font size="24">What's up, Asuka?
+Thoughts before the show starts?</font>
+
+925
+01:06:17,550 --> 01:06:21,300
+<font size="24">I just felt like having a private
+chat with you for some reason.</font>
+
+926
+01:06:21,390 --> 01:06:23,100
+<font size="24">I see.</font>
+
+927
+01:06:23,180 --> 01:06:26,430
+<font size="24">I want to let you know again that
+I appreciate what you're doing today.</font>
+
+928
+01:06:26,520 --> 01:06:28,180
+<font size="24">Thank you.</font>
+
+929
+01:06:30,230 --> 01:06:33,150
+<font size="24">You don't need to thank me.</font>
+
+930
+01:06:33,230 --> 01:06:37,030
+<font size="24">It's the duty of the elite to help
+the ignorant masses, that's all.</font>
+
+931
+01:06:37,110 --> 01:06:40,240
+<font size="24">And I'm not big on eating
+with everyone anyway.</font>
+
+932
+01:06:40,320 --> 01:06:42,870
+<font size="24">And it's exhausting to have
+to pretend you're enjoying yourself</font>
+
+933
+01:06:42,950 --> 01:06:44,330
+<font size="24">along with everyone else.</font>
+
+934
+01:06:44,410 --> 01:06:47,290
+<font size="24">And I didn't want to have to sit
+around watching others be happy.</font>
+
+935
+01:06:47,370 --> 01:06:49,620
+<font size="24">And all I care about is piloting the Eva.</font>
+
+936
+01:06:49,710 --> 01:06:52,130
+<font size="24">And I like being by myself to begin with.</font>
+
+937
+01:06:52,210 --> 01:06:54,710
+<font size="24">And I had no use for phony friends.</font>
+
+938
+01:06:54,800 --> 01:06:58,170
+<font size="24">And there's never been anyone
+who's seen me for the real me.</font>
+
+939
+01:06:58,260 --> 01:07:00,470
+<font size="24">And as long as I have
+the top performance scores,</font>
+
+940
+01:07:00,550 --> 01:07:03,680
+<font size="24">I can make a living at Nerv.</font>
+
+941
+01:07:03,760 --> 01:07:05,390
+<font size="24">But some things happened recently</font>
+
+942
+01:07:05,470 --> 01:07:08,470
+<font size="24">that made me think being
+around other people isn't all bad.</font>
+
+943
+01:07:08,560 --> 01:07:10,940
+<font size="24">It's so not me, though.</font>
+
+944
+01:07:11,020 --> 01:07:12,940
+<font size="24">That's not true.</font>
+
+945
+01:07:13,020 --> 01:07:15,650
+<font size="24">Because you have a kind heart.</font>
+
+946
+01:07:15,730 --> 01:07:18,440
+<font size="24">You're the first one I've
+ever talked to like this.</font>
+
+947
+01:07:18,530 --> 01:07:20,740
+<font size="24">I feel better somehow.</font>
+
+948
+01:07:20,820 --> 01:07:23,360
+<font size="24">It feels nice to talk to someone.</font>
+
+949
+01:07:23,450 --> 01:07:24,950
+<font size="24">I had no idea.</font>
+
+950
+01:07:25,030 --> 01:07:30,040
+<font size="24">This world is brimming full of
+fun things you have no idea about.</font>
+
+951
+01:07:30,120 --> 01:07:32,620
+<font size="24">You should enjoy it.</font>
+
+952
+01:07:32,710 --> 01:07:35,210
+<font size="24">Yeah, you're right.</font>
+
+953
+01:07:35,290 --> 01:07:37,960
+<font size="24">Thank you, Misato.</font>
+
+954
+01:07:38,050 --> 01:07:40,880
+<font size="24">By the way, it's great
+that it's red, but...</font>
+
+955
+01:07:40,970 --> 01:07:43,930
+<font size="24">Don't you think this plug
+suit for the test...</font>
+
+956
+01:07:44,010 --> 01:07:45,930
+<font size="24">is too revealing?</font>
+
+957
+01:07:46,010 --> 01:07:47,390
+<font size="24">Begin entry sequence.</font>
+
+958
+01:07:47,470 --> 01:07:50,180
+<font size="24">LCL ionization, pressure
+levels... status green.</font>
+
+959
+01:07:50,270 --> 01:07:52,140
+<font size="24">Stage One Excited State holding steady.</font>
+
+960
+01:07:52,230 --> 01:07:54,150
+<font size="24">Plug sensor, nominal.</font>
+
+961
+01:07:54,230 --> 01:07:56,270
+<font size="24">Inspected values are
+within the error range.</font>
+
+962
+01:07:56,360 --> 01:07:59,190
+<font size="24">Roger. Shift to Phase 2 operations.</font>
+
+963
+01:07:59,280 --> 01:08:01,320
+<font size="24">Initiate secondary connection.</font>
+
+964
+01:08:01,400 --> 01:08:05,950
+<font size="24">I hadn't realized... I know how to laugh.</font>
+
+965
+01:08:21,090 --> 01:08:22,760
+<font size="24">Plug depth is now over 100!</font>
+
+966
+01:08:22,840 --> 01:08:24,930
+<font size="24">Psychological contamination
+levels are now in the red zone!</font>
+
+967
+01:08:25,010 --> 01:08:27,850
+<font size="24">Pilot is descending below safe depths!</font>
+
+968
+01:08:27,850 --> 01:08:27,850
+<font size="24">Why did it suddenly do this?!</font>
+
+969
+01:08:27,930 --> 01:08:30,310
+<font size="24">Pull it back now! At this rate,
+the pilot will cease to be a human!</font>
+
+970
+01:08:30,390 --> 01:08:31,510
+<font size="24">Abort the test!</font>
+
+971
+01:08:31,530 --> 01:08:33,380
+<font size="24">Shut down all circuits!</font>
+
+972
+01:08:33,640 --> 01:08:37,270
+<font size="24">Negative! High energy
+readings within the Eva!</font>
+
+973
+01:08:37,360 --> 01:08:39,070
+<font size="24">It can't be...!</font>
+
+974
+01:08:39,150 --> 01:08:40,900
+<font size="24">An Angel?!</font>
+
+975
+01:08:53,620 --> 01:08:56,210
+<font size="24">An accidental explosion in Matsushiro?</font>
+
+976
+01:09:04,260 --> 01:09:05,260
+<font size="24">Damage report!</font>
+
+977
+01:09:05,370 --> 01:09:07,640
+<font size="24">Unknown. The temporary cage
+appears to be the blast epicenter.</font>
+
+978
+01:09:07,720 --> 01:09:09,510
+<font size="24">Destruction of above-ground
+control facilities confirmed.</font>
+
+979
+01:09:09,600 --> 01:09:12,470
+<font size="24">Immediately dispatch Rescue and 3rd Units.</font>
+
+980
+01:09:12,560 --> 01:09:14,890
+<font size="24">Get it resolved before the SSDF steps in.</font>
+
+981
+01:09:14,980 --> 01:09:15,730
+<font size="24">Roger.</font>
+
+982
+01:09:15,770 --> 01:09:18,860
+<font size="24">Unidentified moving object sighted
+southwest of the accident site.</font>
+
+983
+01:09:18,940 --> 01:09:20,110
+<font size="24">Pattern is orange.</font>
+
+984
+01:09:20,190 --> 01:09:22,110
+<font size="24">Unable to confirm whether it is an Angel.</font>
+
+985
+01:09:22,190 --> 01:09:24,360
+<font size="24">Battle Stations, Condition One.</font>
+
+986
+01:09:24,440 --> 01:09:25,240
+<font size="24">Ikari.</font>
+
+987
+01:09:25,280 --> 01:09:28,070
+<font size="24">All personnel to
+Battle Stations, Condition One.</font>
+
+988
+01:09:28,160 --> 01:09:30,320
+<font size="24">Place Unit-00 in for repairs on standby.</font>
+
+989
+01:09:30,410 --> 01:09:34,250
+<font size="24">Launch Unit-01 as soon as it's
+been switched out to a dummy plug.</font>
+
+990
+01:09:37,460 --> 01:09:40,590
+<font size="24">Deployment of 5th Tank Company
+to Defensive Line 18 complete.</font>
+
+991
+01:09:40,670 --> 01:09:44,670
+<font size="24">Connection of main power extension
+cable to be complete in two minutes.</font>
+
+992
+01:09:44,690 --> 01:09:46,469
+<font size="24">Backup mobile strike unit is in position.</font>
+
+993
+01:09:46,470 --> 01:09:49,800
+<font size="24">Um, what about Miss Misato
+and Asuka and the others?</font>
+
+994
+01:09:49,890 --> 01:09:52,310
+<font size="24">Currently, all efforts are
+being made to rescue them.</font>
+
+995
+01:09:52,390 --> 01:09:53,890
+<font size="24">Don't worry.</font>
+
+996
+01:09:53,970 --> 01:09:55,350
+<font size="24">But...</font>
+
+997
+01:09:55,430 --> 01:10:00,270
+<font size="24">Miss Misato isn't here and with no other
+Eva... There's nothing I can do by myself.</font>
+
+998
+01:10:00,360 --> 01:10:02,480
+<font size="24">Operationally, we're fine.</font>
+
+999
+01:10:02,570 --> 01:10:05,360
+<font size="24">Commander Ikari is directing
+this operation himself right now.</font>
+
+1000
+01:10:05,440 --> 01:10:06,780
+<font size="24">Dad is?</font>
+
+1001
+01:10:06,860 --> 01:10:08,740
+<font size="24">We have footage captured near Tomi.</font>
+
+1002
+01:10:08,820 --> 01:10:10,950
+<font size="24">Patching it through to main monitor.</font>
+
+1003
+01:10:15,750 --> 01:10:17,370
+<font size="24">Just as we had feared...</font>
+
+1004
+01:10:17,460 --> 01:10:19,250
+<font size="24">Send shutdown signal.</font>
+
+1005
+01:10:19,330 --> 01:10:21,670
+<font size="24">Force eject the entry plug.</font>
+
+1006
+01:10:23,800 --> 01:10:28,170
+<font size="24">No good. It isn't recognizing the
+shutdown or the plug ejection code.</font>
+
+1007
+01:10:28,260 --> 01:10:31,510
+<font size="24">Encroachment of a core-like substance
+confirmed near the entry plug area.</font>
+
+1008
+01:10:31,600 --> 01:10:33,300
+<font size="24">We have the pattern analysis.</font>
+
+1009
+01:10:33,390 --> 01:10:34,560
+<font size="24">It's blue.</font>
+
+1010
+01:10:34,640 --> 01:10:38,520
+<font size="24">As of this moment, we are
+scrapping Evangelion Unit-03.</font>
+
+1011
+01:10:38,600 --> 01:10:42,100
+<font size="24">Object under surveillance will
+be identified as the 9th Angel.</font>
+
+1012
+01:10:42,190 --> 01:10:43,980
+<font size="24">Target approaching.</font>
+
+1013
+01:10:44,070 --> 01:10:45,980
+<font size="24">Prepare to intercept ground-to-ground.</font>
+
+1014
+01:10:46,070 --> 01:10:48,570
+<font size="24">Blockade units, open fire!</font>
+
+1015
+01:10:50,070 --> 01:10:51,070
+<font size="24">It can't be!</font>
+
+1016
+01:10:51,160 --> 01:10:53,160
+<font size="24">An Angel?! This is an Angel?!</font>
+
+1017
+01:10:53,240 --> 01:10:55,530
+<font size="24">That's right, that's your target.</font>
+
+1018
+01:10:55,620 --> 01:10:57,580
+<font size="24">Target?</font>
+
+1019
+01:10:57,660 --> 01:10:59,290
+<font size="24">But this is...</font>
+
+1020
+01:10:59,370 --> 01:11:01,210
+<font size="24">an Eva!</font>
+
+1021
+01:11:02,920 --> 01:11:04,340
+<font size="24">This can't be...</font>
+
+1022
+01:11:04,420 --> 01:11:06,590
+<font size="24">The target is approaching.</font>
+
+1023
+01:11:06,670 --> 01:11:07,840
+<font size="24">You must defeat it.</font>
+
+1024
+01:11:07,920 --> 01:11:11,720
+<font size="24">You call it a target, but...</font>
+
+1025
+01:11:15,850 --> 01:11:18,720
+<font size="24">Isn't Asuka on board?</font>
+
+1026
+01:11:21,560 --> 01:11:23,520
+<font size="24">Asuka is...</font>
+
+1027
+01:11:46,170 --> 01:11:47,500
+<font size="24">Damn it!</font>
+
+1028
+01:11:48,550 --> 01:11:50,340
+<font size="24">The entry plug!</font>
+
+1029
+01:11:50,420 --> 01:11:52,430
+<font size="24">So she is on board!</font>
+
+1030
+01:12:27,460 --> 01:12:29,920
+<font size="24">Armor being corroded
+near cervical vertebrae!</font>
+
+1031
+01:12:30,010 --> 01:12:32,510
+<font size="24">Contamination confirmed through Layer 6200!</font>
+
+1032
+01:12:32,590 --> 01:12:35,930
+<font size="24">As we had feared, an invasive type.
+This will be tricky.</font>
+
+1033
+01:12:36,010 --> 01:12:38,010
+<font size="24">Unit-01's AT field is unstable!</font>
+
+1034
+01:12:38,100 --> 01:12:40,010
+<font size="24">Life support system malfunctioning!</font>
+
+1035
+01:12:40,100 --> 01:12:42,310
+<font size="24">Any more of this and
+the pilot will be in danger!</font>
+
+1036
+01:12:42,390 --> 01:12:45,480
+<font size="24">This is bad! Cut the
+neural connections to 28%!</font>
+
+1037
+01:12:45,560 --> 01:12:46,350
+<font size="24">Wait.</font>
+
+1038
+01:12:46,400 --> 01:12:49,270
+<font size="24">But Ikari, the pilot will die at this rate!</font>
+
+1039
+01:12:49,360 --> 01:12:52,900
+<font size="24">Shinji, why won't you fight?</font>
+
+1040
+01:12:52,990 --> 01:12:55,530
+<font size="24">Because... Asuka's on board, Dad!</font>
+
+1041
+01:12:55,610 --> 01:12:59,450
+<font size="24">It doesn't matter.
+That's an Angel. It's our enemy.</font>
+
+1042
+01:12:59,530 --> 01:13:02,160
+<font size="24">But I can't do it!</font>
+
+1043
+01:13:02,250 --> 01:13:04,080
+<font size="24">I can't murder her!</font>
+
+1044
+01:13:04,160 --> 01:13:05,370
+<font size="24">You're going to die.</font>
+
+1045
+01:13:05,460 --> 01:13:09,210
+<font size="24">I don't care! Better than killing Asuka!</font>
+
+1046
+01:13:09,290 --> 01:13:10,420
+<font size="24">No matter.</font>
+
+1047
+01:13:10,500 --> 01:13:13,170
+<font size="24">Cut the pilot's synchronization
+with Unit-01 across the board.</font>
+
+1048
+01:13:13,260 --> 01:13:14,800
+<font size="24">Ikari?</font>
+
+1049
+01:13:14,880 --> 01:13:17,840
+<font size="24">That's right. Switch control
+over to the Dummy System.</font>
+
+1050
+01:13:17,930 --> 01:13:21,510
+<font size="24">But the Dummy System
+still has a lot of problems</font>
+
+1051
+01:13:21,600 --> 01:13:23,520
+<font size="24">and without Dr. Akagi's instruction...</font>
+
+1052
+01:13:23,600 --> 01:13:26,100
+<font size="24">It will be of more use
+than the current pilot.</font>
+
+1053
+01:13:26,190 --> 01:13:27,520
+<font size="24">Do it!</font>
+
+1054
+01:13:27,600 --> 01:13:29,020
+<font size="24">Yes, sir.</font>
+
+1055
+01:13:51,500 --> 01:13:53,420
+<font size="24">What is this?</font>
+
+1056
+01:14:01,350 --> 01:14:03,180
+<font size="24">What are you doing, Dad?!</font>
+
+1057
+01:14:03,270 --> 01:14:05,560
+<font size="24">Main control system switchover complete.</font>
+
+1058
+01:14:05,680 --> 01:14:09,060
+<font size="24">- Energy conduction efficiency is unimpeded.
+- All neural circuits directly connected to Dummy System.</font>
+
+1059
+01:14:09,150 --> 01:14:12,940
+<font size="24">- AT field stable, recovered to Level B.
+- Dummy System operational time limit is a maximum of 208 seconds.</font>
+
+1060
+01:14:13,020 --> 01:14:17,150
+<font size="24">Fine. Release the System. Commence attack.</font>
+
+1061
+01:14:48,190 --> 01:14:50,730
+<font size="24">Is this the power of the Dummy System?</font>
+
+1062
+01:14:50,810 --> 01:14:52,360
+<font size="24">Dummy System functioning normally.</font>
+
+1063
+01:14:52,400 --> 01:14:54,640
+<font size="24">Control limiters being released.</font>
+
+1064
+01:16:01,720 --> 01:16:04,180
+<font size="24">What is this, Dad?</font>
+
+1065
+01:16:04,260 --> 01:16:05,890
+<font size="24">What is this?</font>
+
+1066
+01:16:05,970 --> 01:16:09,310
+<font size="24">What are you doing?!</font>
+
+1067
+01:16:09,390 --> 01:16:10,180
+<font size="24">Damn it!</font>
+
+1068
+01:16:10,270 --> 01:16:11,270
+<font size="24">Stop!</font>
+
+1069
+01:16:11,310 --> 01:16:16,260
+<font size="24">Stop, stop, stop, stop,
+stop, stop, stop, stop...</font>
+
+1070
+01:16:16,450 --> 01:16:22,100
+<font size="24">Stop, stop, stop, stop,
+stop stop, stop, stop!</font>
+
+1071
+01:16:23,950 --> 01:16:26,120
+<font size="24">What's that sound?</font>
+
+1072
+01:16:27,520 --> 01:16:28,520
+<font size="24">Don't do it!</font>
+
+1073
+01:16:30,980 --> 01:16:37,130
+<font size="24">No!</font>
+
+1074
+01:16:57,230 --> 01:16:58,980
+<font size="24">Found another one over here! A survivor!</font>
+
+1075
+01:16:59,070 --> 01:17:01,110
+<font size="24">- Team 3, delete the data from 807. Quickly!
+- Send a rescue team over here, stat!</font>
+
+1076
+01:17:01,190 --> 01:17:02,150
+<font size="24">That's right.</font>
+
+1077
+01:17:02,151 --> 01:17:05,740
+<font size="24">Incinerate all surveillance
+recorders in the contaminated zone.</font>
+
+1078
+01:17:05,820 --> 01:17:09,740
+<font size="24">- Close Route 18 to all traffic!
+- Don't let the SSDF in for at least another ten minutes!</font>
+
+1079
+01:17:09,830 --> 01:17:11,950
+<font size="24">I'm alive?</font>
+
+1080
+01:17:14,210 --> 01:17:15,040
+<font size="24">Kaji?</font>
+
+1081
+01:17:15,120 --> 01:17:18,130
+<font size="24">You were lucky, Katsuragi.</font>
+
+1082
+01:17:18,210 --> 01:17:19,540
+<font size="24">What about Ritsuko?</font>
+
+1083
+01:17:19,630 --> 01:17:24,260
+<font size="24">No worries. Her wounds
+were more minor than yours.</font>
+
+1084
+01:17:24,340 --> 01:17:27,130
+<font size="24">I see.</font>
+
+1085
+01:17:27,220 --> 01:17:29,510
+<font size="24">Asuka! What about Eva Unit-03?</font>
+
+1086
+01:17:29,600 --> 01:17:32,890
+<font size="24">It was apparently disposed of...
+as an Angel.</font>
+
+1087
+01:17:32,970 --> 01:17:34,930
+<font size="24">By Unit-01.</font>
+
+1088
+01:17:45,400 --> 01:17:48,160
+<font size="24">Unit-01's synchronization
+circuits have been cut.</font>
+
+1089
+01:17:48,240 --> 01:17:49,570
+<font size="24">What about the ejection signal?</font>
+
+1090
+01:17:49,660 --> 01:17:51,740
+<font size="24">It has been locked out
+from inside the plug.</font>
+
+1091
+01:17:51,830 --> 01:17:53,200
+<font size="24">He's literally locked himself in there.</font>
+
+1092
+01:17:53,290 --> 01:17:54,580
+<font size="24">Don't do this, Shinji!</font>
+
+1093
+01:17:54,660 --> 01:17:57,120
+<font size="24">Think about what you're doing!</font>
+
+1094
+01:17:57,210 --> 01:18:01,040
+<font size="24">Don't make me even angrier
+by saying things like that.</font>
+
+1095
+01:18:01,130 --> 01:18:04,090
+<font size="24">Unit-01 has 285 seconds left.</font>
+
+1096
+01:18:04,170 --> 01:18:06,970
+<font size="24">With that much time, I can
+destroy at least half of headquarters.</font>
+
+1097
+01:18:07,050 --> 01:18:09,180
+<font size="24">In his current state,
+he might very well do it.</font>
+
+1098
+01:18:09,260 --> 01:18:11,510
+<font size="24">Shinji, please listen to us!</font>
+
+1099
+01:18:11,600 --> 01:18:15,890
+<font size="24">You may have been killed if
+Commander Ikari hadn't made his decision!</font>
+
+1100
+01:18:15,980 --> 01:18:17,390
+<font size="24">That doesn't matter.</font>
+
+1101
+01:18:17,480 --> 01:18:19,310
+<font size="24">But it's the truth!</font>
+
+1102
+01:18:19,400 --> 01:18:22,360
+<font size="24">I told you, that doesn't matter!</font>
+
+1103
+01:18:22,440 --> 01:18:26,400
+<font size="24">Dad tried...
+That bastard tried to kill Asuka!</font>
+
+1104
+01:18:26,490 --> 01:18:29,610
+<font size="24">Using me!</font>
+
+1105
+01:18:30,240 --> 01:18:31,490
+<font size="24">Why?!</font>
+
+1106
+01:18:31,570 --> 01:18:34,580
+<font size="24">Why?! Why did you do it?!</font>
+
+1107
+01:18:34,660 --> 01:18:37,250
+<font size="24">You don't understand at all, Dad!</font>
+
+1108
+01:18:37,330 --> 01:18:39,790
+<font size="24">I was a fool for trusting you!</font>
+
+1109
+01:18:39,870 --> 01:18:42,920
+<font size="24">You should lose someone
+you care about, too, Dad!</font>
+
+1110
+01:18:43,000 --> 01:18:44,590
+<font size="24">Then, you'd understand!</font>
+
+1111
+01:18:44,670 --> 01:18:47,439
+<font size="24">Raise the LCL compression
+density right up to the limit.</font>
+
+1112
+01:18:47,440 --> 01:18:48,130
+<font size="24">What?!</font>
+
+1113
+01:18:48,220 --> 01:18:52,010
+<font size="24">We have no time to put
+up with a child's tantrum.</font>
+
+1114
+01:18:52,100 --> 01:18:54,850
+<font size="24">I still have the direct control circuits...</font>
+
+1115
+01:18:57,100 --> 01:18:58,600
+<font size="24">Damn it all!</font>
+
+1116
+01:18:59,230 --> 01:19:02,940
+<font size="24">Damn it all...</font>
+
+1117
+01:19:20,330 --> 01:19:24,420
+<font size="24">Ikari, you're always
+listening to that, aren't you?</font>
+
+1118
+01:19:24,500 --> 01:19:28,550
+<font size="24">Yeah. It's something Dad used to use.</font>
+
+1119
+01:19:28,630 --> 01:19:30,670
+<font size="24">Just like your glasses, Ayanami.</font>
+
+1120
+01:19:30,760 --> 01:19:33,510
+<font size="24">But he didn't need it anymore,
+so he left it behind.</font>
+
+1121
+01:19:33,600 --> 01:19:35,010
+<font size="24">Just like me.</font>
+
+1122
+01:19:35,100 --> 01:19:38,890
+<font size="24">It was at my teacher's place, so I took it.</font>
+
+1123
+01:19:38,980 --> 01:19:42,060
+<font size="24">When I close up my ears,
+I can close up my heart.</font>
+
+1124
+01:19:42,150 --> 01:19:44,610
+<font size="24">That way, I don't have to deal
+with the nasty world out there.</font>
+
+1125
+01:19:44,690 --> 01:19:46,320
+<font size="24">Nasty world?</font>
+
+1126
+01:19:46,400 --> 01:19:47,820
+<font size="24">That's right.</font>
+
+1127
+01:19:47,900 --> 01:19:50,490
+<font size="24">The world where the father I hate lives.</font>
+
+1128
+01:19:50,570 --> 01:19:52,860
+<font size="24">The world where the scary
+Angels and Evas exist.</font>
+
+1129
+01:19:52,950 --> 01:19:55,120
+<font size="24">The world where
+I'm forced to do painful things.</font>
+
+1130
+01:19:55,200 --> 01:19:58,120
+<font size="24">The world where Dad doesn't need
+me as long as he has the Dummy.</font>
+
+1131
+01:19:58,200 --> 01:20:01,910
+<font size="24">The world where my friends get hurt.</font>
+
+1132
+01:20:02,000 --> 01:20:03,960
+<font size="24">Even so, good things happened, too.</font>
+
+1133
+01:20:04,040 --> 01:20:06,630
+<font size="24">But in the end, it all gets destroyed.</font>
+
+1134
+01:20:06,710 --> 01:20:08,960
+<font size="24">It's a nasty world.</font>
+
+1135
+01:20:09,050 --> 01:20:11,470
+<font size="24">I'm going to turn my back on it now.</font>
+
+1136
+01:20:11,550 --> 01:20:16,140
+<font size="24">I thought that if I did this,
+Dad would protect me from the nasty world.</font>
+
+1137
+01:20:16,220 --> 01:20:19,220
+<font size="24">I'd tricked myself into believing that.</font>
+
+1138
+01:20:19,310 --> 01:20:22,390
+<font size="24">Did you try to understand
+your father, Ikari?</font>
+
+1139
+01:20:22,480 --> 01:20:24,230
+<font size="24">I did.</font>
+
+1140
+01:20:24,310 --> 01:20:26,860
+<font size="24">Are you sure you didn't just do nothing?</font>
+
+1141
+01:20:26,940 --> 01:20:29,190
+<font size="24">I did try to understand him!</font>
+
+1142
+01:20:29,280 --> 01:20:34,360
+<font size="24">My dad's the one in the wrong!
+He's the one who abandoned me!</font>
+
+1143
+01:20:34,450 --> 01:20:37,950
+<font size="24">And so, you're running away
+from the things you don't like again.</font>
+
+1144
+01:20:38,030 --> 01:20:39,620
+<font size="24">So what?!</font>
+
+1145
+01:20:39,700 --> 01:20:43,460
+<font size="24">What's wrong with running
+away from the things I don't like?!</font>
+
+1146
+01:20:46,210 --> 01:20:48,540
+<font size="24">This place again.</font>
+
+1147
+01:20:50,170 --> 01:20:52,380
+<font size="24">I'm sick of this.</font>
+
+1148
+01:20:55,130 --> 01:20:59,640
+<font size="24">Verify all instructions on
+recovering fragments of Unit-03</font>
+
+1149
+01:20:59,720 --> 01:21:03,270
+<font size="24">with the Technology Division.</font>
+
+1150
+01:21:10,400 --> 01:21:13,530
+<font size="24">Her cellular tissue is clear
+of any trace of the invasion,</font>
+
+1151
+01:21:13,610 --> 01:21:16,990
+<font size="24">but there's the possibility she was
+psychologically contaminated by the Angel.</font>
+
+1152
+01:21:17,070 --> 01:21:19,530
+<font size="24">We have no choice but
+to keep her under quarantine.</font>
+
+1153
+01:21:19,620 --> 01:21:22,450
+<font size="24">They wouldn't possibly
+do away with her, right?</font>
+
+1154
+01:21:22,540 --> 01:21:24,450
+<font size="24">She's a valuable sample specimen.</font>
+
+1155
+01:21:24,540 --> 01:21:26,500
+<font size="24">They would never.</font>
+
+1156
+01:21:28,880 --> 01:21:30,790
+<font size="24">Come out, Shinji Ikari.</font>
+
+1157
+01:21:30,880 --> 01:21:33,170
+<font size="24">Commander Ikari will see you now.</font>
+
+1158
+01:21:35,800 --> 01:21:38,970
+<font size="24">Insubordination. Seizing an
+Eva for your own personal use.</font>
+
+1159
+01:21:39,050 --> 01:21:43,140
+<font size="24">Making crude threats.
+These are all criminal acts.</font>
+
+1160
+01:21:43,220 --> 01:21:45,930
+<font size="24">Do you have anything to say for yourself?</font>
+
+1161
+01:21:46,020 --> 01:21:47,390
+<font size="24">Yes.</font>
+
+1162
+01:21:47,480 --> 01:21:49,940
+<font size="24">I do not want to pilot the Eva anymore.</font>
+
+1163
+01:21:50,020 --> 01:21:53,780
+<font size="24">I see. Then leave.</font>
+
+1164
+01:21:55,190 --> 01:21:58,200
+<font size="24">Running away again?</font>
+
+1165
+01:21:59,910 --> 01:22:02,870
+<font size="24">Your dreams are something you
+have to sacrifice everything for</font>
+
+1166
+01:22:02,950 --> 01:22:05,540
+<font size="24">and attain for yourself.</font>
+
+1167
+01:22:05,620 --> 01:22:08,540
+<font size="24">No one will do it for you.</font>
+
+1168
+01:22:08,630 --> 01:22:11,960
+<font size="24">Grow up, Shinji.</font>
+
+1169
+01:22:12,050 --> 01:22:17,260
+<font size="24">I don't know what it's supposed
+to mean to be a grownup.</font>
+
+1170
+01:22:24,350 --> 01:22:27,520
+<font size="24">It's me. Strike the Third
+Boy from the records.</font>
+
+1171
+01:22:27,600 --> 01:22:31,400
+<font size="24">From now on, the primary operator
+of Unit-01 will be the Dummy System.</font>
+
+1172
+01:22:31,480 --> 01:22:33,690
+<font size="24">No backup will be necessary.</font>
+
+1173
+01:22:34,780 --> 01:22:38,150
+<font size="24">I guess Rei didn't stop
+Shinji from leaving.</font>
+
+1174
+01:22:38,240 --> 01:22:41,620
+<font size="24">I was hoping she'd do something,
+since she'd shown signs of changing lately.</font>
+
+1175
+01:22:41,700 --> 01:22:44,530
+<font size="24">The relationships between
+those kids is unfathomable.</font>
+
+1176
+01:22:44,620 --> 01:22:47,750
+<font size="24">But now, we're back down
+to one pilot again.</font>
+
+1177
+01:22:47,830 --> 01:22:50,870
+<font size="24">Back to square one.</font>
+
+1178
+01:22:57,260 --> 01:22:59,380
+<font size="24">I'm sure you know this,</font>
+
+1179
+01:22:59,470 --> 01:23:01,720
+<font size="24">but even though you've been
+stricken from Nerv's records,</font>
+
+1180
+01:23:01,800 --> 01:23:03,470
+<font size="24">you'll still be under surveillance</font>
+
+1181
+01:23:03,550 --> 01:23:07,470
+<font size="24">and your actions will be
+restricted pretty heavily.</font>
+
+1182
+01:23:07,560 --> 01:23:09,140
+<font size="24">You forgot this.</font>
+
+1183
+01:23:09,230 --> 01:23:12,400
+<font size="24">Suzuhara and Aida
+left you a lot of messages.</font>
+
+1184
+01:23:12,480 --> 01:23:14,060
+<font size="24">They're worried about you.</font>
+
+1185
+01:23:14,150 --> 01:23:18,030
+<font size="24">I don't really want it.
+It's something I left behind.</font>
+
+1186
+01:23:18,110 --> 01:23:20,990
+<font size="24">You haven't asked after
+Rei or Asuka, either.</font>
+
+1187
+01:23:23,450 --> 01:23:30,040
+<font size="24">The truth is, maybe I don't care
+about humanity or the world, either.</font>
+
+1188
+01:23:30,120 --> 01:23:34,040
+<font size="24">Ultimately, I've ended
+up in my current position,</font>
+
+1189
+01:23:34,130 --> 01:23:38,550
+<font size="24">but at first, I just wanted to get
+a little closer to my late father.</font>
+
+1190
+01:23:38,630 --> 01:23:41,300
+<font size="24">And that's why I signed up with Nerv.</font>
+
+1191
+01:23:41,380 --> 01:23:43,800
+<font size="24">Just like how you piloted the Eva</font>
+
+1192
+01:23:43,890 --> 01:23:47,060
+<font size="24">because you wanted
+Commander Ikari to need you.</font>
+
+1193
+01:23:47,140 --> 01:23:52,270
+<font size="24">Which is why I found myself
+living vicariously through you.</font>
+
+1194
+01:23:52,350 --> 01:23:55,860
+<font size="24">And I know that you felt burdened by it.</font>
+
+1195
+01:23:55,940 --> 01:24:00,190
+<font size="24">I also know that you've become disillusioned
+with your purpose in piloting the Eva.</font>
+
+1196
+01:24:00,280 --> 01:24:03,820
+<font size="24">But even so, I want you to...</font>
+
+1197
+01:24:10,870 --> 01:24:12,330
+<font size="24">That day...</font>
+
+1198
+01:24:12,420 --> 01:24:15,790
+<font size="24">Rei had invited Commander Ikari, too.</font>
+
+1199
+01:24:15,880 --> 01:24:19,960
+<font size="24">She wanted you to become
+closer with your father.</font>
+
+1200
+01:24:20,050 --> 01:24:23,380
+<font size="24">She wanted you two to laugh together.</font>
+
+1201
+01:24:23,470 --> 01:24:27,510
+<font size="24">I'll never be able to
+laugh with anyone again.</font>
+
+1202
+01:24:32,140 --> 01:24:35,980
+<font size="24">The next stop is Kamigora. Kamigora.</font>
+
+1203
+01:24:36,060 --> 01:24:39,020
+<font size="24">The exits will be to your left.</font>
+
+1204
+01:24:40,900 --> 01:24:43,110
+<font size="24">The Japanese government has
+declared a state of emergency.</font>
+
+1205
+01:24:43,200 --> 01:24:45,160
+<font size="24">In accordance with the
+emergency regulations,</font>
+
+1206
+01:24:45,240 --> 01:24:50,370
+<font size="24">this train will stop at the
+nearest evacuation station.</font>
+
+1207
+01:24:50,450 --> 01:24:53,960
+<font size="24">After disembarking, please head
+straight for your designated platform</font>
+
+1208
+01:24:54,040 --> 01:24:55,460
+<font size="24">and board the evacuation incline.</font>
+
+1209
+01:24:55,540 --> 01:24:57,290
+<font size="24">It's an Angel.</font>
+
+1210
+01:24:57,380 --> 01:24:59,960
+<font size="24">Eva Unit-02 containment
+measures have been unlocked.</font>
+
+1211
+01:25:00,050 --> 01:25:02,050
+<font size="24">Final safety systems have been disabled.</font>
+
+1212
+01:25:02,130 --> 01:25:04,930
+<font size="24">Core unit automatic
+reconfiguration sequence has begun.</font>
+
+1213
+01:25:05,010 --> 01:25:07,930
+<font size="24">Man, it's cold!</font>
+
+1214
+01:25:08,010 --> 01:25:10,600
+<font size="24">There we go.</font>
+
+1215
+01:25:10,680 --> 01:25:12,390
+<font size="24">That's the new model for you!</font>
+
+1216
+01:25:12,480 --> 01:25:14,940
+<font size="24">It even fits me perfectly
+in the chest. Feels so good!</font>
+
+1217
+01:25:21,980 --> 01:25:24,360
+<font size="24">The time has come.</font>
+
+1218
+01:25:24,450 --> 01:25:26,740
+<font size="24">All personnel, Battle
+Stations, Condition One.</font>
+
+1219
+01:25:26,820 --> 01:25:28,740
+<font size="24">Prepare to intercept ground-to-air.</font>
+
+1220
+01:25:28,830 --> 01:25:31,120
+<font size="24">Target's status?</font>
+
+1221
+01:25:31,200 --> 01:25:33,750
+<font size="24">It has breached the
+Old Odawara defensive line.</font>
+
+1222
+01:25:56,560 --> 01:26:00,150
+<font size="24">This is no laughing matter if the shockwave
+can be felt all the way down here.</font>
+
+1223
+01:26:00,230 --> 01:26:02,610
+<font size="24">Direct hit on District 4. Damages unknown.</font>
+
+1224
+01:26:02,690 --> 01:26:04,530
+<font size="24">Surface and all armor
+systems have been liquefied!</font>
+
+1225
+01:26:04,610 --> 01:26:07,360
+<font size="24">All 24 layers of specialized
+armor with one strike?!</font>
+
+1226
+01:26:07,450 --> 01:26:11,160
+<font size="24">The 10th Angel.
+The most powerful rejection type...</font>
+
+1227
+01:26:11,240 --> 01:26:14,120
+<font size="24">Its destructive power is
+greater than we'd imagined.</font>
+
+1228
+01:26:14,580 --> 01:26:15,700
+<font size="24">This is all-out war!</font>
+
+1229
+01:26:15,790 --> 01:26:18,670
+<font size="24">Put all the fortified city's intercept
+equipment to specialized use!</font>
+
+1230
+01:26:18,750 --> 01:26:21,170
+<font size="24">Hold it at bay, even
+if it's just for a little while!</font>
+
+1231
+01:26:23,880 --> 01:26:26,420
+<font size="24">Eva Unit-02?! Who's piloting it?!</font>
+
+1232
+01:26:26,510 --> 01:26:30,090
+<font size="24">Unknown! We did not order its launch!</font>
+
+1233
+01:26:43,720 --> 01:26:44,690
+<font size="24">Target still active.</font>
+
+1234
+01:26:44,710 --> 01:26:46,230
+<font size="24">Second wave of attack had no effect.</font>
+
+1235
+01:26:46,240 --> 01:26:47,780
+<font size="24">I don't care! Evacuating
+the residents gets top priority!</font>
+
+1236
+01:26:47,860 --> 01:26:51,070
+<font size="24">Authorizing third wave of guided N2
+missiles! Send them in as direct support!</font>
+
+1237
+01:26:51,160 --> 01:26:53,330
+<font size="24">If we send the Eva to the surface
+to intercept, it'll be too late.</font>
+
+1238
+01:26:53,410 --> 01:26:56,870
+<font size="24">Request Euro's cooperation.
+Deploy Unit-02 to the Geofront.</font>
+
+1239
+01:26:56,950 --> 01:26:57,580
+<font size="24">How's Unit-00?</font>
+
+1240
+01:26:57,620 --> 01:27:00,370
+<font size="24">Making emergency repairs to the left arm.
+It'll be just good enough to launch.</font>
+
+1241
+01:27:00,460 --> 01:27:02,750
+<font size="24">Send it to back up Unit-02
+as soon as it's done.</font>
+
+1242
+01:27:02,840 --> 01:27:04,479
+<font size="24">Going out there alone will be dangerous.</font>
+
+1243
+01:27:04,480 --> 01:27:04,960
+<font size="24">Roger!</font>
+
+1244
+01:27:05,050 --> 01:27:05,960
+<font size="24">And Unit-01?</font>
+
+1245
+01:27:06,050 --> 01:27:08,340
+<font size="24">Currently preparing to
+activate with the Dummy System.</font>
+
+1246
+01:27:08,420 --> 01:27:10,300
+<font size="24">Hurry it up!</font>
+
+1247
+01:27:13,350 --> 01:27:15,970
+<font size="24">That's in the direction of the city, right?</font>
+
+1248
+01:27:16,060 --> 01:27:17,720
+<font size="24">It'll be fine. We're headed
+straight for the Geofront shelter.</font>
+
+1249
+01:27:17,810 --> 01:27:20,600
+<font size="24">Phone's aren't working, either!</font>
+
+1250
+01:27:26,110 --> 01:27:28,150
+<font size="24">Target entering the Geofront!</font>
+
+1251
+01:27:28,240 --> 01:27:29,490
+<font size="24">About to make contact with Eva Unit-02!</font>
+
+1252
+01:27:29,570 --> 01:27:30,990
+<font size="24">Do we have communications with Unit-02?</font>
+
+1253
+01:27:31,070 --> 01:27:34,280
+<font size="24">The two-way link has been cut.
+Making contact from our end is...</font>
+
+1254
+01:27:34,370 --> 01:27:36,450
+<font size="24">I see.</font>
+
+1255
+01:27:36,540 --> 01:27:38,910
+<font size="24">So you want to do this alone.</font>
+
+1256
+01:27:45,670 --> 01:27:47,340
+<font size="24">It smells so good.</font>
+
+1257
+01:27:47,420 --> 01:27:51,090
+<font size="24">An Eva that smells like
+someone else isn't bad, either.</font>
+
+1258
+01:27:51,180 --> 01:27:53,720
+<font size="24">It's already breached the
+fifth line of defense.</font>
+
+1259
+01:27:53,800 --> 01:27:56,890
+<font size="24">If I don't get this wrapped
+up quick, HQ is a goner!</font>
+
+1260
+01:28:13,700 --> 01:28:16,160
+<font size="24">Its AT field's too strong.</font>
+
+1261
+01:28:16,240 --> 01:28:18,950
+<font size="24">I won't get anywhere from this distance.</font>
+
+1262
+01:28:19,040 --> 01:28:20,330
+<font size="24">Hup.</font>
+
+1263
+01:28:20,410 --> 01:28:21,450
+<font size="24">Ho.</font>
+
+1264
+01:28:21,540 --> 01:28:22,750
+<font size="24">Hah!</font>
+
+1265
+01:28:23,870 --> 01:28:26,840
+<font size="24">Guess I'll make a go of it with this.</font>
+
+1266
+01:28:29,670 --> 01:28:33,020
+<font size="24">Let's see how you like this!</font>
+
+1267
+01:28:37,970 --> 01:28:40,140
+<font size="24">If I get it from point-blank range...</font>
+
+1268
+01:28:57,620 --> 01:28:58,620
+<font size="24">Oh, crap!</font>
+
+1269
+01:29:05,420 --> 01:29:08,420
+<font size="24">Why you little...! Talk about a toughie!</font>
+
+1270
+01:29:08,500 --> 01:29:10,500
+<font size="24">Dummy System connected.</font>
+
+1271
+01:29:10,590 --> 01:29:11,880
+<font size="24">Initiate contact.</font>
+
+1272
+01:29:11,960 --> 01:29:13,260
+<font size="24">Yes, ma'am.</font>
+
+1273
+01:29:13,620 --> 01:29:16,130
+<font size="24">What happened?</font>
+
+1274
+01:29:16,220 --> 01:29:19,720
+<font size="24">It's no use! Unit-01 won't activate!</font>
+
+1275
+01:29:21,140 --> 01:29:23,640
+<font size="24">It's refusing to accept the Dummy?</font>
+
+1276
+01:29:23,730 --> 01:29:25,440
+<font size="24">Fuyutsuki.</font>
+
+1277
+01:29:25,520 --> 01:29:27,560
+<font size="24">Take care of things for a while.</font>
+
+1278
+01:29:27,650 --> 01:29:30,400
+<font size="24">Up we go.</font>
+
+1279
+01:29:30,480 --> 01:29:33,610
+<font size="24">I won't be able to win at this rate.</font>
+
+1280
+01:29:33,690 --> 01:29:36,240
+<font size="24">All right! Guess I'll give it a try.</font>
+
+1281
+01:29:36,320 --> 01:29:40,280
+<font size="24">I'm going to see what an Eva can
+do when it abandons its humanity.</font>
+
+1282
+01:29:40,370 --> 01:29:41,620
+<font size="24">Invert mode.</font>
+
+1283
+01:29:41,700 --> 01:29:45,000
+<font size="24">Backdoor code... "The Beast!"</font>
+
+1284
+01:29:55,800 --> 01:29:59,090
+<font size="24">Bear with it, Eva Unit-02.</font>
+
+1285
+01:29:59,180 --> 01:30:02,220
+<font size="24">I'll bear with it, too.</font>
+
+1286
+01:30:05,980 --> 01:30:07,480
+<font size="24">I had no idea an Eva
+had such functionality!</font>
+
+1287
+01:30:07,560 --> 01:30:11,310
+<font size="24">The restrictors are being disengaged! All
+readings are outside the standard range!</font>
+
+1288
+01:30:11,400 --> 01:30:13,579
+<font size="24">Unable to monitor plug interior! But...</font>
+
+1289
+01:30:13,580 --> 01:30:15,530
+<font size="24">Plug depth is likely in the negative range.</font>
+
+1290
+01:30:15,610 --> 01:30:18,200
+<font size="24">To think she's even willing
+to plunge into the contamination zone...</font>
+
+1291
+01:30:18,280 --> 01:30:20,740
+<font size="24">We can't allow this! It's too dangerous!</font>
+
+1292
+01:30:20,830 --> 01:30:26,000
+<font size="24">Nothing ventured,</font>
+
+1293
+01:30:26,080 --> 01:30:29,210
+<font size="24">nothing...</font>
+
+1294
+01:30:30,500 --> 01:30:32,210
+<font size="24">gained!</font>
+
+1295
+01:30:51,650 --> 01:30:53,770
+<font size="24">Just a little more!</font>
+
+1296
+01:31:24,140 --> 01:31:26,560
+<font size="24">The Eva's bestial second form.</font>
+
+1297
+01:31:26,640 --> 01:31:30,310
+<font size="24">Even when it abandoned its humanity and
+focused solely on combat, it couldn't win.</font>
+
+1298
+01:31:30,390 --> 01:31:33,400
+<font size="24">So this is the limit of our capabilities.</font>
+
+1299
+01:31:33,480 --> 01:31:35,060
+<font size="24">Unit-00?!</font>
+
+1300
+01:31:35,150 --> 01:31:37,110
+<font size="24">She doesn't even have a rifle!</font>
+
+1301
+01:31:39,860 --> 01:31:40,860
+<font size="24">Don't tell me...!</font>
+
+1302
+01:31:40,910 --> 01:31:43,490
+<font size="24">Rei, don't! Rei!</font>
+
+1303
+01:31:48,040 --> 01:31:50,290
+<font size="24">AT field at maximum!</font>
+
+1304
+01:31:52,920 --> 01:31:55,920
+<font size="24">I'll make it so Ikari...</font>
+
+1305
+01:31:56,000 --> 01:31:58,760
+<font size="24">never has to pilot the Eva again!</font>
+
+1306
+01:31:58,840 --> 01:32:00,630
+<font size="24">So, I'll...</font>
+
+1307
+01:32:12,100 --> 01:32:16,110
+<font size="24">A single Eva won't be able
+to get through that AT field.</font>
+
+1308
+01:32:22,950 --> 01:32:27,370
+<font size="24">Unit-02, this is your final task!</font>
+
+1309
+01:32:28,450 --> 01:32:32,210
+<font size="24">Just one more layer!</font>
+
+1310
+01:32:39,760 --> 01:32:42,050
+<font size="24">Run, Unit-02 pilot.</font>
+
+1311
+01:32:42,130 --> 01:32:43,680
+<font size="24">Thank you.</font>
+
+1312
+01:32:55,650 --> 01:32:57,730
+<font size="24">Where's Unit-00?</font>
+
+1313
+01:33:12,410 --> 01:33:15,620
+<font size="24">This shelter has been
+designated as being in an unsafe area.</font>
+
+1314
+01:33:15,710 --> 01:33:18,710
+<font size="24">Please evacuate to a safe area at once.</font>
+
+1315
+01:33:18,790 --> 01:33:21,050
+<font size="24">I repeat. This shelter...</font>
+
+1316
+01:33:29,310 --> 01:33:32,220
+<font size="24">Ow, that hurt...</font>
+
+1317
+01:33:32,310 --> 01:33:35,310
+<font size="24">I almost wound up dead there.</font>
+
+1318
+01:33:35,390 --> 01:33:36,480
+<font size="24">Oh?</font>
+
+1319
+01:33:36,560 --> 01:33:38,900
+<font size="24">What are you doing here?</font>
+
+1320
+01:33:38,980 --> 01:33:44,110
+<font size="24">I was wondering where
+the other unit was. Now I know.</font>
+
+1321
+01:33:44,190 --> 01:33:46,070
+<font size="24">I...</font>
+
+1322
+01:33:46,160 --> 01:33:49,120
+<font size="24">I made up my mind not to pilot it anymore.</font>
+
+1323
+01:33:51,040 --> 01:33:53,410
+<font size="24">Questioning whether to pilot an Eva or not?</font>
+
+1324
+01:33:53,500 --> 01:33:56,460
+<font size="24">I had no idea anyone ever
+agonized over something like that.</font>
+
+1325
+01:33:56,540 --> 01:34:00,040
+<font size="24">Then you should just get
+out of here already.</font>
+
+1326
+01:34:00,130 --> 01:34:03,000
+<font size="24">Here, I'll help you.</font>
+
+1327
+01:34:06,380 --> 01:34:08,010
+<font size="24">I made up my mind not to pilot it.</font>
+
+1328
+01:34:08,090 --> 01:34:10,890
+<font size="24">I made up my mind not to pilot it.
+I made up my mind not to pilot it.</font>
+
+1329
+01:34:10,970 --> 01:34:12,720
+<font size="24">But you know...</font>
+
+1330
+01:34:12,810 --> 01:34:18,020
+<font size="24">There's no fun in being all
+twisted and sorry for yourself.</font>
+
+1331
+01:35:01,650 --> 01:35:04,650
+<font size="24">This can't be! An Angel devouring an Eva?</font>
+
+1332
+01:35:04,780 --> 01:35:05,950
+<font size="24">That's impossible!</font>
+
+1333
+01:35:05,960 --> 01:35:06,980
+<font size="24">Something's strange.</font>
+
+1334
+01:35:07,110 --> 01:35:10,320
+<font size="24">The target's ID signal is
+switching over to that of Unit-00!</font>
+
+1335
+01:35:10,450 --> 01:35:11,320
+<font size="24">We've been had!</font>
+
+1336
+01:35:11,450 --> 01:35:14,490
+<font size="24">The Dogma won't self-destruct now,
+even if the Angel enters!</font>
+
+1337
+01:35:14,620 --> 01:35:17,120
+<font size="24">It'll be able to get to Lilith with ease.</font>
+
+1338
+01:35:17,250 --> 01:35:20,370
+<font size="24">It's merging with Unit-00.</font>
+
+1339
+01:35:20,500 --> 01:35:24,090
+<font size="24">It assimilated the Eva, pilot and all.</font>
+
+1340
+01:35:24,210 --> 01:35:26,710
+<font size="24">You're going to end up dead, too.</font>
+
+1341
+01:35:26,840 --> 01:35:29,130
+<font size="24">Hurry up and run.</font>
+
+1342
+01:35:39,560 --> 01:35:43,020
+<font size="24">Aw, there he goes...</font>
+
+1343
+01:36:06,170 --> 01:36:07,920
+<font size="24">Above-ground HQ facilities annihilated!</font>
+
+1344
+01:36:08,010 --> 01:36:09,130
+<font size="24">Foundation 3 has suffered a direct hit!</font>
+
+1345
+01:36:09,150 --> 01:36:10,630
+<font size="24">Final armor plating has been liquefied!</font>
+
+1346
+01:36:10,720 --> 01:36:13,890
+<font size="24">No! The main shaft is completely exposed!</font>
+
+1347
+01:36:13,970 --> 01:36:16,050
+<font size="24">Is Unit-01 still not ready?</font>
+
+1348
+01:36:19,140 --> 01:36:20,680
+<font size="24">Unable to anchor plug in place!</font>
+
+1349
+01:36:20,770 --> 01:36:23,640
+<font size="24">Dummy System rejecting connection signal!</font>
+
+1350
+01:36:23,730 --> 01:36:26,810
+<font size="24">Keep going. Start over again from 308.</font>
+
+1351
+01:36:27,120 --> 01:36:28,939
+<font size="24">List 308, begin checking.</font>
+
+1352
+01:36:28,940 --> 01:36:30,320
+<font size="24">Why?</font>
+
+1353
+01:36:30,400 --> 01:36:33,700
+<font size="24">Why do you reject me, Yui?</font>
+
+1354
+01:36:33,780 --> 01:36:35,700
+<font size="24">Please let me pilot it!</font>
+
+1355
+01:36:35,780 --> 01:36:38,620
+<font size="24">Let me... Let me...</font>
+
+1356
+01:36:38,700 --> 01:36:41,950
+<font size="24">pilot Unit-01!</font>
+
+1357
+01:36:45,000 --> 01:36:48,420
+<font size="24">What are you doing here?</font>
+
+1358
+01:36:49,710 --> 01:36:50,920
+<font size="24">Dad!</font>
+
+1359
+01:36:51,010 --> 01:36:52,220
+<font size="24">I am...</font>
+
+1360
+01:36:52,300 --> 01:36:54,630
+<font size="24">the Evangelion Unit-01 pilot,</font>
+
+1361
+01:36:54,720 --> 01:36:57,180
+<font size="24">Shinji Ikari!</font>
+
+1362
+01:37:00,060 --> 01:37:02,980
+<font size="24">Target descending through
+Terminal Dogma, Layer 7!</font>
+
+1363
+01:37:03,060 --> 01:37:04,940
+<font size="24">Target has passed Layer 7!</font>
+
+1364
+01:37:05,020 --> 01:37:06,020
+<font size="24">It's coming here!</font>
+
+1365
+01:37:06,060 --> 01:37:07,650
+<font size="24">Evacuate noncombatants!</font>
+
+1366
+01:37:07,730 --> 01:37:08,940
+<font size="24">Emergency evacuation of noncombatants!</font>
+
+1367
+01:37:09,020 --> 01:37:12,530
+<font size="24">I repeat. Emergency evacuation
+of noncombatants! Hurry!</font>
+
+1368
+01:37:23,540 --> 01:37:25,830
+<font size="24">Eva Unit-01?!</font>
+
+1369
+01:37:25,920 --> 01:37:27,580
+<font size="24">Shinji!</font>
+
+1370
+01:37:49,940 --> 01:37:50,730
+<font size="24">Miss Misato!</font>
+
+1371
+01:37:50,770 --> 01:37:53,110
+<font size="24">Disengage all locks!</font>
+
+1372
+01:38:20,430 --> 01:38:21,850
+<font size="24">I'm out of power?</font>
+
+1373
+01:38:21,930 --> 01:38:25,390
+<font size="24">Unit-01 has reached its operational limit!
+The auxiliary is down, too!</font>
+
+1374
+01:38:25,480 --> 01:38:26,490
+<font size="24">Shinji!</font>
+
+1375
+01:38:42,960 --> 01:38:43,960
+<font size="24">Shinji!</font>
+
+1376
+01:38:49,330 --> 01:38:52,040
+<font size="24">Give back...</font>
+
+1377
+01:38:52,130 --> 01:38:53,960
+<font size="24">Ayanami!</font>
+
+1378
+01:38:57,090 --> 01:38:58,840
+<font size="24">It's moving...?</font>
+
+1379
+01:38:58,930 --> 01:39:01,470
+<font size="24">But it's supposed to be
+at its operational limit...</font>
+
+1380
+01:39:03,010 --> 01:39:04,029
+<font size="24">Has it gone berserk?</font>
+
+1381
+01:39:04,030 --> 01:39:05,470
+<font size="24">I don't know...</font>
+
+1382
+01:39:05,560 --> 01:39:09,190
+<font size="24">what in the world is
+happening to Unit-01.</font>
+
+1383
+01:39:55,020 --> 01:39:56,940
+<font size="24">The Eva has powers like that?</font>
+
+1384
+01:39:57,030 --> 01:40:00,530
+<font size="24">Unit-01 is transcending
+the limits of humanity?</font>
+
+1385
+01:40:00,610 --> 01:40:02,860
+<font size="24">Plug depth is over 180!</font>
+
+1386
+01:40:02,950 --> 01:40:04,320
+<font size="24">He's already in danger!</font>
+
+1387
+01:40:04,410 --> 01:40:05,990
+<font size="24">Stop this, Shinji!</font>
+
+1388
+01:40:06,080 --> 01:40:08,490
+<font size="24">You won't be able
+to come back to humanity!</font>
+
+1389
+01:40:08,580 --> 01:40:11,080
+<font size="24">I don't care what happens to me.</font>
+
+1390
+01:40:11,160 --> 01:40:13,170
+<font size="24">I don't care what happens to the world.</font>
+
+1391
+01:40:13,250 --> 01:40:15,920
+<font size="24">But Ayanami...</font>
+
+1392
+01:40:16,000 --> 01:40:18,340
+<font size="24">If it's the last thing I do,</font>
+
+1393
+01:40:18,420 --> 01:40:20,550
+<font size="24">I'm saving Ayanami, no matter what!</font>
+
+1394
+01:40:33,520 --> 01:40:34,810
+<font size="24">Go, Shinji!</font>
+
+1395
+01:40:34,900 --> 01:40:36,440
+<font size="24">Misato?!</font>
+
+1396
+01:40:37,400 --> 01:40:40,110
+<font size="24">Don't do it for someone else!</font>
+
+1397
+01:40:40,190 --> 01:40:43,740
+<font size="24">Do it for the sake of
+what you want yourself!</font>
+
+1398
+01:40:53,670 --> 01:40:56,000
+<font size="24">Where are you, Ayanami?!</font>
+
+1399
+01:40:57,040 --> 01:40:58,840
+<font size="24">It's no use.</font>
+
+1400
+01:40:58,920 --> 01:41:02,170
+<font size="24">I can only survive in here now.</font>
+
+1401
+01:41:02,260 --> 01:41:03,420
+<font size="24">Ayanami?!</font>
+
+1402
+01:41:03,510 --> 01:41:05,590
+<font size="24">It's okay, Ikari.</font>
+
+1403
+01:41:05,680 --> 01:41:08,140
+<font size="24">Even if I disappear,
+there are replacements.</font>
+
+1404
+01:41:08,220 --> 01:41:09,430
+<font size="24">There are replacements.</font>
+
+1405
+01:41:09,510 --> 01:41:13,060
+<font size="24">You're wrong!
+You're the only Ayanami there is!</font>
+
+1406
+01:41:13,140 --> 01:41:15,850
+<font size="24">So I'm going to save you now!</font>
+
+1407
+01:41:33,450 --> 01:41:34,460
+<font size="24">Oh no!</font>
+
+1408
+01:41:35,290 --> 01:41:37,790
+<font size="24">The restrictors regulating
+its shape are gone!</font>
+
+1409
+01:41:37,880 --> 01:41:39,290
+<font size="24">Unable to analyze!</font>
+
+1410
+01:41:39,380 --> 01:41:41,840
+<font size="24">The Eva we had contained
+with the bounds of humanity</font>
+
+1411
+01:41:42,090 --> 01:41:44,410
+<font size="24">is reclaiming its rightful shape.</font>
+
+1412
+01:41:44,590 --> 01:41:46,930
+<font size="24">Breaking free of humanity's spell,</font>
+
+1413
+01:41:47,010 --> 01:41:51,220
+<font size="24">it's transcending humanity,
+turning into a nearly divine being.</font>
+
+1414
+01:41:51,590 --> 01:41:58,079
+<font size="24">Inside the huge swells of complementarity,
+it's binding together the heavens, the earth,</font>
+
+1415
+01:41:58,080 --> 01:42:01,820
+<font size="24">and all creation, transforming
+into an energy condensate.</font>
+
+1416
+01:42:01,940 --> 01:42:04,820
+<font size="24">Purely to grant the wish of a human being.</font>
+
+1417
+01:42:05,060 --> 01:42:06,710
+<font size="24">For that and nothing else.</font>
+
+1418
+01:42:36,050 --> 01:42:37,130
+<font size="24">Ayanami!</font>
+
+1419
+01:42:55,230 --> 01:42:56,420
+<font size="24">Ayanami!</font>
+
+1420
+01:43:17,470 --> 01:43:18,470
+<font size="24">Ayanami!</font>
+
+1421
+01:43:23,940 --> 01:43:25,070
+<font size="24">Come on!</font>
+
+1422
+01:43:59,850 --> 01:44:04,080
+<font size="24">They forced Unit-01 to become the catalyst
+before they had their pieces in place.</font>
+
+1423
+01:44:04,520 --> 01:44:08,980
+<font size="24">Commander Ikari,
+Seele isn't going to take this lying down.</font>
+
+1424
+01:44:09,030 --> 01:44:09,190
+<font size="24">I want to spread my wings
+in this big open sky</font>
+
+1425
+01:44:09,280 --> 01:44:13,360
+<font size="24">Just as we had thought, between those two,
+they were able to awaken Unit-01.</font>
+
+1426
+01:44:13,450 --> 01:44:14,450
+<font size="24">Yes.</font>
+
+1427
+01:44:14,490 --> 01:44:19,290
+<font size="24">We have just a little more
+to go until we attain our plan.</font>
+
+1428
+01:44:23,350 --> 01:44:28,290
+<font size="24">Ayanami, thank you for
+the thing with my dad.</font>
+
+1429
+01:44:28,760 --> 01:44:32,020
+<font size="24">I'm sorry, I wasn't able to do anything.</font>
+
+1430
+01:44:32,590 --> 01:44:36,010
+<font size="24">It doesn't matter now.</font>
+
+1431
+01:44:36,100 --> 01:44:37,590
+<font size="24">This is enough.</font>
+
+1432
+01:44:46,690 --> 01:44:50,070
+<font size="24">Now I see... He gets all the breaks.</font>
+
+1433
+01:44:50,650 --> 01:44:53,810
+<font size="24">I wonder if it's the
+difference in smell, after all.</font>
+
+1434
+01:45:27,230 --> 01:45:31,060
+<font size="24">This is the birth of a new life form
+that's grown beyond this world's Logos.</font>
+
+1435
+01:45:32,540 --> 01:45:36,480
+<font size="24">And as the price for that...
+all life forms of old shall perish.</font>
+
+1436
+01:45:41,710 --> 01:45:42,740
+<font size="24">Wings...</font>
+
+1437
+01:45:43,740 --> 01:45:45,430
+<font size="24">Just like the ones 15 years ago...</font>
+
+1438
+01:45:47,310 --> 01:45:50,130
+<font size="24">Yes, the continuation
+of the Second Impact...</font>
+
+1439
+01:45:50,710 --> 01:45:52,400
+<font size="24">The Third Impact is beginning!</font>
+
+1440
+01:45:53,920 --> 01:45:56,260
+<font size="24">The world is ending.</font>
+
+1441
+01:51:16,410 --> 01:51:17,780
+<font size="24">What in the world was that?!</font>
+
+1442
+01:51:22,500 --> 01:51:27,090
+<font size="24">Now, the promised time
+has come, Shinji Ikari.</font>
+
+1443
+01:51:27,170 --> 01:51:29,800
+<font size="24">This time for sure,</font>
+
+1444
+01:51:29,880 --> 01:51:31,910
+<font size="24">I'll make you happy, if no one else.</font>
+
+1445
+01:51:35,970 --> 01:51:39,140
+<font size="24">Eva Unit-01 is put into suspension
+with Rei and Shinji still inside.</font>
+
+1446
+01:51:39,230 --> 01:51:40,600
+<font size="24">The fortified city is scrapped.</font>
+
+1447
+01:51:40,690 --> 01:51:42,520
+<font size="24">Nerv personnel are incarcerated.</font>
+
+1448
+01:51:42,610 --> 01:51:44,900
+<font size="24">Eva Unit-06 is dropped into the Dogma.</font>
+
+1449
+01:51:44,980 --> 01:51:47,570
+<font size="24">Eva Unit-08, which
+comes to life, and its pilot.</font>
+
+1450
+01:51:47,650 --> 01:51:50,400
+<font size="24">The children with destiny built
+into them finally come together.</font>
+
+1451
+01:51:50,490 --> 01:51:55,080
+<font size="24">Where, oh, where will the tale of
+the people who wish to live lead us?</font>
+
+1452
+01:51:55,160 --> 01:51:58,250
+<font size="24">Next Time,
+"Evangelion New Theatrical Edition: Q."</font>
+
+1453
+01:51:58,330 --> 01:52:07,040
+<font size="24">Now, then, more fan
+service coming next time!</font>
+

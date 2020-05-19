@@ -11,7 +11,9 @@ namespace QuickSubtitleTranslator.Common
 {
     public static class Helper
     {
-        static IList<string> TrySend(IReadOnlyList<string> subset, int sleep, int tries, Func<IReadOnlyList<string>, IList<string>> SendAction, bool waitForInput)
+        static readonly string LineBreak = "\n";
+        
+        static string TrySend(string sentenceToTranslate, int sleep, int tries, Func<string, string> SendAction, bool waitForInput)
         {
             var list = new List<Exception>();
 
@@ -23,7 +25,7 @@ namespace QuickSubtitleTranslator.Common
 
                 try
                 {
-                    return SendAction(subset);
+                    return SendAction(sentenceToTranslate);
                 }
                 catch (MyException)
                 {
@@ -76,30 +78,37 @@ namespace QuickSubtitleTranslator.Common
         }
         public static MyTranslateResult Process(DataDesc data)
         {
-            var items = new List<MyTranslatedSubtitleItem>(data.Subtitles.Count);
-
-            IList<CombinedLine> combinedLines = new List<CombinedLine>(data.Subtitles.Count);
+            var translatedItems = new List<MySubtitleItem>(data.Subtitles.Count);
+            IList<LineToTranslate> linesToTranslate = new List<LineToTranslate>((int)(data.Subtitles.Count * 1.5));
+            
             foreach (var item in data.Subtitles)
             {
-                string combined = string.Join(" ", item.Lines);
-                combinedLines.Add(new CombinedLine(l: combined, item, cc: new StringInfo(combined).LengthInTextElements));
+                //translatedItems.Count - 1 is the index of to which it belongs to (line <=> MySubtitleItem)
+                //This is needed to fill the lines of each mysubtitleitem
+                translatedItems.Add(new MySubtitleItem(s: item.StartTime, e: item.EndTime));
+                foreach (var line in item.Lines)
+                {
+                    linesToTranslate.Add(new LineToTranslate(l: line + LineBreak, item, index: translatedItems.Count - 1));
+                }
             }
 
+            
+            
             int totalCharactersUsed = 0;
             int currentArrayCount = 0;
             int currentCharacterCount = 0;
             bool afterFirstCall = false;
             int totalProcessedCount = 0;
-            var subset = new List<CombinedLine>(data.MaxArrayItemsPerReq);
+            var subset = new List<LineToTranslate>(data.MaxArrayItemsPerReq);
 
-            foreach (var combinedLine in combinedLines)
+            foreach (var line in linesToTranslate)
             {
                 //Add
                 currentArrayCount++;
                 totalProcessedCount++;
-                totalCharactersUsed += combinedLine.CharacterCount;
-                currentCharacterCount += combinedLine.CharacterCount;
-                subset.Add(combinedLine);
+                totalCharactersUsed += line.CharacterCount;
+                currentCharacterCount += line.CharacterCount;
+                subset.Add(line);
 
                 //Check
                 bool send = false;
@@ -109,7 +118,7 @@ namespace QuickSubtitleTranslator.Common
                 if (currentCharacterCount >= data.MaxCharactersPerRequest)
                     send = true;
 
-                if (totalProcessedCount >= combinedLines.Count)
+                if (totalProcessedCount >= linesToTranslate.Count)
                     send = true;
 
                 //Send
@@ -119,43 +128,44 @@ namespace QuickSubtitleTranslator.Common
                         Thread.Sleep(data.SleepBetweenCalls);
 
                     afterFirstCall = true;
-                    var stringListToSend = subset.Select(x => x.Line).ToImmutableList();
-                    var translatedLines = TrySend(stringListToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction, data.WaitForInput);
-                    items.AddRange(Helper.Convert(translatedLines.ToImmutableList(), subset.ToImmutableList()));
+                    //Trim() to remove the last \n so it doesn't get splitted into an emptry string
+                    var sentenceToSend = string.Join(string.Empty, subset.Select(x => x.Line)).Trim();
+                    var translatedSentence = TrySend(sentenceToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction, data.WaitForInput);
+
+                    FillResult(translatedSentence, subset, translatedItems);
                     subset.Clear();
 
                     Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
-                    Console.WriteLine($"Peek: {stringListToSend.Last()}");
-                    Console.WriteLine($"Peek: {translatedLines.Last()}");
+                    Console.WriteLine($"Peek: {translatedItems.Last()}");
 
                     currentArrayCount = 0;
                     currentCharacterCount = 0;
                 }
             }
 
-            if (subset.Count > 0 || totalProcessedCount != combinedLines.Count)
-                throw new Exception($"{nameof(subset)} has unprocessed items. Total processed: {totalProcessedCount} : Total count: {combinedLines.Count}");
+            if (subset.Count > 0 || totalProcessedCount != linesToTranslate.Count)
+                throw new Exception($"{nameof(subset)} has unprocessed items. Total processed: {totalProcessedCount} : Total count: {linesToTranslate.Count}");
 
-            return new MyTranslateResult(items, totalCharactersUsed);
+            return new MyTranslateResult(translatedItems, totalCharactersUsed);
         }
-        public static IList<MyTranslatedSubtitleItem> Convert(IReadOnlyList<string> translatedLines, IReadOnlyList<CombinedLine> subset)
+        public static void FillResult(string translatedSentence, IReadOnlyList<LineToTranslate> subset, IReadOnlyList<MySubtitleItem> listToFill)
         {
-            if (translatedLines.Count != subset.Count)
-                throw new Exception($"{nameof(translatedLines)} count does not match with {nameof(subset)}");
+            var lines = translatedSentence.Split(LineBreak).ToList();
 
-            var list = new List<MyTranslatedSubtitleItem>(subset.Count);
+            if (lines.Count != subset.Count)
+                throw new Exception($"Translated lines and what was sent does not match");
 
-            for (int index = 0; index < translatedLines.Count; index++)
+            for (int index = 0; index < subset.Count; index++)
             {
-                list.Add(
-                    new MyTranslatedSubtitleItem(
-                        s: subset[index].BelongsTo.StartTime,
-                        e: subset[index].BelongsTo.EndTime,
-                        l: translatedLines[index]
-                    ));
-            }
+                var subsetItem = subset[index];
+                var translatedItem = lines[index];
+                var itemToFill = listToFill[subsetItem.BelongsToIndex];
 
-            return list;
+                itemToFill.AddLine(translatedItem);
+
+                if (subsetItem.BelongsTo.StartTime != itemToFill.StartTime || subsetItem.BelongsTo.EndTime != itemToFill.EndTime)
+                    throw new Exception($"Index is out of sync, between subset and listToFill");
+            }
         }
 
     }

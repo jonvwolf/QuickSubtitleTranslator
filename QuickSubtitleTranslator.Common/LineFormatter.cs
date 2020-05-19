@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace QuickSubtitleTranslator.Common
 {
@@ -8,10 +10,6 @@ namespace QuickSubtitleTranslator.Common
     {
         public static IList<string> SplitWords(string sentence, int doNotBreakIfOnlyOneLine, int maxWordsPerLine)
         {
-            //Break up lines by "- "
-            //Divide word by 2 and try to find a comma to break the line
-            //Break up by <i></i>
-
             string[] split = sentence.Split(" ");
             if (split.Length <= doNotBreakIfOnlyOneLine)
                 return new List<string>() { sentence };

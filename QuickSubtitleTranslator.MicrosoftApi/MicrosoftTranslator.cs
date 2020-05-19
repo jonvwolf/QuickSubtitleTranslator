@@ -35,16 +35,15 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                 };
             }
 
-            IList<string> SendAction(IReadOnlyList<string> subset)
+            string SendAction(string sentenceToTranslate)
             {
                 using var client = new HttpClient();
                 using var request = new HttpRequestMessage();
 
-                var list = new List<dynamic>(subset.Count);
-                foreach (var item in subset)
+                var list = new List<dynamic>
                 {
-                    list.Add(new { Text = item });
-                }
+                    new { Text = sentenceToTranslate }
+                };
 
                 request.Method = HttpMethod.Post;
                 request.RequestUri = new Uri(url);
@@ -65,7 +64,10 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                     }
                 }
 
-                return result;
+                if (result.Count != 1)
+                    throw new Exception($"Got result but returned more than 1 translated item");
+
+                return result[0];
             }
 
             var result = Helper.Process(new DataDesc(
