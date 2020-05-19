@@ -4,6 +4,20 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 # Screenshot (Translating using Microsoft API)
 ![alt text](https://raw.githubusercontent.com/jonwolfdev/QuickSubtitleTranslator/master/microsoft_screenshot.jpg)
 
+## Version 2 Update
+- Improved failure handling when calling external services
+- Cleaned up code
+- Better SRT validation for input and output
+- Line breaks are respected
+- Better character count
+- Slightly better translation (because texts are not splitted up, except for IBM)
+- More integration tests (mocking external services)
+
+## Ranking (personal choice)
+- Amazon
+- Google / Microsoft
+- IBM
+
 ## Improvements to be made:
 - Graceful failures (internet disconnected, rate exceeded, etc.)
 - Better limit control (quotas)
