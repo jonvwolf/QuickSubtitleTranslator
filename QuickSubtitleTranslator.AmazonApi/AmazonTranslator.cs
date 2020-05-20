@@ -25,12 +25,25 @@ namespace QuickSubtitleTranslator.AmazonApi
         {
             string accessKey;
             string secretKey;
+            RegionEndpoint endpoint = null;
 
             try
             {
                 string[] parts = apiKey.Split("||1||");
                 accessKey = parts[0];
                 secretKey = parts[1];
+
+                foreach (var region in RegionEndpoint.EnumerableAllRegions)
+                {
+                    if (region.SystemName == parts[2])
+                    {
+                        endpoint = region;
+                        break;
+                    }
+                }
+
+                if (endpoint == null)
+                    throw new Exception($"Region name was not found. Region: {parts[2]}");
             }
             catch
             {
@@ -58,7 +71,7 @@ namespace QuickSubtitleTranslator.AmazonApi
                 // -> int addedBytes = 113;
 
                 //Answer: https://stackoverflow.com/questions/33889673/translate-api-user-rate-limit-exceeded-403-without-reason
-                using var service = new AmazonTranslateClient(accessKey, secretKey, RegionEndpoint.USEast2);
+                using var service = new AmazonTranslateClient(accessKey, secretKey, endpoint);
 
                 //Amazon deletes anything between dashes -> - string -
                 char maybeItIsABug = '~';

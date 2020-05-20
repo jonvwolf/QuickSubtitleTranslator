@@ -11,7 +11,7 @@ namespace QuickSubtitleTranslator.IntegrationTestsMockEx
     public class AmazonTests
     {
         const string OutputFolder = "mockex_output_amazon";
-        const string ApiKey = "apikey||1||accesskey";
+        const string ApiKey = "apikey||1||accesskey||1||us-east-2";
         static readonly ApiType Api = ApiType.Amazon;
 
         public AmazonTests()
