@@ -25,7 +25,8 @@ namespace QuickSubtitleTranslator
         /// <param name="api">Which service provider to use</param>
         /// <param name="apiKey">API key for service provider</param>
         /// <param name="askForRetry">If enabled, it will wait for input if http/service fails before continuing</param>
-        public static void Main(string path, string outputFolder, string fromLang, string toLang, ApiType api, string apiKey, bool askForRetry = false)
+        /// <param name="charLimit">Will stop processing files if it reachers the character limit</param>
+        public static void Main(string path, string outputFolder, string fromLang, string toLang, ApiType api, string apiKey, bool askForRetry = false, long charLimit = 0)
         {
             Console.WriteLine("README.md has some information on how to use this app. Any bugs raise a bug in github");
             Console.WriteLine("Version v2-alpha");
@@ -40,10 +41,11 @@ namespace QuickSubtitleTranslator
             Console.WriteLine($"To language = {toLang}");
             Console.WriteLine($"API = {api}");
             Console.WriteLine($"Ask for retry = {askForRetry}");
+            Console.WriteLine($"Max characters to send = {charLimit}");
             Console.WriteLine($"Default encoding is UTF-8");
             Console.WriteLine($"Default framerate for microdvd subtitles is {25}");
 
-            new App().Run(path, outputFolder, fromLang, toLang, api, apiKey, askForRetry);
+            new App().Run(path, outputFolder, fromLang, toLang, api, apiKey, askForRetry, charLimit);
         }
 
     }

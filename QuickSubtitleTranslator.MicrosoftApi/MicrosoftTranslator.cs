@@ -23,7 +23,7 @@ namespace QuickSubtitleTranslator.MicrosoftApi
         
         //More options: https://docs.microsoft.com/azure/cognitive-services/translator/reference/v3-0-translate
         const string Endpoint = "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0&to={0}&from={1}";
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput, long maxCharactersToSend)
         {
             string url = string.Format(Endpoint, to, from);
 
@@ -78,7 +78,8 @@ namespace QuickSubtitleTranslator.MicrosoftApi
                 stihf: SleepIfFails,
                 sa: SendAction,
                 sbc: SleepBetweenCalls,
-                wfi: waitForInput
+                wfi: waitForInput,
+                mcts: maxCharactersToSend
             ));
 
             return result;

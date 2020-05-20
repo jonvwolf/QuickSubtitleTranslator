@@ -6,6 +6,7 @@ using System.Collections.Immutable;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 
 namespace QuickSubtitleTranslator
@@ -49,14 +50,18 @@ namespace QuickSubtitleTranslator
         /// <summary>
         /// Process all files
         /// </summary>
-        public void Run(string path, string outputFolder, string fromLang, string toLang, ApiType api, string apiKey, bool askForRetry = false)
+        public void Run(string path, string outputFolder, string fromLang, string toLang, ApiType api, string apiKey, bool askForRetry = false, long maxCharactersToSend = 0)
         {
+            Console.WriteLine($"Version: {Assembly.GetExecutingAssembly().GetName().Version}");
             ShowNotice();
             CreateAndCheckOutputFolder(outputFolder);
             SetService(api);
 
+            Console.WriteLine();
+
             var files = GetFiles(path);
             int totalCharacters = 0;
+            long remainingCharactersToSend = maxCharactersToSend;
             foreach (var file in files)
             {
                 var parser = new SubtitlesParser.Classes.Parsers.SubParser();
@@ -97,15 +102,28 @@ namespace QuickSubtitleTranslator
                 if (myItems.Count == 0)
                     throw new Exception($"File {file} has no subtitles...");
 
-                Console.WriteLine($"File {file} has {myItems.Count} subtitle items");
-
-                var translatedItems = TranslationService.Translate(fromLang, toLang, myItems, apiKey, askForRetry);
-                Console.WriteLine($"Translated count for {file}. Count: {translatedItems.TranslatedCharacters}");
+                Console.WriteLine($"[START] File {file} has {myItems.Count} subtitle items");
+                
+                var translatedItems = TranslationService.Translate(fromLang, toLang, myItems, apiKey, askForRetry, remainingCharactersToSend);
+                if (translatedItems.SkippedBecauseOfCharacterLimit)
+                {
+                    Console.WriteLine($"Character limit reached. Skipping current and remaining files...");
+                    break;
+                }
 
                 ValidateItems(items, translatedItems.TranslatedItems.ToImmutableList());
                 WriteToFile(translatedItems.TranslatedItems.ToImmutableList(), file, outputFolder);
 
                 totalCharacters += translatedItems.TranslatedCharacters;
+                remainingCharactersToSend -= translatedItems.TranslatedCharacters;
+
+                Console.WriteLine();
+                Console.WriteLine($"Remaining characters to send: {remainingCharactersToSend}");
+                Console.WriteLine($"Characters translated (of file): {translatedItems.TranslatedCharacters}");
+                Console.WriteLine($"Current total characters sent: {totalCharacters}");
+                Console.WriteLine($"[FINISH] Finished file: {file}");
+                Console.WriteLine("-------------------------------------------------");
+                Console.WriteLine();
             }
 
             Console.WriteLine($"Total characters used: {totalCharacters}");
@@ -118,7 +136,7 @@ namespace QuickSubtitleTranslator
                 Console.WriteLine("This application is under MIT license. Please read LICENSE.txt file");
                 Console.WriteLine("Using a service provider may incur charges to your billing account.");
                 Console.WriteLine("Even though, Google and Microsoft/etc. offer free X amount of translated characters, you must monitor and set up resource limits in your Google/Microsoft/etc. account");
-                Console.WriteLine("Make sure you understand their billing and set up proper budget alerts/API resource caps and limits so you don't get unexpected charges");
+                Console.WriteLine("Make sure you understand their billing and set up proper budget alerts so you don't get unexpected charges");
                 Console.WriteLine("Do you understand this is your own responsability? [Yes] [No]");
                 string answer = Console.ReadLine();
                 if (answer.Equals("Yes", StringComparison.OrdinalIgnoreCase))

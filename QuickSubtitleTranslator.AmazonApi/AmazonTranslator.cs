@@ -15,13 +15,13 @@ namespace QuickSubtitleTranslator.AmazonApi
     {
         public static Func<AmazonTranslateClient, TranslateTextRequest, TranslateTextResponse> SendData { get; set; }
 
-        const int MaxArrayItemsPerReq = 25;
+        const int MaxArrayItemsPerReq = 75;
         const int MaxCharactersToSend = 1700;
-        public static int SleepIfFails = 30000;
-        public static int SleepBetweenCalls = 11000;
+        public static int SleepIfFails = 40000;
+        public static int SleepBetweenCalls = 12000;
         public static int MaxTries = 5;
 
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput, long maxCharacterToSend)
         {
             string accessKey;
             string secretKey;
@@ -89,7 +89,8 @@ namespace QuickSubtitleTranslator.AmazonApi
                 stihf: SleepIfFails,
                 sa: SendAction,
                 sbc: SleepBetweenCalls,
-                wfi: waitForInput
+                wfi: waitForInput,
+                mcts: maxCharacterToSend
             ));
 
             return result;

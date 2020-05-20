@@ -92,6 +92,11 @@ namespace QuickSubtitleTranslator.Common
                 }
             }
 
+            int totalCharactersToSend = linesToTranslate.Sum(x => x.CharacterCount);
+
+            if (data.MaxCharactersToSend > 0 && totalCharactersToSend > data.MaxCharactersToSend)
+                return new MyTranslateResult();
+
             int totalCharactersUsed = 0;
             int currentArrayCount = 0;
             int currentCharacterCount = 0;
@@ -128,13 +133,15 @@ namespace QuickSubtitleTranslator.Common
                     afterFirstCall = true;
                     //Trim() to remove the last \n so it doesn't get splitted into an emptry string
                     var sentenceToSend = string.Join(string.Empty, subset.Select(x => x.Line)).Trim();
+                    
                     var translatedSentence = TrySend(sentenceToSend, sleep: data.SleepTimeIfHttpFails, tries: data.MaxTriesInCaseHttpFails, data.SendAction, data.WaitForInput);
 
                     FillResult(translatedSentence, subset, translatedItems);
                     subset.Clear();
 
-                    Console.WriteLine($"Sending {currentCharacterCount} characters. Blocks {currentArrayCount}");
-                    Console.WriteLine($"Peek: {translatedItems.Last()}");
+                    Console.WriteLine($"Processed {totalCharactersUsed} out of {totalCharactersToSend} characters");
+                    Console.WriteLine($"Sent {currentCharacterCount} characters ({Encoding.UTF8.GetByteCount(sentenceToSend + '\n')} bytes in UTF8). Sent Lines {currentArrayCount}");
+                    Console.WriteLine($"Peek: {translatedItems.Last(x => x.Lines.Count > 0).Lines.Last()}");
 
                     currentArrayCount = 0;
                     currentCharacterCount = 0;

@@ -17,7 +17,7 @@ namespace QuickSubtitleTranslator.GoogleApi
         public static int SleepBetweenCalls = 5500;
         public static int MaxTries = 5;
 
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput, long maxCharacterToSend)
         {
             if (SendData == null)
             {
@@ -45,7 +45,8 @@ namespace QuickSubtitleTranslator.GoogleApi
                 stihf: SleepIfFails,
                 sa: SendAction,
                 sbc: SleepBetweenCalls,
-                wfi: waitForInput
+                wfi: waitForInput,
+                mcts: maxCharacterToSend
             ));
 
             return result;

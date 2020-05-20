@@ -94,7 +94,10 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 
 
 ### Optional
-`askForRetry`: If enabled, it will wait for input if http/service fails before continuing
+`ask-for-retry`: If enabled, it will wait for input if http/service fails before continuing
+`char-limit`: It will stop processing files if it reaches the character limit (helpful if you don't want to go over a certain limit)
+
+**Note:** Characters are counted with `new StringInfo(str).LengthInTextElements`
 
 # Supported files
 - srt (SubRip)
