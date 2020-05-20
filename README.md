@@ -62,7 +62,7 @@ Supported APIs: Google, Microsoft, Amazon, IBM
     - name: qsubtranslator_amazon_key
     - value: value#access_key||1||secret_access_key
 
-**Note**: Free 2 million characters per month per 12 months
+**Note**: Free 2 million characters per month for 12 months (trial)
 
 ### IBM API
 - Create an IBM Cloud account
