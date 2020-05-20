@@ -21,6 +21,7 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - IBM
 
 ## Improvements to be made:
+- Clode clean up
 - Graceful failures (internet disconnected, rate exceeded, etc.)
 - Better limit control (quotas)
 - Improve Amazon API implementation (it's slow)
@@ -63,8 +64,6 @@ Supported APIs: Google, Microsoft, Amazon, IBM
 
 **Note**: Free 2 million characters per month per 12 months
 
-**To be improved**: Of all services, this is picky in terms of quota. This is slower compared to other services. (TODO item to improve this slowness)
-
 ### IBM API
 - Create an IBM Cloud account
 - Create Language Translator Service
@@ -78,7 +77,7 @@ Supported APIs: Google, Microsoft, Amazon, IBM
 ## Remarks
 This application needs polishing. Code was rushed so it needs refactoring. There are several improvements to be done but for now, it gets the job done.
 
-## Command line
+## Command line (how to use it)
 --path "folder_that_has_subtitles" --output-folder "folder_that_will_have_translated_files" --from-lang "en" --to-lang "es" --api "Google" --api-key "key"
 
 `from-lang`: Language that subtitles are in `path`
@@ -96,9 +95,9 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 
 
 ### Optional
-`ask-for-retry`: If enabled, it will wait for input if http/service fails before continuing
-`char-limit`: It will stop processing files if it reaches the character limit (helpful if you don't want to go over a certain limit)
-`peek`: If true, it will display a peek of the translated text (last line of each block). Do not set this as true, if you care about spoilers
+- `ask-for-retry`: If enabled, it will wait for input if http/service fails before continuing
+- `char-limit`: It will stop processing files if it reaches the character limit (helpful if you don't want to go over a certain limit)
+- `peek`: If true, it will display a peek of the translated text (last line of each block). Do not set this as true, if you care about spoilers
 
 **Note:** Characters are counted with `new StringInfo(str).LengthInTextElements`
 
