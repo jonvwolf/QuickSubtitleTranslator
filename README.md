@@ -82,7 +82,7 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 
 - `from-lang`: Language that subtitles are in `path`
 - `to-lang`: Translate subtitiles files to this language
-- `api`: Translator API (Google and Microsoft supported only)
+- `api`: Translator API (Amazon, Google, IBM, Microsoft)
 - `api-key`: APi Key for the service provider
 
 - For Amazon `api-key` must follow the following format: `access_key||1||secret_access_key`. In other words: `string.Format("{0}||1||{1}", accessKey, secretAccessKey)`
