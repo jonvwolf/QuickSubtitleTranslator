@@ -21,7 +21,7 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - IBM
 
 ## Improvements to be made:
-- Clode clean up
+- Code clean up
 - Graceful failures (internet disconnected, rate exceeded, etc.)
 - Better limit control (quotas)
 - Improve Amazon API implementation (it's slow)
@@ -77,11 +77,14 @@ Supported APIs: Google, Microsoft, Amazon, IBM
 ## Remarks
 This application needs polishing. Code was rushed so it needs refactoring. There are several improvements to be done but for now, it gets the job done.
 
+## Feedback
+Feedback is appreciated. Create an issue: https://github.com/jonwolfdev/QuickSubtitleTranslator/issues or send me a tweet/private at https://twitter.com/jonwolfdev
+
 ## Command line (how to use it)
 --path "folder_that_has_subtitles" --output-folder "folder_that_will_have_translated_files" --from-lang "en" --to-lang "es" --api "Google" --api-key "key"
 
 - `from-lang`: Language that subtitles are in `path`
-- `to-lang`: Translate subtitiles files to this language
+- `to-lang`: Translate subtitles files to this language
 - `api`: Translator API (Amazon, Google, IBM, Microsoft)
 - `api-key`: APi Key for the service provider
 
