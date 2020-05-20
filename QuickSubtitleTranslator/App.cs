@@ -59,8 +59,10 @@ namespace QuickSubtitleTranslator
 
             Console.WriteLine();
 
-            var files = GetFiles(path);
+            var files = GetFiles(path).ToList();
             int totalCharacters = 0;
+            int currentFileCount = 0;
+            
             long remainingCharactersToSend = maxCharactersToSend;
             foreach (var file in files)
             {
@@ -102,8 +104,10 @@ namespace QuickSubtitleTranslator
                 if (myItems.Count == 0)
                     throw new Exception($"File {file} has no subtitles...");
 
+                currentFileCount++;
                 Console.WriteLine($"[START] File {file} has {myItems.Count} subtitle items");
-                
+                Console.WriteLine($"Processing file {currentFileCount} out of {files.Count}");
+
                 var translatedItems = TranslationService.Translate(fromLang, toLang, myItems, apiKey, askForRetry, remainingCharactersToSend);
                 if (translatedItems.SkippedBecauseOfCharacterLimit)
                 {
@@ -126,7 +130,12 @@ namespace QuickSubtitleTranslator
                 Console.WriteLine();
             }
 
+            Console.WriteLine();
+            Console.WriteLine("Completed all files.");
+            Console.WriteLine($"Remaining characters (unused): {remainingCharactersToSend}");
             Console.WriteLine($"Total characters used: {totalCharacters}");
+            Console.WriteLine($"Char limit: {maxCharactersToSend}");
+            Console.WriteLine($"Char limit - total characters used = {maxCharactersToSend - totalCharacters}");
         }
         static void ShowNotice()
         {

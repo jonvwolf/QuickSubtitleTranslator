@@ -10,6 +10,7 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - Better SRT validation for input and output
 - Line breaks are respected
 - Better character count
+- Character limit option
 - Slightly better translation (because texts are not splitted up, except for IBM)
 - More integration tests (mocking external services)
 
