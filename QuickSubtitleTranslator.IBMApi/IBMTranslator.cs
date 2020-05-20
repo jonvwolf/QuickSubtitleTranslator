@@ -20,7 +20,7 @@ namespace QuickSubtitleTranslator.IBMApi
         public static int SleepBetweenCalls = 3500;
         public static int MaxTries = 5;
 
-        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput, long maxCharacterToSend)
+        public MyTranslateResult Translate(string from, string to, IReadOnlyList<MySubtitleItem> subtitles, string apiKey, bool waitForInput, long maxCharacterToSend, bool peek)
         {
             string key;
             string url;
@@ -81,7 +81,8 @@ namespace QuickSubtitleTranslator.IBMApi
                 sa: SendAction,
                 sbc: SleepBetweenCalls,
                 wfi: waitForInput,
-                mcts: maxCharacterToSend
+                mcts: maxCharacterToSend,
+                peek: peek
             ));
 
             return result;

@@ -41,7 +41,7 @@ namespace QuickSubtitleTranslator.IntegrationTestsMockEx
                 return list;
             };
             //Act
-            Program.Main(Helper.Path, OutputFolder, Helper.FromLang, Helper.ToLang, Api, ApiKey);
+            Program.Main(Helper.Path, OutputFolder, Helper.FromLang, Helper.ToLang, Api, ApiKey, peek: true);
 
             //Assert
             Helper.ValidateAllFiles(OutputFolder);

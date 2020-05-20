@@ -13,6 +13,7 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - Character limit option
 - Slightly better translation (because texts are not splitted up, except for IBM)
 - More integration tests (mocking external services)
+- Peek option
 
 ## Ranking (personal choice)
 - Amazon
@@ -97,6 +98,7 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 ### Optional
 `ask-for-retry`: If enabled, it will wait for input if http/service fails before continuing
 `char-limit`: It will stop processing files if it reaches the character limit (helpful if you don't want to go over a certain limit)
+`peek`: If true, it will display a peek of the translated text (last line of each block). Do not set this as true, if you care about spoilers
 
 **Note:** Characters are counted with `new StringInfo(str).LengthInTextElements`
 

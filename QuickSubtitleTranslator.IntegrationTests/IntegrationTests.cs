@@ -85,7 +85,7 @@ namespace QuickSubtitleTranslator.IntegrationTests
 
             CheckDirectory(outputFolder);
 
-            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api), charLimit: 1000000, peek: true);
 
             string contents = File.ReadAllText(@$"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);
             Assert.Contains("Inglés", contents);
@@ -110,7 +110,7 @@ namespace QuickSubtitleTranslator.IntegrationTests
             ApiType api = ApiType.Microsoft;
 
             CheckDirectory(outputFolder);
-            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api), charLimit: 1000000, peek: true);
 
             string contents = File.ReadAllText($@"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);
             Assert.Contains("Inglés", contents);
@@ -135,7 +135,7 @@ namespace QuickSubtitleTranslator.IntegrationTests
             ApiType api = ApiType.Amazon;
             CheckDirectory(outputFolder);
 
-            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api), charLimit: 1000000, peek: true);
 
             string contents = File.ReadAllText($@"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);
             Assert.Contains("Añadir", contents);
@@ -161,7 +161,7 @@ namespace QuickSubtitleTranslator.IntegrationTests
             ApiType api = ApiType.IBM;
 
             CheckDirectory(outputFolder);
-            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api));
+            Program.Main(Path, outputFolder, FromLang, ToLang, api, GetApiKey(api), charLimit: 1000000, peek: true);
 
             
             string contents = File.ReadAllText($@"{outputFolder}\{SrtExampleFile}", Encoding.UTF8);

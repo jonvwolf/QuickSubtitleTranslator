@@ -18,7 +18,8 @@ namespace QuickSubtitleTranslator.Common
         /// </summary>
         public bool WaitForInput { get; protected set; }
         public long MaxCharactersToSend { get; protected set; }
-        public DataDesc(IReadOnlyList<MySubtitleItem> subs, int maipr, int mcpr, int mtichf, int stihf, Func<string, string> sa, int sbc, bool wfi, long mcts)
+        public bool Peek { get; protected set; }
+        public DataDesc(IReadOnlyList<MySubtitleItem> subs, int maipr, int mcpr, int mtichf, int stihf, Func<string, string> sa, int sbc, bool wfi, long mcts, bool peek)
         {
             Subtitles = subs ?? throw new ArgumentNullException(nameof(subs));
             SendAction = sa ?? throw new ArgumentNullException(nameof(sa));
@@ -30,6 +31,7 @@ namespace QuickSubtitleTranslator.Common
             SleepBetweenCalls = sbc;
             WaitForInput = wfi;
             MaxCharactersToSend = mcts;
+            Peek = peek;
         }
     }
 }

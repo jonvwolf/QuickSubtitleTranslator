@@ -40,8 +40,8 @@ namespace QuickSubtitleTranslator.IntegrationTestsMockEx
             }
 
             var svc = new Mock<ITranslationService>();
-            svc.Setup(x => x.Translate(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<IReadOnlyList<MySubtitleItem>>(), It.IsAny<string>(), It.IsAny<bool>(), It.IsAny<long>()))
-                .Returns((string to, string from, IReadOnlyList<MySubtitleItem> list, string key, bool waitForInput, long maxCharacterToSend) =>
+            svc.Setup(x => x.Translate(It.IsAny<string>(), It.IsAny<string>(), It.IsAny<IReadOnlyList<MySubtitleItem>>(), It.IsAny<string>(), It.IsAny<bool>(), It.IsAny<long>(), It.IsAny<bool>()))
+                .Returns((string to, string from, IReadOnlyList<MySubtitleItem> list, string key, bool waitForInput, long maxCharacterToSend, bool peek) =>
                 {
                     return new MyTranslateResult(list.ToImmutableList(), 0);
                 });

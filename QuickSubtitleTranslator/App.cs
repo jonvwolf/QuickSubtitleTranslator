@@ -50,7 +50,7 @@ namespace QuickSubtitleTranslator
         /// <summary>
         /// Process all files
         /// </summary>
-        public void Run(string path, string outputFolder, string fromLang, string toLang, ApiType api, string apiKey, bool askForRetry = false, long maxCharactersToSend = 0)
+        public void Run(string path, string outputFolder, string fromLang, string toLang, ApiType api, string apiKey, bool askForRetry = false, long maxCharactersToSend = 0, bool peek = false)
         {
             Console.WriteLine($"Version: {Assembly.GetExecutingAssembly().GetName().Version}");
             ShowNotice();
@@ -108,7 +108,7 @@ namespace QuickSubtitleTranslator
                 Console.WriteLine($"[START] File {file} has {myItems.Count} subtitle items");
                 Console.WriteLine($"Processing file {currentFileCount} out of {files.Count}");
 
-                var translatedItems = TranslationService.Translate(fromLang, toLang, myItems, apiKey, askForRetry, remainingCharactersToSend);
+                var translatedItems = TranslationService.Translate(fromLang, toLang, myItems, apiKey, askForRetry, remainingCharactersToSend, peek);
                 if (translatedItems.SkippedBecauseOfCharacterLimit)
                 {
                     Console.WriteLine($"Character limit reached. Skipping current and remaining files...");

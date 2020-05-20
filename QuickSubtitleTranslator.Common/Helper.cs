@@ -141,7 +141,8 @@ namespace QuickSubtitleTranslator.Common
 
                     Console.WriteLine($"Processed {totalCharactersUsed} out of {totalCharactersToSend} characters");
                     Console.WriteLine($"Sent {currentCharacterCount} characters ({Encoding.UTF8.GetByteCount(sentenceToSend + '\n')} bytes in UTF8). Sent Lines {currentArrayCount}");
-                    Console.WriteLine($"Peek: {translatedItems.Last(x => x.Lines.Count > 0).Lines.Last()}");
+                    if (data.Peek)
+                        Console.WriteLine($"Peek: {translatedItems.Last(x => x.Lines.Count > 0).Lines.Last()}");
 
                     currentArrayCount = 0;
                     currentCharacterCount = 0;
