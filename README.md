@@ -88,7 +88,7 @@ This application needs polishing. Code was rushed so it needs refactoring. There
 - For Amazon `api-key` must follow the following format: `access_key||1||secret_access_key`. In other words: `string.Format("{0}||1||{1}", accessKey, secretAccessKey)`
 - For IBM `api-key` must follow the following format: `api_key||1||url`. In other words: `string.Format("{0}||1||{1}", apiKey, url)`
 
-`from-lang` and `to-lang` must match the supported language from translator provider
+### `from-lang` and `to-lang` must match the supported language from translator provider
  - Google: https://cloud.google.com/translate/docs/languages
  - Microsoft: https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support
  - IBM: https://cloud.ibm.com/docs/services/language-translator?topic=language-translator-translation-models
