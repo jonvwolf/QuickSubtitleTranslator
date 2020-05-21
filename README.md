@@ -20,7 +20,10 @@ A simple .NET Core 3.1 console app that translate subtitles files (.srt, .sub, e
 - Google / Microsoft
 - IBM
 
-## Improvements to be made:
+## Improvements to be made for V3:
+- Add DeepL Api for translation
+- Integrate with OpenSubtitles.org API (download and upload)
+- Add an UI
 - Code clean up
 - Graceful failures (internet disconnected, rate exceeded, etc.)
 - Better limit control (quotas)
@@ -89,8 +92,8 @@ Feedback is appreciated. Create an issue: https://github.com/jonwolfdev/QuickSub
 - `api-key`: APi Key for the service provider
 
 - For Amazon `api-key` must follow the following format: `access_key||1||secret_access_key||1||region_name`. In other words: `string.Format("{0}||1||{1}||1||{2}", accessKey, secretAccessKey, regionName)`
- - Region values examples: eu-west-3, us-east-2, ca-central-1, etc.
- - For the complete list: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html
+   - Region values examples: eu-west-3, us-east-2, ca-central-1, etc.
+   - For the complete list: https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.RegionsAndAvailabilityZones.html
 - For IBM `api-key` must follow the following format: `api_key||1||url`. In other words: `string.Format("{0}||1||{1}", apiKey, url)`
 
 ### `from-lang` and `to-lang` must match the supported language from translator provider
